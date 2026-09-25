@@ -15,11 +15,11 @@ Do not resume the paper exercise or ask the user to choose housing option B. No 
 
 ## Current work and exact next action
 
-Active packet: **P0 — development documentation foundation**. Nine new engineering/product chapters plus a development hub have been drafted with primary-source research, requirements, OO boundaries, model/data contracts, phone UX, saves, tests and session workflow. No game implementation, dependency installation, quantitative calibration or nation profile has been produced.
+**P0 — development documentation foundation is complete.** Nine new engineering/product chapters plus a development hub are published with primary-source research, requirements, OO boundaries, model/data contracts, phone UX, saves, tests and session workflow. No game implementation, dependency installation, quantitative calibration or nation profile has been produced.
 
-Next within P0: integrate any answer about distribution; publish authorized documentation changes using the existing Pages workflow, and verify actual live content. Local checks passed: git diff --check and 24 documentation pages with 127 route/file references. Update this checkpoint with deployment results before handoff.
+Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded. Local checks passed: git diff --check and 24 documentation pages with 127 route/file references. Live checks passed: 24 pages, 840 internal links/anchors, 24 page-source links, 24 feedback-link sets and the shared stylesheet. These are documentation checks, not economic or device tests. A temporary live checker is at `/tmp/markets-docs-live-check.py`; do not assume that temporary file survives another environment/session.
 
-After P0, preferred next packet is **P1 — first-slice decisions**. Preserve phone-only and modular TypeScript selections. Ask only remaining dependent choices: distribution, nation/year, first policy family and campaign detail as needed. Architecture review is an alternative. Research cannot choose these preferences for the user.
+**Exact next action: P1 — first-slice decisions.** Integrate any answer to the pending phone-browser versus app-store question, then obtain nation/year and first policy focus before dependent research. Preserve phone-only and modular TypeScript selections. Ask for campaign detail only when its feature needs it. Architecture review is an alternative. Research cannot choose these preferences for the user.
 
 ## Repository and publication
 
@@ -66,4 +66,4 @@ Do not describe a documentation check as an economic test or claim device result
 
 ## Continuation prompt
 
-> Continue Markets & Mandates from P0/P1 as recorded here. The paper walkthrough is aborted. The user wants researched development documentation and an efficient multi-session process; phones only, modular TypeScript and OO are accepted. Read AGENTS.md, HANDOVER.md, docs/backlog.md and only the active packet's chapters. Preserve decisions, ask only for unresolved dependent preferences, and do not invent nation data or calibrated results. Complete the authorized packet, verify it, update the checkpoint, and give concise next-step options.
+> Continue Markets & Mandates from P1 as recorded here. P0 documentation is published and verified. The paper walkthrough is aborted. The user wants researched development and an efficient multi-session process; phones only, modular TypeScript and OO are accepted. Read AGENTS.md, HANDOVER.md, docs/backlog.md and only the active packet's chapters. Preserve decisions, ask only for unresolved dependent preferences, and do not invent nation data or calibrated results. Complete the authorized packet, verify it, update the checkpoint, and give concise next-step options.

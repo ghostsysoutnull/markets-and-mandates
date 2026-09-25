@@ -14,7 +14,7 @@ Phone browser versus app-store distribution remains open. The documentation pack
 
 | Packet | Result | Status / dependencies |
 | --- | --- | --- |
-| P0 | Development documentation package and researched technical baseline | In progress — chapters and local consistency checks complete; publication/live verification pending |
+| P0 | Development documentation package and researched technical baseline | Done — published draft 0.4; 24 live pages and 840 internal links/anchors verified |
 | P1 | First-slice decision record | Next — resolve D1 and D3–D8 only as needed; D2 already accepted |
 | P2 | One sourced nation/year and authority map | Blocked on D3 and model scope from D4 |
 | P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2 inputs |
@@ -33,7 +33,7 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 
 **Acceptance:** Current decisions agree across AGENTS, handover, overview, requirements and backlog; sources support technical claims; proposed mechanics are labeled; the aborted exercise is not a prerequisite; navigation and links work; publication is verified when complete. This does not claim the model or country content is implementation-ready.
 
-**Validation:** Review the diff, search stale plan language, check links and navigation, commit/push documentation, wait for Pages, inspect actual live content. Record exact outcome in the handover.
+**Completion evidence:** Commit `be68d69` published through successful Pages run [36184371335](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36184371335). Diff and local route checks passed. Live verification passed for 24 pages, 840 internal links/anchors, 24 page-source links, 24 feedback-link sets and the shared stylesheet. This verifies documentation publication, not model correctness or phone usability. The handover records the next task.
 
 ## P1 — Select a coherent first slice
 
