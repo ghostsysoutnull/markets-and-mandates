@@ -17,8 +17,10 @@ permalink: /decisions/
 - Large corporations and private banks act as NPCs with their own objectives and responses.
 - Domestic regulation and international trade decisions are core player tools, subject to national institutions and commitments.
 - The specification should develop actor motives, player actions, constraints, consequences, and examples beyond an outline.
-- The eventual game should be mobile-friendly and delivered as a single HTML and JavaScript page.
-- Current work is on game concepts and documentation, before implementation.
+- The game targets **phones only**, as clarified by the user on 25 September 2026. Desktop gameplay is outside current scope.
+- Use a normal **TypeScript project with multiple source files**, compiled to JavaScript, with **object-oriented design**. This supersedes the earlier single-file delivery constraint.
+- Prepare researched development documentation and an efficient process across sessions before beginning implementation. Phone-browser versus app-store distribution remains open.
+- The user **aborted the interactive paper walkthrough**. It is not a prerequisite for subsequent work.
 
 The detailed mechanisms in this notebook are an initial proposal for review. Positive reception of the concept does not settle every design choice below.
 
@@ -49,27 +51,13 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 
 These questions can be answered gradually. Feedback on a specific dilemma may be more useful than settling every rule in advance.
 
-## Recommended path
+## Current development path
 
-### First: refine the player experience
+Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). First complete the documentation foundation and settle dependent first-slice choices; then research one selected nation and specify its rules; implement the authorized slice; evaluate it on phones before release or expansion.
 
-With the executive role established, settle one annual turn, the outcome dashboard, and several representative dilemmas. Walk through a short paper scenario to check whether the choices feel meaningful and the explanations make sense.
+The [requirements decision sheet]({{ '/requirements/' | relative_url }}) owns open delivery and first-slice questions. The [architecture records]({{ '/architecture/' | relative_url }}) distinguish accepted TypeScript/OO constraints from proposed libraries and boundaries. Research cannot silently accept a product preference.
 
-### Then: define a focused first simulation
-
-Retain enough of the economy to connect decisions to consequences: a few sectors and household groups, budgets, credit and central-bank responses, trade exposure, implementation delays, and distributional outcomes.
-
-Include meaningful corporate and banking behavior, actual enforcement constraints, and at least one responding foreign partner. These are now part of the core concept, even if their first versions use a small cast and a limited action catalogue.
-
-The full set of topics in this notebook is a design map. Some can initially be represented through simple constraints or events rather than detailed subsystems.
-
-### Then: research and specify
-
-Create sourced starting profiles, define the model's relationships, document disputed assumptions, and check whether the rules produce plausible behavior across different institutional arrangements.
-
-### Later: prototype and compare
-
-Build the smallest playable campaign that tests the core loop. Evaluate clarity, interesting tradeoffs, and unintended ideological bias before adding countries or deeper systems.
+A paper playthrough is no longer the selected route. Later usability/model evaluation can use reviewed specifications and a prototype without resuming the aborted housing exercise.
 
 ## What to defer
 
@@ -83,9 +71,9 @@ Likewise, deferring detailed election campaigns and litigation procedure does no
 
 Each review handoff should provide concrete next-step options and explicitly mark the preferred option. A recommendation is an invitation to choose the next task, not a decision that silently settles an unresolved game rule.
 
-The user has selected the complete-turn walkthrough after preparing a session handover. The [backlog and session plan]({{ '/backlog/' | relative_url }}) records all three latest options: B1, the walkthrough here; B2, focused nation research in a new session; and B3, implementation in a new session once the spec is ready. B1 is queued next and preferred; B2 and B3 remain deferred.
+The user replaced the walkthrough-first plan with researched development documentation. The [backlog and session plan]({{ '/backlog/' | relative_url }}) records P0–P9 and the aborted B1 for continuity. Preserve the accepted phone-only and modular TypeScript choices.
 
-Defining campaign continuity and political consequences remains an open design task, not a settled decision. It can be informed by the walkthrough and must be resolved sufficiently before implementation.
+Defining campaign continuity and political consequences remains an open design task, not a settled decision. It must be resolved before implementing the corresponding campaign feature.
 
 ## Share feedback
 
@@ -112,3 +100,5 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Define the player as executive leadership and include legislative and judicial interactions. Continuing across successive governments is the preferred working proposal. |
 | 2026-09-25 | Publish draft 0.3 with distinct interest rates, institutional authority, and a fourth worked example. Review handoffs will include next-step options and a stated preference. |
 | 2026-09-25 | Prepare a durable session handover and record the latest three session options as backlog. The complete-turn walkthrough is selected next; nation research and implementation remain deferred. |
+| 2026-09-25 | Aborted B1 without player decisions or outcomes; requested researched development documents for mobile/web, TypeScript/JavaScript, OO and an efficient multi-session process. |
+| 2026-09-25 | Clarified phones only and a normal TypeScript project with multiple source files; superseded desktop targeting and the single physical HTML output constraint. Phone-browser versus app-store distribution remains open. |

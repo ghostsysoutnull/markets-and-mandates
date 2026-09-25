@@ -87,4 +87,4 @@ Later model checks should compare several policy packages and starting condition
 
 Show a small dashboard and a few consequential choices. Deeper explanations should be available when curiosity or a surprising result motivates the player.
 
-Mobile delivery supports this discipline: a yearly briefing, clear policy choices, and a readable outcome report. Detailed interface design and implementation remain outside this concept phase.
+Mobile delivery supports this discipline: a yearly briefing, clear policy choices, and a readable outcome report. The proposed [phone interface]({{ '/interface/' | relative_url }}) now specifies these flows and accessibility expectations. Implementation remains future work.

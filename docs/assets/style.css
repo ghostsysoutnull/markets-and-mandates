@@ -45,6 +45,7 @@ li { margin-bottom: 9px; padding-left: 3px; }
 #markdown-toc li { break-inside: avoid; margin-bottom: 5px; }
 blockquote { margin: 28px 0; padding: 20px 24px; border-left: 3px solid var(--accent); background: #efece0; }
 blockquote p:last-child { margin-bottom: 0; }
+pre { max-width: 100%; overflow-x: auto; padding: 16px; background: #e8ede3; font-size: 14px; }
 table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 15px; }
 th, td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 13px 14px; min-width: 140px; }
 th { background: #e8ede3; color: var(--green); }

@@ -24,12 +24,18 @@ The question at the heart of the game is:
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
 | Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
-| Intended delivery | Mobile-friendly; a single HTML and JavaScript page for the eventual game |
-| Current stage | Concept specification; no game implementation yet |
+| Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser versus app-store distribution remains open. |
+| Current stage | Researched development documentation, draft 0.4; no game implementation yet |
 
 The premise and educational focus come from the initial discussion. Specific turn counts, dates, mechanics, and scope below are **working proposals**, not a finished or calibrated simulation.
 
-## Read the draft
+## Development documentation
+
+Start with the **[development specification]({{ '/development/' | relative_url }})** for requirements, OO architecture, simulation and data contracts, phone interface, saves, validation, research and the session workflow. Accepted requirements, technical proposals and unresolved product choices are labeled separately.
+
+The interactive paper walkthrough was aborted at the user's request. The next work follows the [development backlog]({{ '/backlog/' | relative_url }}); no paper playthrough is a prerequisite. The existing concept chapters below remain the game's design foundation.
+
+## Read the concept
 
 1. **[The game]({{ '/game/' | relative_url }})** — Your role, the yearly turn, decisions, outcomes, and a sample dilemma.
 2. **[The executive, lawmakers & courts]({{ '/government/' | relative_url }})** — Executive powers, legislative bargaining, judicial review, and changes of government.
@@ -46,7 +52,11 @@ The premise and educational focus come from the initial discussion. Specific tur
 
 For a concrete sense of play, start with the [worked examples]({{ '/scenarios/' | relative_url }}). They are illustrative branches, not predictions or implemented mechanics.
 
-## What changed in draft 0.3
+## What changed in draft 0.4
+
+The project now has a researched development documentation package and explicit work packets for future sessions. Phones only, modular TypeScript source and object-oriented design are accepted constraints. Nation baselines, quantitative rules, toolchain implementation and real-device tests remain future work. The documents expose these dependencies rather than treating them as settled.
+
+## Earlier concept draft 0.3
 
 The player is now explicitly the executive leadership. New chapters describe legislative bargaining, judicial review, distinct interest rates, and the preferred proposal for continuing across successive governments. A fourth worked example follows a housing program through a vote, a legal challenge, and changing financing conditions.
 
@@ -66,4 +76,4 @@ The other risk is false authority. A plausible simulation is still a model with 
 
 Read whichever chapter interests you, then bring its title and your comments back to our conversation. GitHub issues are also available through the feedback button on every page. The most useful feedback identifies an experience you want: a dilemma you want to face, a concept you want to understand, or a rule that feels unconvincing.
 
-The [backlog and session plan]({{ '/backlog/' | relative_url }}) records the next work, with the interactive annual-turn walkthrough queued first. A complete [session handover](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) preserves the project context for a fresh conversation.
+The [backlog and session plan]({{ '/backlog/' | relative_url }}) records the development work packets and their dependencies. A complete [session handover](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) preserves the project context for a fresh conversation.

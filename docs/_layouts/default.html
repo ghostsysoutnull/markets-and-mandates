@@ -16,7 +16,7 @@
     </header>
     <div class="site-shell">
       <aside class="sidebar">
-        <p class="nav-label">Explore the concept</p>
+        <p class="nav-label">Design & development</p>
         <nav aria-label="Design documentation">
           {% for item in site.navigation %}
           <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
@@ -26,7 +26,7 @@
         <a class="repo-link" href="https://github.com/ghostsysoutnull/markets-and-mandates">View on GitHub ↗</a>
       </aside>
       <main id="main" tabindex="-1">
-        <div class="page-meta"><span>Concept draft</span><span>25 September 2026</span></div>
+        <div class="page-meta"><span>Specification draft</span><span>25 September 2026</span></div>
         <article>
           <h1>{{ page.title }}</h1>
           {% if page.intro %}<p class="lede">{{ page.intro }}</p>{% endif %}

@@ -1,59 +1,118 @@
 ---
 title: Backlog & session plan
-intro: Preserve the next steps, carry the decisions between sessions, and keep concept work ahead of implementation.
+intro: Develop in small verified steps, preserving decisions and exposing the dependencies that remain.
 permalink: /backlog/
 ---
 
-## Current order
+## Current direction
 
-The user requested a complete handover first, then the complete-turn walkthrough. All three latest session options are recorded below. B1 is selected next; B2 and B3 remain deferred. No walkthrough, nation research project, or game implementation is marked complete by creating this page.
+The user aborted the interactive paper walkthrough on 25 September 2026 and requested the documents needed to develop the game with researched decisions, TypeScript/JavaScript, object-oriented architecture and an efficient process across sessions. Subsequent clarification: **phones only; a normal TypeScript project with multiple source files**. Desktop gameplay and the single-file output requirement are superseded.
 
-| Item | Task and session choice | Status |
+Phone browser versus app-store distribution remains open. The documentation package is the current task; its existence does not authorize arbitrary game implementation or invent the missing economic model.
+
+## Work queue
+
+| Packet | Result | Status / dependencies |
 | --- | --- | --- |
-| B1 | Walk through one complete annual turn in the current session | Queued next — selected; preferred next step |
-| B2 | Research a starting nation in a focused new session | Deferred; nation not selected |
-| B3 | Begin implementation in a new session using the reviewed spec | Deferred; design and research prerequisites remain |
+| P0 | Development documentation package and researched technical baseline | In progress — chapters and local consistency checks complete; publication/live verification pending |
+| P1 | First-slice decision record | Next — resolve D1 and D3–D8 only as needed; D2 already accepted |
+| P2 | One sourced nation/year and authority map | Blocked on D3 and model scope from D4 |
+| P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2 inputs |
+| P4 | Modular TypeScript scaffold and verification commands | Future implementation; needs authorized scope, A05/D8 and compatible tool versions |
+| P5 | Deterministic domain slice | Future implementation; needs P3/P4 |
+| P6 | Durable saves, import/export and recovery | Future implementation; needs domain schema and delivery decision |
+| P7 | Phone interface connected to the slice | Future implementation; needs P1/P5 and persistence contract |
+| P8 | Model, usability and device evaluation | Future verification; needs integrated P5–P7 |
+| P9 | First playable release | Future; needs chosen distribution, required evidence and compatibility/rollback plan |
 
-These preserve the latest session recommendations. The earlier proposal to define government continuity remains an open design question to resolve before implementation, and may be informed by B1.
+Read [Development specification]({{ '/development/' | relative_url }}) for document ownership, [requirements]({{ '/requirements/' | relative_url }}) for decision IDs, and [workflow]({{ '/workflow/' | relative_url }}) for the packet format. Tasks below are substantive outputs, not placeholders for more planning.
 
-## B1 — One complete annual turn
+## P0 — Development documentation foundation
 
-**Purpose:** Test whether the current concepts create an understandable and enjoyable sequence of choices. This is an interactive paper exercise, not a coded prototype or proof of economic validity.
+**Objective:** Give subsequent sessions the product contracts, OO architecture, model/data requirements, phone interaction, save/release behavior, validation strategy, evidence and exact work sequence.
 
-Use a clearly labeled illustrative setup until a sourced nation profile is available. If a real nation is chosen, distinguish verified institutional facts from temporary gameplay assumptions and avoid invented historical statistics.
+**Acceptance:** Current decisions agree across AGENTS, handover, overview, requirements and backlog; sources support technical claims; proposed mechanics are labeled; the aborted exercise is not a prerequisite; navigation and links work; publication is verified when complete. This does not claim the model or country content is implementation-ready.
 
-The exercise should include a concise briefing, a mandate, the available authority and resources, a small set of possible initiatives, meaningful actor responses, and an outcome report. Surface a legislative, legal, or monetary encounter only when the chosen decisions make it relevant; do not force every subsystem into one turn.
+**Validation:** Review the diff, search stale plan language, check links and navigation, commit/push documentation, wait for Pages, inspect actual live content. Record exact outcome in the handover.
 
-Present the choices to the user before resolving their consequences. Distinguish what the executive controls, what needs agreement, what remains uncertain, and what continues beyond the year. Do not select the player's actions silently.
+## P1 — Select a coherent first slice
 
-**Completion:** The user has made choices, reviewed the explained outcome, and identified what was clear, interesting, confusing, or excessive. Record accepted improvements in the relevant chapters and publish them when requested or as part of the agreed update workflow. Listing this task or drafting a briefing alone does not complete it.
+**Objective:** Resolve the decisions that determine the first playable result.
 
-**Next starting point:** Read [The game]({{ '/game/' | relative_url }}) and select a useful setup from [Worked examples]({{ '/scenarios/' | relative_url }}). A housing-policy exercise is a useful candidate because it already connects public objectives, finance, delivery, and institutional authority; the scenario choice remains open.
+**Read:** Requirements D1–D8, architecture ADRs, game concepts.
+**Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-only/modular-TS decisions.
+**Acceptance:** Every first-slice feature maps to a requirement and every excluded major subsystem has an explicit simplification. A successor or end-of-campaign feature has defined behavior before being included.
+**Next action:** Obtain phone browser versus store preference; then ask for the first nation/year and policy focus in plain language. Do not resume the housing exercise.
 
-## B2 — Research one starting nation
+The user may prefer to inspect the architecture before settling product scope. That review is a valid alternative, not a reason to silently choose the nation.
 
-**Purpose:** Replace a profile template with a sourced, dated starting economy and an authority map. A focused new session is recommended for this work, using the handover and relevant chapters.
+## P2 — Research the selected baseline
 
-Before dependent research, select the nation and starting year. The provisional 2010 campaign date is not yet a settled requirement. Use primary evidence for institutions, statistical definitions, monetary arrangements, trade commitments, and economic conditions.
+**Objective:** Produce a dated, sourced authority map and the smallest initial dataset needed for P3.
+**Read:** Nations, data/content, government, interest rates and the relevant sector chapter.
+**Output:** Evidence records, institutional routes, raw/derived definitions, limitations and rights to use the data.
+**Acceptance:** Formal versus effective powers distinguished; values have observation periods and units; gaps block their dependent feature instead of becoming invented defaults. No parameter calibration claimed from a descriptive profile.
 
-The result should explain the executive's actual powers, legislative and judicial roles, central-bank mandate, banking and corporate structure, public services, fiscal position, sector strengths and dependencies, and household differences. Record gaps and uncertainty rather than inventing precision.
+## P3 — Specify the economic slice
 
-**Completion:** A readable nation briefing and deeper source notes exist, historical facts are separated from gameplay abstractions, and starting values or claims are traceable to their observation year and source. This does not itself calibrate the simulation.
+**Objective:** Turn selected concepts into unambiguous rules and independently checkable examples.
+**Read:** Simulation, systems, actors and selected policy chapters.
+**Output:** Numbered rule sheets, phase order, initialized reconciled state, funding/price/resource rules, actor objectives and information, parameter register, hand-calculated fixtures and failure branches.
+**Acceptance:** No missing unit, counterpart, authority or magic bonus; two meaningful alternatives plus no-change baseline; at least one delayed obligation; report explanations follow structured effects. Synthetic fixtures are labeled.
+**Important:** This is specification work. A task can be complete without claiming calibration; unresolved behavioral evidence must remain visible.
 
-See [Nations & history]({{ '/nations/' | relative_url }}) for the profile requirements.
+## P4 — Establish the development environment
 
-## B3 — Implementation after design review
+**Objective:** Create the agreed modular TypeScript project and a reproducible verification path when implementation is authorized.
+**Read:** Architecture, delivery, verification.
+**Output:** Pinned compatible runtime/dependencies, lockfile, module boundaries, minimal entry point, type/lint/test/build scripts and CI.
+**Acceptance:** Clean install and checks work; domain imports no browser APIs; production preview works at the chosen base path; documentation publication remains intact. Test the relevant contracts, not the scaffold's existence.
+**Scope:** No invented game mechanics and no package installation during P0.
 
-**Purpose:** Begin the smallest useful playable version in a fresh session with a reviewed spec and explicit implementation scope. This item records future work; it does not authorize starting code now.
+## P5 — Implement the domain slice
 
-Prerequisites include a tested paper turn, a chosen initial nation scope, a starting-data approach, model relationships, state and accounting definitions, uncertainty handling, and decisions about mandates, succession, and campaign outcomes. Resolve which proposed systems belong in the first version and how their simplifications will be explained.
+**Objective:** Resolve the specified policy/actor/institution sequence deterministically.
+**Read:** Approved P3 rule sheets, simulation and architecture.
+**Output:** Validated commands, rule effects, coherent ledgers, pending decisions and report data.
+**Acceptance:** Matching fixtures, invariants, duplicate-command protection, deterministic replay under compatible versions, meaningful alternative outcomes. No UI-dependent state mutation.
 
-The intended delivery remains mobile-friendly, as a single HTML and JavaScript page. Choose the actual implementation approach when this task is activated, not during the current concept discussion.
+## P6 — Implement persistence and recovery
 
-**Completion:** A playable, appropriately verified first slice exists against an agreed implementation brief. Exact acceptance criteria should be written when the scope is chosen. The documentation site is not that first slice.
+**Objective:** Resume a campaign through reload and expected failures.
+**Read:** Delivery, simulation transaction semantics.
+**Output:** Save repository, migration/version policy, recovery and export/import.
+**Acceptance:** Atomic revision checks, stale-tab protection, failed-save recovery, rejected bad imports, resumed pending encounter and no rerolled random outcomes. Validate on the selected phone browser/runtime.
 
-## Resuming in another session
+## P7 — Deliver the phone interaction
 
-The repository's [HANDOVER.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) contains project locations, accepted direction, proposals, open questions, a reading map, publishing details, validation history, and a copy-paste resumption prompt. [AGENTS.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/AGENTS.md) records the short collaboration instructions.
+**Objective:** Connect briefing, proposal, encounter, commitments and report to the domain.
+**Read:** Interface, requirements R01–R09/R12 and applicable R13/R14.
+**Output:** Usable narrow-screen flow with explanations, authority/funding visibility, touch/keyboard access and honest save states.
+**Acceptance:** Core task at 320 CSS pixels and under zoom; accessibility/manual evidence; reload resumes correctly; the player can distinguish submission from enactment and spending from delivered capacity.
+**Scope:** Desktop may serve as a developer test host, not an accepted player target.
 
-Update this backlog as tasks start or finish. End review handoffs with concrete options and a stated preference, while preserving the user's already selected next action.
+## P8 — Evaluate the integrated slice
+
+**Objective:** Find implementation defects, model weaknesses and confusing interactions before expansion.
+**Read:** Verification and learning.
+**Output:** Versioned alternative-policy experiments, sensitivity findings, actual phone observations and measured performance.
+**Acceptance:** Record successes, failures and missing evidence separately. Fix required defects; revise model/UI documents with rationale. Do not infer real-world prediction accuracy from plausible game outputs.
+
+## P9 — Release the smallest reviewed game
+
+**Objective:** Publish a reproducible, recoverable playable artifact on the selected distribution channel.
+**Read:** Delivery and verification.
+**Output:** Release identity, compatible content/rules/save versions, license records, known limitations, deployment and rollback evidence.
+**Acceptance:** All required checks for the declared slice pass, actual live delivery works, saves survive the supported update path, and phone-device coverage is stated honestly. Native-store work is conditional on D1.
+
+## Superseded and deferred work
+
+| Earlier item | Disposition |
+| --- | --- |
+| B1: interactive annual-turn paper walkthrough | **Aborted by user.** No policy selected, no outcomes resolved. Do not resume or mark complete. |
+| B2: focused nation research | Replaced by P2 after explicit nation/year selection |
+| B3: implementation after design | Replaced by P4–P9 with concrete dependencies |
+| Six-nation expansion, 1980s scenario, detailed electoral/military/world systems | Deferred until the first slice is evaluated |
+| Full desktop experience, accounts, cloud sync, multiplayer, telemetry | Outside current accepted scope; add only through an explicit decision |
+
+**Preferred next step after P0:** P1, settle the smallest set of dependent product choices. Alternative: review the proposed OO architecture before selecting the first simulation slice.

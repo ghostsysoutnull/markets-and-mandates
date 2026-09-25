@@ -59,3 +59,7 @@ The site uses GitHub's supported Markdown and Jekyll publishing from a branch:
 - [Adding content to a Jekyll site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site).
 
 Bibliography expanded for draft 0.2 and research gaps updated for draft 0.3 on 25 September 2026.
+
+## Development research
+
+The [development evidence register]({{ '/development-research/' | relative_url }}) records sources checked on 25 September 2026 for TypeScript, builds/tests, phone interaction, accessibility, storage, distribution, model documentation and accounting. It separates verified capabilities from recommendations and outstanding research. No national baseline, economic calibration, package compatibility run or device benchmark is implied.

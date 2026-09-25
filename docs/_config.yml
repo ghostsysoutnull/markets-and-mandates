@@ -1,6 +1,6 @@
 title: Markets & Mandates
-description: A nation. Fifteen years. An economy you can reshape.
-version: "0.3"
+description: A nation. Economic choices. Institutions and consequences.
+version: "0.4"
 url: https://ghostsysoutnull.github.io
 baseurl: /markets-and-mandates
 markdown: kramdown
@@ -16,6 +16,26 @@ defaults:
 navigation:
   - title: Overview
     url: /
+  - title: Development specification
+    url: /development/
+  - title: Product requirements
+    url: /requirements/
+  - title: TypeScript architecture
+    url: /architecture/
+  - title: Simulation contract
+    url: /simulation/
+  - title: Data & content
+    url: /data-content/
+  - title: Phone interface
+    url: /interface/
+  - title: Saves & delivery
+    url: /delivery/
+  - title: Verification
+    url: /verification/
+  - title: Session workflow
+    url: /workflow/
+  - title: Development research
+    url: /development-research/
   - title: The game
     url: /game/
   - title: Executive, lawmakers & courts
