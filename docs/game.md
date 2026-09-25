@@ -11,17 +11,17 @@ permalink: /game/
 
 ## The player's role
 
-You represent national economic policymaking leadership. You can propose reforms, allocate public resources, and respond to events. Your authority is limited by the nation's laws, administrative capacity, political support, and monetary arrangements.
+You control the nation's **executive leadership: the government and its cabinet**, rather than one named politician. You propose reforms and budgets, administer authorized programs, negotiate within your powers, and respond to events. Your authority is limited by the nation's laws, administrative capacity, political support, and monetary arrangements.
 
-An independent central bank, a legislature, households, and businesses make their own decisions within those arrangements. Greater state direction can expand your responsibilities, but also requires information and implementation capacity.
+Lawmakers, courts, independent monetary institutions, households, and businesses act within their own roles. Greater state direction can expand your responsibilities, but also requires information and implementation capacity. The executive role and its relationship to other institutions must fit each nation's historical profile.
 
-The exact political abstraction remains open. A 15-year campaign may span several governments; the first design should decide whether you embody a continuing policy program or an administration that can lose office.
+The preferred working proposal is to continue playing across successive governments. A leadership change alters your mandate and coalition while preserving the economy and its obligations. Exact election and succession rules remain open. See [The executive, lawmakers & courts]({{ '/government/' | relative_url }}) for authority, bargaining, legal review, and campaign continuity.
 
 ## A yearly turn
 
 1. **Read the report.** See what changed, who benefited, which earlier decisions are taking effect, and what is becoming a problem.
 2. **Choose priorities.** Proposed limit: two major initiatives, alongside adjustments to recurring budget priorities. Continuing projects keep using funds and administrative capacity. Major changes should not bypass the initiative limit merely by being labeled a budget adjustment.
-3. **Negotiate and respond.** Review significant corporate proposals, bank requests, trade negotiations, or regulatory disputes. An energy shock, strike, innovation, or harvest failure may require a response. Major new commitments compete for the same resources as planned initiatives.
+3. **Negotiate and respond.** Seek legislative support and consider amendments; address major legal challenges, corporate proposals, bank requests, or trade negotiations. An energy shock, strike, innovation, or harvest failure may require a response. Major new commitments compete for the same resources as planned initiatives.
 4. **Advance the year.** Actors respond, projects progress, and institutions implement their decisions. The central bank and regulators act under their mandates; firms and households respond to the resulting conditions. The report explains results and unfinished effects.
 
 The initiative limit is a proposed pacing rule. Funding, real resources, implementation capacity, and legal authority are separate constraints. A policy can be affordable on paper yet impossible to deliver this year.
@@ -32,9 +32,10 @@ An annual turn summarizes developments within the year; it does not imply that r
 
 | Relationship | Typical decisions | Limit |
 | --- | --- | --- |
-| Direct policy authority | Propose budgets, taxes, public projects, and regulations within the nation's powers | Funding, authorization, administrative capacity, and delivery time |
+| Executive administration | Implement authorized programs and use delegated powers | Funding, scope of authority, administrative capacity, and delivery time |
+| Legislative initiative | Propose budgets, taxes, and reforms that need legislation | Relevant chambers, voting thresholds, amendments, and legal limits |
 | Negotiation | Corporate investment conditions, trade concessions, or transition arrangements | The counterpart can reject, counteroffer, or fail to deliver |
-| Institutional influence | Appointments or mandate reforms where lawful | Independence, legal process, shared authority, and political support |
+| Institutional influence | Appointments or mandate reforms where lawful | Independence, legal process, shared authority, and political support; no automatic control over rulings or independent rate decisions |
 | Economic influence | Change incentives facing lenders, producers, workers, and consumers | Actors decide within their own resources and obligations |
 | External exposure | Prepare for world demand, commodity shocks, or foreign policy | The player cannot simply set external conditions |
 
@@ -106,8 +107,10 @@ For example, report that housing approvals increased while completions lagged, e
 
 Show observations separately from estimates. Corporate promises are not confirmed future output, a regulator's preliminary finding is not a final ruling, and a forecast is not a guaranteed next-turn result.
 
+Report institutional outcomes separately: what lawmakers authorized, whether a court paused or invalidated a measure, and what the central bank decided. Show actual borrowing conditions alongside the policy rate, including which debts will reprice soon. Distinguish the economic effects of a legal delay from the effects of changing finance costs.
+
 ## Crises and recovery
 
-Banking distress, fiscal stress, shortages, and loss of political support should constrain future choices and create recovery problems. Whether any of these ends a campaign is still an open decision. For an educational experience, continuing through a difficult recovery may teach more than an immediate game-over screen.
+Banking distress, fiscal stress, shortages, and loss of political support should constrain future choices and create recovery problems. The preferred continuity model allows leadership changes without ending play. Whether severe economic crises can end a campaign remains open; continuing through a difficult recovery may teach more than an immediate game-over screen.
 
 Next: [Economic systems]({{ '/systems/' | relative_url }}).

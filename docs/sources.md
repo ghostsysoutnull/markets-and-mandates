@@ -32,7 +32,9 @@ Institutions explain their own frameworks and analysis. Broader research, histor
 
 ## Status of the new examples
 
-Corporate strategies, negotiations, enforcement sequences, and the three worked scenarios are proposed game designs. They are not case studies extracted from these references. Their outcomes are conditional illustrations, and no numerical calibration has been performed.
+Corporate strategies, negotiations, enforcement sequences, and the four worked scenarios are proposed game designs. They are not case studies extracted from these references. Their outcomes are conditional illustrations, and no numerical calibration has been performed.
+
+The executive role, legislative blocs, judicial encounters, and continuity across administrations are design abstractions. They do not establish the actual constitutional framework of any starting nation. Country-specific powers, case procedures, and succession arrangements require dated primary evidence and appropriate historical analysis.
 
 ## Research still required
 
@@ -44,6 +46,8 @@ Corporate strategies, negotiations, enforcement sequences, and the three worked 
 - Separate research for any 1980s scenario.
 - Corporate and banking structures, supervisory authority, trade commitments, and enforcement institutions for each country and starting year.
 - Empirical evidence for actor responses to regulation, credit conditions, industrial support, and trade changes, including conflicting findings and uncertainty.
+- Formal and effective executive powers, legislative procedures, budget fallback rules, judicial review, and succession arrangements for each starting nation.
+- The historical mix of fixed and variable borrowing, maturities, refinancing, deposit pricing, and monetary-policy transmission across household and enterprise groups.
 
 For each profile or mechanism, record the observation period, definitions, source, simplification, and uncertainty. Do not treat a contemporary institutional page as sufficient evidence of its exact 2010 rules.
 
@@ -54,4 +58,4 @@ The site uses GitHub's supported Markdown and Jekyll publishing from a branch:
 - [Configuring a publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 - [Adding content to a Jekyll site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site).
 
-Bibliography expanded for draft 0.2 on 25 September 2026.
+Bibliography expanded for draft 0.2 and research gaps updated for draft 0.3 on 25 September 2026.

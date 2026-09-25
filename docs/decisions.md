@@ -11,6 +11,9 @@ permalink: /decisions/
 - The player selects a real nation and can steer its economic arrangements toward greater market coordination, greater state direction, or combinations.
 - Modern national profiles are the primary historical focus, with interest in an earlier 1980s perspective.
 - Central banks belong in the design.
+- The player controls the executive leadership, with powers that depend on the nation and period.
+- Lawmakers and courts are distinct actors; major policies can involve legislative bargaining and judicial review.
+- Policy rates, private borrowing rates, and government financing costs are distinct, with contract and refinancing delays.
 - Large corporations and private banks act as NPCs with their own objectives and responses.
 - Domestic regulation and international trade decisions are core player tools, subject to national institutions and commitments.
 - The specification should develop actor motives, player actions, constraints, consequences, and examples beyond an outline.
@@ -31,11 +34,13 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 | Rulemaking followed by enforcement and review | Connects regulation to capacity and actual compliance | How detailed legal and administrative processes should be |
 | A chosen mandate | Supports different definitions of success | Which objectives make satisfying campaigns |
 | Replay under comparable shocks | Makes policy comparisons educational | How much replay support belongs in the first game |
+| Continue across successive executives | Preserves the educational campaign while mandates and coalitions change | Succession triggers, control of a successor agenda, and accountability for each administration |
+| Institutions appear at consequential decisions | Makes political and legal limits meaningful without constant procedural management | Which votes and cases deserve player attention |
 
 ## Questions for the next discussion
 
 1. **Depth:** Should this feel like an accessible strategy game or a detailed economic sandbox? The current recommendation is accessible strategy with optional depth.
-2. **Player identity:** A continuing national policy program, or a government that can lose office?
+2. **Campaign continuity:** The player is the executive. Should play continue across successors as recommended, and how should changing mandates constrain the new agenda?
 3. **History:** Recognizable historical shocks, a randomized world, or both?
 4. **Success and failure:** Mandate-based assessment, survival pressure, or a campaign that always permits recovery?
 5. **First playable scope:** Which two or three nations would provide the most interesting initial contrasts before expanding to the intended roster?
@@ -48,7 +53,7 @@ These questions can be answered gradually. Feedback on a specific dilemma may be
 
 ### First: refine the player experience
 
-Agree on the role, one annual turn, the outcome dashboard, and several representative dilemmas. Walk through a short paper scenario to check whether the choices feel meaningful and the explanations make sense.
+With the executive role established, settle one annual turn, the outcome dashboard, and several representative dilemmas. Walk through a short paper scenario to check whether the choices feel meaningful and the explanations make sense.
 
 ### Then: define a focused first simulation
 
@@ -72,6 +77,16 @@ Detailed electoral simulation, military strategy, a full world economy, granular
 
 Deferring a full world simulation does not remove trade negotiation or partner responses. Deferring granular financial markets does not remove private-bank lending choices or distress. Simplification should preserve the mechanisms that make the player's choices meaningful.
 
+Likewise, deferring detailed election campaigns and litigation procedure does not remove legislative bargaining, legal review, or changes of government. The first design should represent the authority and consequences clearly with a manageable number of encounters.
+
+## Review workflow and next options
+
+Each review handoff should provide concrete next-step options and explicitly mark the preferred option. A recommendation is an invitation to choose the next task, not a decision that silently settles an unresolved game rule.
+
+1. **Walk through one complete annual turn — preferred.** Choose an illustrative nation setup, review a briefing, select initiatives, negotiate, and inspect the resulting report. This tests whether the growing set of systems remains playable.
+2. **Define campaign continuity and political consequences.** Settle how leadership changes affect mandates, coalitions, and the player's choices.
+3. **Research one starting nation.** Replace the profile template with a sourced, dated authority map and economic baseline.
+
 ## Share feedback
 
 Bring a page title and your thoughts back to the conversation, or [open a design-feedback issue](https://github.com/ghostsysoutnull/markets-and-mandates/issues/new?template=design-feedback.md).
@@ -94,3 +109,5 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Publish the concept draft on GitHub Pages for reading and feedback before game implementation. |
 | 2026-09-25 | Include large corporations and private banks as active NPCs, with regulation and international trade among the player's tools. |
 | 2026-09-25 | Expand the site as draft 0.2 with detailed actor and policy chapters and illustrative multi-turn scenarios. Exact mechanics remain proposals. |
+| 2026-09-25 | Define the player as executive leadership and include legislative and judicial interactions. Continuing across successive governments is the preferred working proposal. |
+| 2026-09-25 | Publish draft 0.3 with distinct interest rates, institutional authority, and a fourth worked example. Review handoffs will include next-step options and a stated preference. |

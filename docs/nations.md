@@ -27,6 +27,9 @@ This draft does not yet assign country scores or present researched national pro
 | Major economic actors | Significant corporations, private and public lenders, public enterprises, and the broader competitive landscape |
 | Regulatory authority | Which institutions set and enforce rules, what capacity they have, and what needs legislation or legal review |
 | International commitments | Trade agreements, shared policy powers, tariff commitments, and procedures for changing obligations |
+| Executive role and succession | The government the player controls, its appointment and removal processes, and the timing or conditions of leadership changes |
+| Legislative structure | Relevant chambers or bodies, bloc composition, voting thresholds, budget procedures, and the executive's relationship with them |
+| Judicial framework | Review powers, access to courts, available remedies, independence, and practical enforcement of decisions |
 
 A short player-facing briefing should explain the most relevant features. A deeper reference view can show data, dates, sources, and simplifications.
 
@@ -39,6 +42,10 @@ After selection, introduce the central bank or monetary arrangement, the relevan
 Show policy dimensions separately, preferably with sector examples. A label such as “mixed economy” is useful context but too broad to tell the player how investment, prices, services, and trade are actually organized.
 
 The profile should answer practical questions: Can the government set this tariff? Who supervises this bank? Who owns the electricity network? What would it take to change ownership? Which households are most exposed to higher interest rates or energy prices?
+
+Also explain how the executive obtains authority: which measures require legislation, who may challenge them, and what a leadership change does to existing obligations. Distinguish formal powers from evidence about their practical use. Do not give every country the same presidential, parliamentary, or judicial structure.
+
+Interest-rate exposure needs historical information on lending categories, fixed versus variable contracts, refinancing, debt currency, and the monetary institution's actual mandate. Those features determine who feels a rate change first.
 
 ## How differences become gameplay
 

@@ -44,6 +44,8 @@ Exemptions are a policy decision. They may accommodate genuine constraints or cr
 
 Use a visible sequence: **proposal → legal authorization → preparation → enforcement → review**. Some stages may overlap; a rule should not become fully effective merely because the player selects it.
 
+The executive can act under existing delegated authority or seek legislation, depending on the measure. Lawmakers may amend or reject a proposal. Courts may review a measure through the applicable legal process; legislative approval does not automatically settle every legal objection. The [government chapter]({{ '/government/' | relative_url }}) specifies how these tensions become player decisions.
+
 Institutions need staff, expertise, data, inspection capacity, and procedures. Where relevant, regional governments, courts, or independent regulators hold part of the authority. Funding a department does not automatically give it powers it lacks.
 
 Limited capacity forces choices about investigation priorities. Understaffed enforcement can leave violations undetected or cases unresolved. Increasing penalties without improving detection should not automatically deliver universal compliance.

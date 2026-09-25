@@ -127,6 +127,44 @@ A comparison run under private ownership with credible regulation and financing 
 
 **Learning question:** Which combination of ownership, incentives, financing, information, and oversight delivered the service?
 
+## Housing legislation, courts, and interest rates
+
+### Starting conditions
+
+This separate fictional scenario focuses on institutional authority. The executive wants a housing program that requires a new appropriation and some land acquisition. Its supporters lack enough votes without another bloc. Courts can review the acquisition procedure, and the central bank is independent. These assumptions describe this example only, not every playable nation.
+
+### Turn 1: propose and negotiate
+
+The executive proposes a funded housing package with a delivery schedule. A pivotal legislative bloc asks for a regional allocation, worker training, and an independent spending review. The player can accept, counteroffer, scale back the proposal, or postpone it.
+
+In this branch, lawmakers pass an amended package. The report records the revised authorization, funding, oversight duties, and timetable. It does not count the authorized homes as completed supply. A rejected-bill branch would leave existing housing policy and the scenario's budget fallback rules in effect.
+
+### Turn 2: address a legal challenge
+
+An affected landowner challenges an acquisition procedure. A court issues an interim pause on the disputed site while reviewing whether the required process was followed. Other legally independent project sites can continue if their contracts and funding permit.
+
+The player can correct the process, negotiate a voluntary purchase, choose an alternative site, or pursue an available appeal. The legislature's support does not itself settle the procedural issue. In this branch, the player follows the corrective procedure and revises the schedule.
+
+The report distinguishes the site-specific legal delay from unrelated construction bottlenecks. It identifies the funds committed, work still permitted, and the next legal milestone. A final ruling may differ from the interim decision.
+
+### Turn 3: adapt to financing conditions
+
+Meanwhile, broader inflation pressures prompt the central bank to raise its policy rate under its mandate. This is a conditional event in the example, not an automatic consequence of the housing program or legal dispute.
+
+Banks revise new lending offers according to their funding and credit conditions. One developer faces a variable-rate payment increase; another's existing fixed-rate loan does not reprice immediately. The government faces higher costs on relevant new borrowing and refinancing, rather than an instant increase on every outstanding fixed-rate bond.
+
+The executive can revise project timing, seek a budget amendment, adjust other spending or revenue, or evaluate targeted financing support with its public cost disclosed. It can communicate its plans to the central bank but cannot command a rate reversal under this scenario's institutional rules.
+
+### Turn 4: assess outcomes and continuity
+
+Completed sites add homes while delayed sites remain under construction. The report separates authorized units, completed units, household access, financing cost, legal compliance, and changes imposed by the legislative compromise.
+
+If a leadership change occurs, the preferred campaign model carries these assets, obligations, rulings, and unfinished commitments forward. The player assumes the successor executive's role with its new mandate and support. Revising the program requires the relevant authority and transition rather than resetting the economy.
+
+An alternative run might secure land by agreement earlier, choose less financing-sensitive projects, or fail to obtain legislative support. Those branches should differ for explicit reasons.
+
+**Learning question:** Was the binding constraint political authorization, legal procedure, real construction capacity, or financing—and what could the executive legitimately change at each stage?
+
 ## Using scenarios to refine the spec
 
 For each walkthrough, review whether the player has an understandable objective, meaningful alternatives, adequate information, and a reason to care about the next turn. If a branch always wins regardless of starting conditions, examine the assumptions before treating it as a lesson.

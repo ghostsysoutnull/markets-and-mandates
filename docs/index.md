@@ -17,12 +17,12 @@ The question at the heart of the game is:
 | Element | Current direction |
 | --- | --- |
 | Experience | An accessible strategy game with optional deeper explanations |
-| Player role | National economic policymaking leadership, subject to institutional constraints |
+| Player role | The nation's executive leadership: government and cabinet, subject to national institutions |
 | Starting nations | United States, United Kingdom, Germany, Russia, China, and Japan |
 | Main campaign | Proposed: 15 annual turns beginning in 2010, concluding in 2025 |
 | Historical perspective | Modern profiles first; an optional 1980s scenario later |
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
-| Active counterparts | Large corporations, private banks, public enterprises, central banks, worker groups, and foreign partners |
+| Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
 | Intended delivery | Mobile-friendly; a single HTML and JavaScript page for the eventual game |
 | Current stage | Concept specification; no game implementation yet |
@@ -32,21 +32,25 @@ The premise and educational focus come from the initial discussion. Specific tur
 ## Read the draft
 
 1. **[The game]({{ '/game/' | relative_url }})** — Your role, the yearly turn, decisions, outcomes, and a sample dilemma.
-2. **[Economic systems]({{ '/systems/' | relative_url }})** — Central banks, credit, production, households, institutions, and transitions.
-3. **[Corporations & banks]({{ '/actors/' | relative_url }})** — NPC objectives, investment and lending decisions, negotiation, and public enterprises.
-4. **[Regulation & enforcement]({{ '/regulation/' | relative_url }})** — Rules the player can propose, who enforces them, and how actors adapt.
-5. **[Trade & the international economy]({{ '/trade/' | relative_url }})** — Tariffs, agreements, industrial support, dependencies, and foreign responses.
-6. **[Worked examples]({{ '/scenarios/' | relative_url }})** — Three multi-turn walkthroughs connecting decisions, NPC reactions, and consequences.
-7. **[Nations & history]({{ '/nations/' | relative_url }})** — How real countries become distinct, historically grounded starting positions.
-8. **[Learning through play]({{ '/learning/' | relative_url }})** — Explanations, experiments, and the limits of the model.
-9. **[Decisions & feedback]({{ '/decisions/' | relative_url }})** — The choices still open and a suggested path toward a focused first game.
-10. **[Sources]({{ '/sources/' | relative_url }})** — Initial institutional references and the research still required.
+2. **[The executive, lawmakers & courts]({{ '/government/' | relative_url }})** — Executive powers, legislative bargaining, judicial review, and changes of government.
+3. **[Economic systems]({{ '/systems/' | relative_url }})** — Credit, production, households, institutions, and transitions.
+4. **[Interest rates & monetary choices]({{ '/interest-rates/' | relative_url }})** — Who sets which rates, how debt reprices, and tensions with the executive.
+5. **[Corporations & banks]({{ '/actors/' | relative_url }})** — NPC objectives, investment and lending decisions, negotiation, and public enterprises.
+6. **[Regulation & enforcement]({{ '/regulation/' | relative_url }})** — Rules the player can propose, who enforces them, and how actors adapt.
+7. **[Trade & the international economy]({{ '/trade/' | relative_url }})** — Tariffs, agreements, industrial support, dependencies, and foreign responses.
+8. **[Worked examples]({{ '/scenarios/' | relative_url }})** — Four multi-turn walkthroughs connecting decisions, NPC reactions, and consequences.
+9. **[Nations & history]({{ '/nations/' | relative_url }})** — How real countries become distinct, historically grounded starting positions.
+10. **[Learning through play]({{ '/learning/' | relative_url }})** — Explanations, experiments, and the limits of the model.
+11. **[Decisions & feedback]({{ '/decisions/' | relative_url }})** — The choices still open and a suggested path toward a focused first game.
+12. **[Sources]({{ '/sources/' | relative_url }})** — Initial institutional references and the research still required.
 
 For a concrete sense of play, start with the [worked examples]({{ '/scenarios/' | relative_url }}). They are illustrative branches, not predictions or implemented mechanics.
 
-## What changed in draft 0.2
+## What changed in draft 0.3
 
-The expanded spec gives corporations and private banks their own objectives and decisions, makes regulation and international trade explicit player tools, and follows policies through negotiation, implementation, enforcement, and review. Supporting chapters now explain limits on player authority, delayed effects, failure modes, and distributional outcomes.
+The player is now explicitly the executive leadership. New chapters describe legislative bargaining, judicial review, distinct interest rates, and the preferred proposal for continuing across successive governments. A fourth worked example follows a housing program through a vote, a legal challenge, and changing financing conditions.
+
+This builds on draft 0.2's corporate and banking NPCs, regulation, trade decisions, enforcement, and multi-turn examples. Campaign succession details and country-specific institutional rules still need decisions and research.
 
 The overview remains short. Detailed actor behavior, policy catalogues, examples, and open choices live in the linked chapters. Country statistics and calibrated policy effects still require research; greater detail should not be confused with validation.
 

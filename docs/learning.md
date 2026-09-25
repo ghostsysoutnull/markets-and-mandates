@@ -65,6 +65,9 @@ Information should not automatically become perfect under either arrangement. Pl
 | Ownership versus allocation | A public enterprise can sell at market prices; private firms can face binding obligations |
 | Regulation versus enforcement | A rule can exist while inspections and compliance remain weak |
 | Monetary versus fiscal policy | Interest-rate decisions and government spending use different institutions and mechanisms |
+| Policy rate versus actual borrowing rates | Private lenders and government financing respond through different conditions and contracts |
+| Executive proposal versus legislative authorization | A government can advocate a program without yet having authority or funding to deliver it |
+| Political support versus legal validity | Votes and popularity do not automatically resolve questions of authority, process, or rights |
 | Bank capital versus liquidity | Absorbing loan losses and meeting immediate payments are different problems |
 | Nominal versus real income | A larger paycheck may buy less when essential prices rise |
 | Spending versus delivered capacity | A funded project can still lack staff, materials, or completed facilities |

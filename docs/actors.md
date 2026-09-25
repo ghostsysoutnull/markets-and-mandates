@@ -109,9 +109,13 @@ Changing ownership should preserve the enterprise's physical assets, contracts, 
 | Households | Adjust consumption, saving, borrowing, work, and location within their means |
 | Small firms and new entrants | Enter markets, adopt technology, hire, or close as opportunities and constraints change |
 | Unions and worker groups | Bargain, support reforms, negotiate transition terms, or organize industrial action |
-| Regulators and courts | Investigate, enforce, interpret powers, and review challenges within capacity and law |
+| Legislative blocs | Support, amend, delay, or oppose legislation according to constituencies, priorities, and institutional rules |
+| Regulators | Investigate and enforce rules within their mandates, powers, and capacity |
+| Courts | Review authority, process, rights, and obligations through the legal procedures and remedies available |
 | Central bank | Respond to conditions under its mandate and monetary arrangement |
 | Foreign governments and trade blocs | Negotiate, retaliate, diversify suppliers, or cooperate according to their own interests |
+
+See [The executive, lawmakers & courts]({{ '/government/' | relative_url }}) for the player's role and political encounters. Banks' responses to monetary policy and borrowing conditions are developed in [Interest rates & monetary choices]({{ '/interest-rates/' | relative_url }}).
 
 ## Encounters and deals
 

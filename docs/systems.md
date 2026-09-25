@@ -38,6 +38,8 @@ The player should receive a policy explanation from the monetary institution: wh
 
 Changing independence should alter who decides and how expectations may form. It should not grant an automatic prosperity bonus or trigger an inevitable crisis. The institutional design, fiscal commitments, economic conditions, and record of delivery must matter.
 
+The dedicated [interest-rate chapter]({{ '/interest-rates/' | relative_url }}) distinguishes the policy rate, private loan rates, government financing costs, and deposit rates. It explains lender responses, fixed and variable contracts, refinancing delays, and the executive's limits when monetary decisions are independent.
+
 ## Commercial banks and credit
 
 Represent who receives financing: households, small businesses, property developers, productive enterprises, or state enterprises. Lending standards, defaults, public development banks, and banking distress should affect the choices available in the economy.
@@ -107,6 +109,8 @@ Political resistance should have an explanation: a group loses income, fears une
 Implementation capacity has competing uses. A large ownership reform, a new benefit program, and a major enforcement expansion can strain the same legal, technical, and managerial resources. Hiring and training can improve future capacity, but should also take time and money.
 
 The [regulation chapter]({{ '/regulation/' | relative_url }}) separates rulemaking from enforcement, and describes actor responses and review. Political structure and economic ownership must not be collapsed into one axis: state direction of production is not itself a complete description of a nation's political institutions.
+
+The player controls the executive. Lawmakers can amend or reject proposals, and courts can review measures within their actual powers. The [government chapter]({{ '/government/' | relative_url }}) explains those interactions and the proposed continuity of play across successive governments. These are distinct institutions, not interchangeable sources of an approval penalty.
 
 ## Information and incentives
 

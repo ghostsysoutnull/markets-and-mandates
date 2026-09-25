@@ -1,6 +1,6 @@
 title: Markets & Mandates
 description: A nation. Fifteen years. An economy you can reshape.
-version: "0.2"
+version: "0.3"
 url: https://ghostsysoutnull.github.io
 baseurl: /markets-and-mandates
 markdown: kramdown
@@ -18,8 +18,12 @@ navigation:
     url: /
   - title: The game
     url: /game/
+  - title: Executive, lawmakers & courts
+    url: /government/
   - title: Economic systems
     url: /systems/
+  - title: Interest rates
+    url: /interest-rates/
   - title: Corporations & banks
     url: /actors/
   - title: Regulation & enforcement
