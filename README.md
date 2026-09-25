@@ -31,7 +31,7 @@ Start with [Development specification](docs/development.md). It links [requireme
 
 Conclude each review handoff with concrete next-step options and explicitly mark the preferred option. Record accepted design changes in the spec; keep unselected alternatives and unresolved mechanics clearly identified.
 
-For a new session, start with [AGENTS.md](AGENTS.md), [HANDOVER.md](HANDOVER.md), and the [backlog](docs/backlog.md). The interactive walkthrough was aborted. Continue the active development packet; preserve settled decisions and resolve only its dependencies.
+For a new session, start with [AGENTS.md](AGENTS.md), [HANDOVER.md](HANDOVER.md), and the [backlog](docs/backlog.md). The user selected a fresh session to settle the first nation/year and continue focused baseline research. The interactive walkthrough was aborted. Preserve settled decisions; UK/2010 remains a recommendation, not a selection.
 
 ## Publishing
 

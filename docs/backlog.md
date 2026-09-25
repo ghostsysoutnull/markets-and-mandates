@@ -10,12 +10,14 @@ The user aborted the interactive paper walkthrough on 25 September 2026 and requ
 
 **Phone-browser delivery via a web link is now accepted (D1).** P1 is active, with D1 and D2 resolved; nation/year and first-slice scope remain open. PWA installation and offline play remain optional proposals. The documentation package does not authorize arbitrary game implementation or invent the missing economic model.
 
+**Session choice accepted:** continue P1 and the subsequent focused P2 research in a fresh session. The user's latest option 1 selected that session change, not a nation. UK/2010 remains the assistant's recommendation; no country or starting year is selected. Use the continuation prompt in [HANDOVER.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md).
+
 ## Work queue
 
 | Packet | Result | Status / dependencies |
 | --- | --- | --- |
 | P0 | Development documentation package and researched technical baseline | Done — published draft 0.4; 24 live pages and 840 internal links/anchors verified |
-| P1 | First-slice decision record | In progress — D1/D2 accepted; obtain nation/year (D3) next, then dependent choices D4–D8 |
+| P1 | First-slice decision record | In progress — D1/D2 accepted; resume in the selected fresh session with nation/year (D3), then dependent choices D4–D8 |
 | P2 | One sourced nation/year and authority map | Blocked on D3 and model scope from D4 |
 | P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2 inputs |
 | P4 | Modular TypeScript scaffold and verification commands | Future implementation; needs authorized scope, A05/D8 and compatible tool versions |
@@ -42,7 +44,7 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 **Read:** Requirements D1–D8, architecture ADRs, game concepts.
 **Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-browser, phone-only and modular-TS decisions.
 **Acceptance:** Every first-slice feature maps to a requirement and every excluded major subsystem has an explicit simplification. A successor or end-of-campaign feature has defined behavior before being included.
-**Next action:** Ask for the first nation/year, then policy focus in plain language. Phone-browser web-link delivery is already selected. Do not resume the housing exercise.
+**Next action in the selected fresh session:** Ask for the first nation/year, then policy focus in plain language before dependent P2 research. UK/2010 is recommended but not selected. Phone-browser web-link delivery is already selected. Do not resume the housing exercise or reopen the session choice.
 
 The user may prefer to inspect the architecture before settling product scope. That review is a valid alternative, not a reason to silently choose the nation.
 
@@ -115,4 +117,4 @@ The user may prefer to inspect the architecture before settling product scope. T
 | Six-nation expansion, 1980s scenario, detailed electoral/military/world systems | Deferred until the first slice is evaluated |
 | Full desktop experience, accounts, cloud sync, multiplayer, telemetry | Outside current accepted scope; add only through an explicit decision |
 
-**Preferred next step after P0:** P1, settle the smallest set of dependent product choices. Alternative: review the proposed OO architecture before selecting the first simulation slice.
+**Selected and preferred next step:** open a fresh session with the handover prompt and continue P1, then focused P2 research. Within that session, the user may select the recommended UK/2010 baseline or another nation/year; no baseline is selected yet.

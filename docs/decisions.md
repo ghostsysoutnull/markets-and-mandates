@@ -103,3 +103,4 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Aborted B1 without player decisions or outcomes; requested researched development documents for mobile/web, TypeScript/JavaScript, OO and an efficient multi-session process. |
 | 2026-09-25 | Clarified phones only and a normal TypeScript project with multiple source files; superseded desktop targeting and the single physical HTML output constraint. Distribution was not yet selected at this checkpoint; resolved in the following entry. |
 | 2026-09-25 | Selected option 1: phone-browser delivery via a web link (D1). Native app-store packaging is outside the selected scope; PWA installation and offline play are not implied by this choice. |
+| 2026-09-25 | Selected a fresh session for the next nation-selection and research work (P1/P2). This option 1 does not select the earlier UK/2010 recommendation; nation and starting year remain open. |
