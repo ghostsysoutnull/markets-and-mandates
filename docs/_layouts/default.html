@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="theme-color" content="#173f3a">
+    <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">Markets <span>&</span> Mandates</a>
+      <span class="edition">Design notebook <span aria-hidden="true">/</span> 0.1</span>
+    </header>
+    <div class="site-shell">
+      <aside class="sidebar">
+        <p class="nav-label">Explore the concept</p>
+        <nav aria-label="Design documentation">
+          {% for item in site.navigation %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+        <div class="sidebar-note">A working design.<br>Read, question, reshape.</div>
+        <a class="repo-link" href="https://github.com/ghostsysoutnull/markets-and-mandates">View on GitHub ↗</a>
+      </aside>
+      <main id="main" tabindex="-1">
+        <div class="page-meta"><span>Concept draft</span><span>25 September 2026</span></div>
+        <article>
+          <h1>{{ page.title }}</h1>
+          {% if page.intro %}<p class="lede">{{ page.intro }}</p>{% endif %}
+          {{ content }}
+        </article>
+        <section class="feedback" aria-label="Share feedback">
+          <div><strong>Help shape this game.</strong><p>Bring the page title and your thoughts back to our conversation, or leave a design issue.</p></div>
+          <a class="button" href="https://github.com/ghostsysoutnull/markets-and-mandates/issues/new?template=design-feedback.md&amp;title={{ page.title | prepend: '[Design] ' | uri_escape }}">Give feedback ↗</a>
+        </section>
+        <footer>Markets & Mandates · A game about economic choices and their consequences.<br><a href="https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/docs/{{ page.path }}">View this page’s source</a></footer>
+      </main>
+    </div>
+  </body>
+</html>

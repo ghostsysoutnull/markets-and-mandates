@@ -1,0 +1,28 @@
+title: Markets & Mandates
+description: A nation. Fifteen years. An economy you can reshape.
+url: https://ghostsysoutnull.github.io
+baseurl: /markets-and-mandates
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+navigation:
+  - title: Overview
+    url: /
+  - title: The game
+    url: /game/
+  - title: Economic systems
+    url: /systems/
+  - title: Nations & history
+    url: /nations/
+  - title: Learning through play
+    url: /learning/
+  - title: Decisions & feedback
+    url: /decisions/
+  - title: Sources
+    url: /sources/
