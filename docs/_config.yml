@@ -38,5 +38,7 @@ navigation:
     url: /learning/
   - title: Decisions & feedback
     url: /decisions/
+  - title: Backlog & session plan
+    url: /backlog/
   - title: Sources
     url: /sources/

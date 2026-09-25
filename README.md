@@ -8,6 +8,7 @@ The project is in concept development. There is no playable game yet. Draft 0.3 
 
 ## Documentation
 
+- [Session handover](HANDOVER.md) and [backlog](docs/backlog.md)
 - [Overview](docs/index.md)
 - [The game](docs/game.md)
 - [The executive, lawmakers, and courts](docs/government.md)
@@ -25,6 +26,8 @@ The project is in concept development. There is no playable game yet. Draft 0.3 
 ## Design collaboration
 
 Conclude each review handoff with concrete next-step options and explicitly mark the preferred option. Record accepted design changes in the spec; keep unselected alternatives and unresolved mechanics clearly identified.
+
+For a new session, start with [AGENTS.md](AGENTS.md), [HANDOVER.md](HANDOVER.md), and the [backlog](docs/backlog.md). The complete annual-turn walkthrough is queued next; focused nation research and later implementation are deferred.
 
 ## Publishing
 

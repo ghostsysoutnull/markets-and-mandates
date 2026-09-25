@@ -83,9 +83,9 @@ Likewise, deferring detailed election campaigns and litigation procedure does no
 
 Each review handoff should provide concrete next-step options and explicitly mark the preferred option. A recommendation is an invitation to choose the next task, not a decision that silently settles an unresolved game rule.
 
-1. **Walk through one complete annual turn — preferred.** Choose an illustrative nation setup, review a briefing, select initiatives, negotiate, and inspect the resulting report. This tests whether the growing set of systems remains playable.
-2. **Define campaign continuity and political consequences.** Settle how leadership changes affect mandates, coalitions, and the player's choices.
-3. **Research one starting nation.** Replace the profile template with a sourced, dated authority map and economic baseline.
+The user has selected the complete-turn walkthrough after preparing a session handover. The [backlog and session plan]({{ '/backlog/' | relative_url }}) records all three latest options: B1, the walkthrough here; B2, focused nation research in a new session; and B3, implementation in a new session once the spec is ready. B1 is queued next and preferred; B2 and B3 remain deferred.
+
+Defining campaign continuity and political consequences remains an open design task, not a settled decision. It can be informed by the walkthrough and must be resolved sufficiently before implementation.
 
 ## Share feedback
 
@@ -111,3 +111,4 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Expand the site as draft 0.2 with detailed actor and policy chapters and illustrative multi-turn scenarios. Exact mechanics remain proposals. |
 | 2026-09-25 | Define the player as executive leadership and include legislative and judicial interactions. Continuing across successive governments is the preferred working proposal. |
 | 2026-09-25 | Publish draft 0.3 with distinct interest rates, institutional authority, and a fourth worked example. Review handoffs will include next-step options and a stated preference. |
+| 2026-09-25 | Prepare a durable session handover and record the latest three session options as backlog. The complete-turn walkthrough is selected next; nation research and implementation remain deferred. |

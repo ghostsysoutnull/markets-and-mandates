@@ -65,3 +65,5 @@ The other risk is false authority. A plausible simulation is still a model with 
 ## How to review
 
 Read whichever chapter interests you, then bring its title and your comments back to our conversation. GitHub issues are also available through the feedback button on every page. The most useful feedback identifies an experience you want: a dilemma you want to face, a concept you want to understand, or a rule that feels unconvincing.
+
+The [backlog and session plan]({{ '/backlog/' | relative_url }}) records the next work, with the interactive annual-turn walkthrough queued first. A complete [session handover](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) preserves the project context for a fresh conversation.
