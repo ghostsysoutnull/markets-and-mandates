@@ -13,9 +13,9 @@ permalink: /development/
 
 On 25 September 2026 the user stopped the interactive walkthrough and requested the documentation needed to develop the game for phones (clarified from the initial mobile/web request), using JavaScript/TypeScript and object-oriented design, with research and an efficient process across sessions. This supersedes the previous walkthrough-first plan. No player policy was selected and no turn was completed.
 
-**Accepted requirements:** phones only, a normal TypeScript project with multiple source files compiled to JavaScript, object-oriented architecture, research before unsupported decisions, and durable session continuity. Desktop gameplay is outside the target. Existing accepted game concepts remain in force.
+**Accepted requirements:** phones only, browser delivery via a web link, a normal TypeScript project with multiple source files compiled to JavaScript, object-oriented architecture, research before unsupported decisions, and durable session continuity. Desktop gameplay is outside the target. Existing accepted game concepts remain in force.
 
-**Proposed engineering baseline:** a modular TypeScript application, a deterministic simulation core, semantic HTML interface, browser persistence, and automated verification. Phone-browser versus app-store distribution, PWA installation, a UI framework and exact phone/browser support require decisions. The previous single physical HTML output constraint is superseded by the user's modular TypeScript choice.
+**Proposed engineering baseline:** a modular TypeScript application, a deterministic simulation core, semantic HTML interface, browser persistence, and automated verification. Phone-browser delivery is accepted. PWA installation, offline support, a UI framework and exact phone/browser support still need decisions or verification; native-store packaging is outside the selected scope. The previous single physical HTML output constraint is superseded by the user's modular TypeScript choice.
 
 This package supplies requirements, contracts, decision records, research, and an executable work sequence. It is not a claim that the economic model is calibrated or every product decision is settled. Unresolved dependencies are explicit so implementation does not silently choose them.
 
@@ -46,7 +46,7 @@ Use **accepted** for a user decision; **proposed** for a recommendation; **verif
 | Gate | Evidence required | Current state |
 | --- | --- | --- |
 | Documentation foundation | Linked requirements, architecture, workflow, research, and work packets | Provided in draft 0.4; subject to review |
-| First-slice definition | Distribution, initial nation/year, turn and campaign scope, UI approach | D2 resolved; remaining choices in D1 and D3–D8 |
+| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1/D2 resolved; remaining choices in D3–D8 |
 | Model-ready slice | Versioned rule sheets, initialized state, funding and accounting, expected test outcomes | Not ready; dependencies in simulation and data chapters |
 | Implementation-ready packet | Narrow objective, settled dependencies, affected contracts, acceptance checks | Use the workflow template; no game code yet |
 | Playable release | Completed implementation plus browser, recovery, economic, usability, and deployment evidence | Not started |
@@ -70,6 +70,6 @@ Accounts, cloud synchronization, multiplayer, native stores, analytics, monetiza
 | A new release breaks old campaigns | Version schemas, content and rules separately; test migration and rollback | P6/P9 |
 | OO becomes unnecessary abstraction | Small responsibility-based classes, composition and tests against behavior | P4/P5 |
 | Documentation drifts between sessions | One owning chapter per contract; update handover, backlog and decisions with the change | Every packet |
-| Distribution adds unexpected native obligations | Settle phone-browser versus store delivery before its dependent implementation | P1/P9 |
+| Distribution expands into native obligations | Keep the accepted phone-browser scope; require an explicit scope change before native-store work | P1/P9 |
 
 **Preferred next step:** settle the first-slice decision sheet in [requirements]({{ '/requirements/' | relative_url }}), then research the selected nation and specify the initial rules. An alternative is to review the OO architecture first if its boundaries are the immediate concern.

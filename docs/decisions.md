@@ -19,7 +19,7 @@ permalink: /decisions/
 - The specification should develop actor motives, player actions, constraints, consequences, and examples beyond an outline.
 - The game targets **phones only**, as clarified by the user on 25 September 2026. Desktop gameplay is outside current scope.
 - Use a normal **TypeScript project with multiple source files**, compiled to JavaScript, with **object-oriented design**. This supersedes the earlier single-file delivery constraint.
-- Prepare researched development documentation and an efficient process across sessions before beginning implementation. Phone-browser versus app-store distribution remains open.
+- Prepare researched development documentation and an efficient process across sessions before beginning implementation. Phone-browser delivery via a web link is accepted; native-store packaging is outside the selected scope.
 - The user **aborted the interactive paper walkthrough**. It is not a prerequisite for subsequent work.
 
 The detailed mechanisms in this notebook are an initial proposal for review. Positive reception of the concept does not settle every design choice below.
@@ -101,4 +101,5 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Publish draft 0.3 with distinct interest rates, institutional authority, and a fourth worked example. Review handoffs will include next-step options and a stated preference. |
 | 2026-09-25 | Prepare a durable session handover and record the latest three session options as backlog. The complete-turn walkthrough is selected next; nation research and implementation remain deferred. |
 | 2026-09-25 | Aborted B1 without player decisions or outcomes; requested researched development documents for mobile/web, TypeScript/JavaScript, OO and an efficient multi-session process. |
-| 2026-09-25 | Clarified phones only and a normal TypeScript project with multiple source files; superseded desktop targeting and the single physical HTML output constraint. Phone-browser versus app-store distribution remains open. |
+| 2026-09-25 | Clarified phones only and a normal TypeScript project with multiple source files; superseded desktop targeting and the single physical HTML output constraint. Distribution was not yet selected at this checkpoint; resolved in the following entry. |
+| 2026-09-25 | Selected option 1: phone-browser delivery via a web link (D1). Native app-store packaging is outside the selected scope; PWA installation and offline play are not implied by this choice. |

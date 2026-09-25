@@ -8,22 +8,22 @@ permalink: /backlog/
 
 The user aborted the interactive paper walkthrough on 25 September 2026 and requested the documents needed to develop the game with researched decisions, TypeScript/JavaScript, object-oriented architecture and an efficient process across sessions. Subsequent clarification: **phones only; a normal TypeScript project with multiple source files**. Desktop gameplay and the single-file output requirement are superseded.
 
-Phone browser versus app-store distribution remains open. The documentation package is the current task; its existence does not authorize arbitrary game implementation or invent the missing economic model.
+**Phone-browser delivery via a web link is now accepted (D1).** P1 is active, with D1 and D2 resolved; nation/year and first-slice scope remain open. PWA installation and offline play remain optional proposals. The documentation package does not authorize arbitrary game implementation or invent the missing economic model.
 
 ## Work queue
 
 | Packet | Result | Status / dependencies |
 | --- | --- | --- |
 | P0 | Development documentation package and researched technical baseline | Done — published draft 0.4; 24 live pages and 840 internal links/anchors verified |
-| P1 | First-slice decision record | Next — resolve D1 and D3–D8 only as needed; D2 already accepted |
+| P1 | First-slice decision record | In progress — D1/D2 accepted; obtain nation/year (D3) next, then dependent choices D4–D8 |
 | P2 | One sourced nation/year and authority map | Blocked on D3 and model scope from D4 |
 | P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2 inputs |
 | P4 | Modular TypeScript scaffold and verification commands | Future implementation; needs authorized scope, A05/D8 and compatible tool versions |
 | P5 | Deterministic domain slice | Future implementation; needs P3/P4 |
-| P6 | Durable saves, import/export and recovery | Future implementation; needs domain schema and delivery decision |
+| P6 | Durable saves, import/export and recovery | Future implementation; needs domain schema; phone-browser delivery accepted |
 | P7 | Phone interface connected to the slice | Future implementation; needs P1/P5 and persistence contract |
 | P8 | Model, usability and device evaluation | Future verification; needs integrated P5–P7 |
-| P9 | First playable release | Future; needs chosen distribution, required evidence and compatibility/rollback plan |
+| P9 | First playable release | Future phone-browser release; needs required evidence and compatibility/rollback plan |
 
 Read [Development specification]({{ '/development/' | relative_url }}) for document ownership, [requirements]({{ '/requirements/' | relative_url }}) for decision IDs, and [workflow]({{ '/workflow/' | relative_url }}) for the packet format. Tasks below are substantive outputs, not placeholders for more planning.
 
@@ -40,9 +40,9 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 **Objective:** Resolve the decisions that determine the first playable result.
 
 **Read:** Requirements D1–D8, architecture ADRs, game concepts.
-**Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-only/modular-TS decisions.
+**Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-browser, phone-only and modular-TS decisions.
 **Acceptance:** Every first-slice feature maps to a requirement and every excluded major subsystem has an explicit simplification. A successor or end-of-campaign feature has defined behavior before being included.
-**Next action:** Obtain phone browser versus store preference; then ask for the first nation/year and policy focus in plain language. Do not resume the housing exercise.
+**Next action:** Ask for the first nation/year, then policy focus in plain language. Phone-browser web-link delivery is already selected. Do not resume the housing exercise.
 
 The user may prefer to inspect the architecture before settling product scope. That review is a valid alternative, not a reason to silently choose the nation.
 
@@ -103,7 +103,7 @@ The user may prefer to inspect the architecture before settling product scope. T
 **Objective:** Publish a reproducible, recoverable playable artifact on the selected distribution channel.
 **Read:** Delivery and verification.
 **Output:** Release identity, compatible content/rules/save versions, license records, known limitations, deployment and rollback evidence.
-**Acceptance:** All required checks for the declared slice pass, actual live delivery works, saves survive the supported update path, and phone-device coverage is stated honestly. Native-store work is conditional on D1.
+**Acceptance:** All required checks for the declared slice pass, actual live delivery works, saves survive the supported update path, and phone-device coverage is stated honestly. Native-store work is outside the accepted delivery scope.
 
 ## Superseded and deferred work
 

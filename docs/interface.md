@@ -4,7 +4,7 @@ intro: Make the next decision understandable on a phone, with detail available w
 permalink: /interface/
 ---
 
-**Status:** proposed interaction specification. Phones are the accepted player target; exact phone-browser versus app-store distribution, first nation and visual identity are still open. This chapter describes the game interface, not the existing documentation website.
+**Status:** proposed interaction specification. Phones accessed through a browser web link are the accepted target. First nation, exact supported browser versions and visual identity are still open. This chapter describes the game interface, not the existing documentation website.
 
 **On this page**
 

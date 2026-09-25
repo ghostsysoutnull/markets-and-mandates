@@ -11,11 +11,11 @@ permalink: /delivery/
 
 ## Platform decisions
 
-Phones only and a normal modular TypeScript project are accepted. Phone-browser delivery, PWA installation and native store packaging remain separate decisions under D1 in [requirements]({{ '/requirements/' | relative_url }}). D2 is settled: a single physical output file is no longer required. The recommended baseline is a static modular web application for phones. No backend is currently required by an accepted feature.
+Phones only, **phone-browser delivery via a web link**, and a normal modular TypeScript project are accepted (D1/D2 in [requirements]({{ '/requirements/' | relative_url }})). A single physical output file is no longer required. Native app-store packaging is outside the selected scope; PWA installation and offline play remain optional proposals. The recommended implementation baseline is a static modular web application for phones. No backend is currently required by an accepted feature.
 
 An ordinary website can support phone play without installation. An installable PWA requires appropriate application metadata and browser support; requirements and installation experiences vary. Offline behavior must be implemented and tested separately. See [MDN's installation guide](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable). A manifest or an install icon is not proof that a campaign works offline.
 
-If native apps are required, assess [Capacitor](https://capacitorjs.com/docs) as a web-first container against the actual native requirements. Define platform build tooling, signing, store accounts, privacy declarations, save behavior and device tests before scheduling store delivery. Those obligations are not included silently in “mobile.”
+Native apps are outside the selected scope. If the user later changes that scope, assess [Capacitor](https://capacitorjs.com/docs) as a web-first container against the actual native requirements. Define platform build tooling, signing, store accounts, privacy declarations, save behavior and device tests before scheduling store delivery. Those obligations are not included silently in “mobile.”
 
 ## Proposed save contract
 

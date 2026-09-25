@@ -75,9 +75,9 @@ Keep constructors cheap and free of I/O. Methods enforce local invariants; cross
 | Unit and contract tests | Vitest | Another runner is viable if it meets deterministic fixtures, TS integration, and CI requirements |
 | Browser tests | Playwright | Manual-only testing misses reproducible regressions; real-device checks are still needed |
 | Rendering | DOM for policy forms, tables and reports | Canvas/game engines need extra accessibility work; reconsider for a future spatial or animated interaction |
-| Native distribution | Only if D1 requires it; assess Capacitor | A web-first native container adds platform builds, permissions, device QA and store release obligations |
+| Native distribution | Outside accepted phone-browser delivery scope | Capacitor remains a researched future alternative only if the user changes that scope |
 
-Vite transpiles TypeScript without type checking; a production check must include a separate `tsc --noEmit` step. This is documented by [Vite](https://vite.dev/guide/features#typescript). Vitest provides test tooling integrated with Vite's configuration, while [Playwright emulates device parameters](https://playwright.dev/docs/emulation); that does not establish real-device coverage. [Capacitor](https://capacitorjs.com/docs) is a possible native runtime, not a selected target.
+Vite transpiles TypeScript without type checking; a production check must include a separate `tsc --noEmit` step. This is documented by [Vite](https://vite.dev/guide/features#typescript). Vitest provides test tooling integrated with Vite's configuration, while [Playwright emulates device parameters](https://playwright.dev/docs/emulation); that does not establish real-device coverage. [Capacitor](https://capacitorjs.com/docs) is a researched native alternative outside the selected phone-browser target.
 
 A worker is an optimization candidate if turn processing blocks interaction under the measured budget. A [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) can exchange messages with the UI but cannot manipulate the DOM directly. Preserve the same serializable command/result boundary so it can be added without new economic semantics.
 
@@ -88,7 +88,7 @@ A worker is an optimization candidate if turn processing blocks interaction unde
 | A01 | Accepted constraint | TypeScript/JavaScript and OO, requested 25 September 2026 |
 | A02 | Proposed | Domain isolated from browser adapters; reopen only with a demonstrated simpler design preserving testability |
 | A03 | Proposed | Composition for actor behavior and nation institutions; avoid country inheritance |
-| A04 | Partly accepted | Phones only and modular TypeScript source accepted; phone-browser versus store distribution remains open (D1) |
+| A04 | Accepted delivery constraints | Phones only, browser access via a web link, and modular TypeScript source (D1/D2). PWA installation and offline support remain optional proposals. |
 | A05 | Proposed, D8 | DOM/controller UI and Vite/Vitest/Playwright toolchain; evaluate on actual first-slice screens |
 | A06 | Proposed | Snapshots plus journals and versioned schemas; no full event-sourcing platform |
 | A07 | Proposed | Main-thread resolver initially; worker only after profiling justifies it |

@@ -24,7 +24,7 @@ The question at the heart of the game is:
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
 | Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
-| Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser versus app-store distribution remains open. |
+| Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser delivery via a web link is accepted. |
 | Current stage | Researched development documentation, draft 0.4; no game implementation yet |
 
 The premise and educational focus come from the initial discussion. Specific turn counts, dates, mechanics, and scope below are **working proposals**, not a finished or calibrated simulation.

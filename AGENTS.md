@@ -2,7 +2,7 @@
 
 Read `HANDOVER.md` at the start of a new session, then `docs/backlog.md` and the chapters linked by the active work packet. The current user's instructions override recorded plans.
 
-The project is preparing researched development specifications. Accepted technical requirements are **phones only, JavaScript/TypeScript, a normal project with multiple source files, and object-oriented design**. Phone browser versus app-store distribution remains open until answered. Do not restore the superseded single-file delivery constraint or desktop player target.
+The project is preparing researched development specifications. Accepted technical requirements are **phones only, JavaScript/TypeScript, a normal project with multiple source files, and object-oriented design**. **Phone-browser delivery via a web link is accepted.** App-store packaging is outside the selected delivery scope; PWA installation and offline play remain separate optional proposals. Do not restore the superseded single-file delivery constraint or desktop player target.
 
 The interactive paper walkthrough was **aborted by the user**. Do not resume it or require it before development. Its existing fictional scenarios are explanatory examples, not completed player decisions.
 

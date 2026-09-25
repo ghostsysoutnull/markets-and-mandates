@@ -32,7 +32,7 @@ The requirements below turn that concept into proposed acceptance contracts. The
 | R11 | Finish or change government | Report the mandate and wider consequences; preserve obligations across leadership changes if the continuity proposal is accepted. No invented election schedule. |
 | R12 | Inspect evidence | Historical facts, model assumptions, and simulation results carry different labels. Open a relevant source or assumption from a detail view. |
 | R13 | Recover portable saves | Proposed export/import: validate versions and contents, preview campaign identity, preserve the existing save on failure, and avoid executing imported content. |
-| R14 | Play offline | Conditional on D1: after an explicitly completed offline preparation, selected content and saves support a full turn without network access. First-ever offline load may be unavailable and must explain why. |
+| R14 | Play offline | Optional proposal, not implied by accepted browser delivery: after an explicitly completed offline preparation, selected content and saves support a full turn without network access. First-ever offline load may be unavailable and must explain why. |
 
 ## Proposed first playable scope
 
@@ -44,9 +44,9 @@ The first slice needs a no-change branch and at least two meaningful policy alte
 
 ## Decisions that research cannot make for the user
 
-| ID | Open choice | Recommendation and consequence | Blocks |
+| ID | Decision | Status, recommendation and consequence | Dependencies |
 | --- | --- | --- | --- |
-| D1 | On phones: a browser link, store download, or both? | Recommend phone-browser delivery first; store packaging adds platform release and device work. Phone-only scope is accepted; distribution is pending. | Distribution, offline acceptance, device matrix |
+| D1 | Phone-browser delivery via a web link | **Accepted:** the user selected option 1. Native app-store packaging is outside this scope. PWA installation and offline play are separate optional proposals. | Distribution channel resolved; exact supported browsers remain to be verified |
 | D2 | Modular production project | **Accepted:** normal TypeScript project with multiple source files. The old single physical HTML output requirement is superseded. | Resolved; configure the chosen build in P4 |
 | D3 | First nation and starting year? | Select one from the accepted roster; research it before authoring a baseline. No default nation selected. | Institutional rules, initial values, policy availability |
 | D4 | First-slice policy family and depth? | One connected policy family with two alternatives, an institutional encounter, and delayed effects. Housing remains only a candidate. | Detailed model scope, screen content |
@@ -55,7 +55,7 @@ The first slice needs a no-change branch and at least two meaningful policy alte
 | D7 | Historical or experimental events; fictional or real NPCs? | Versioned external events and fictional named actors grounded in evidence, with clear labels. | Content authoring and replay semantics |
 | D8 | UI dependency choice? | Start with the semantic DOM/controller proposal; compare a component framework against the actual screen needs before locking it. | UI scaffold; domain work can proceed independently |
 
-The user answered **phones only** and **normal TypeScript project with multiple source files**. D2 is resolved; the narrower D1 question about phone-browser versus store distribution remains pending. Recommendations are not user selections. Do not ask the user all eight questions at every session: request only the next dependent decisions and keep settled answers here and in the decision log.
+The user answered **phones only** and **normal TypeScript project with multiple source files**. The user subsequently selected **phone-browser delivery via a web link**, resolving D1 as well as D2. Recommendations are not user selections. Do not ask the user to reselect D1/D2 or repeat all remaining questions at every session: request only the next dependent decisions and keep settled answers here and in the decision log.
 
 ## Quality requirements and proposed budgets
 
@@ -63,7 +63,7 @@ Correctness, readable explanations, recovery, and accessibility take precedence 
 
 For the first performance experiment, propose initial critical compressed assets at or below 500 KiB excluding optional scenario packs, common interaction feedback within 100 ms, and a representative annual resolution within one second on the selected reference phone. These are project targets, not measured results or standards. Select actual hardware, browser, network conditions, scenario size, and sample count before declaring a pass; revise budgets with evidence and an ADR.
 
-The browser matrix is also provisional: automated Chromium/WebKit tests configured for phone viewports, optional Firefox coverage where relevant, plus real Android Chrome and iOS Safari checks. Desktop machines may host development/test tooling; desktop gameplay is not a release target. Record exact supported versions at release. If browser distribution is selected, support ordinary browser play even when installation is unavailable. Native-only distribution would require a corresponding runtime/device matrix. No device coverage has been tested yet.
+The browser matrix is also provisional: automated Chromium/WebKit tests configured for phone viewports, optional Firefox coverage where relevant, plus real Android Chrome and iOS Safari checks. Desktop machines may host development/test tooling; desktop gameplay is not a release target. Record exact supported versions at release. Support ordinary phone-browser play even when installation is unavailable. Native-store runtime testing is outside the selected delivery scope. No device coverage has been tested yet.
 
 ## Completion and change control
 

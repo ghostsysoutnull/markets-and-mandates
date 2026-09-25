@@ -4,7 +4,7 @@ An educational, turn-based nation simulation about markets, economic planning, a
 
 **[Read the design spec](https://ghostsysoutnull.github.io/markets-and-mandates/)** · **[Give feedback](https://github.com/ghostsysoutnull/markets-and-mandates/issues/new?template=design-feedback.md)**
 
-The project is preparing development specifications. There is no playable game yet. Draft 0.4 adds researched requirements, OO TypeScript architecture, simulation/data contracts, phone interaction, saves, verification and a workflow across sessions. Phones only and modular TypeScript source are accepted; phone-browser versus app-store distribution remains open.
+The project is preparing development specifications. There is no playable game yet. Draft 0.4 adds researched requirements, OO TypeScript architecture, simulation/data contracts, phone interaction, saves, verification and a workflow across sessions. Phones only, delivery through a phone-browser web link, and modular TypeScript source are accepted. PWA installation and offline play remain separate proposals.
 
 ## Development documentation
 

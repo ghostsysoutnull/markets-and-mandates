@@ -9,7 +9,7 @@ The user **aborted the interactive walkthrough** and requested all necessary dev
 Latest explicit answers:
 - **Phones only.** Desktop gameplay is not a product target.
 - **Normal TypeScript project with multiple source files.** The older single physical HTML output constraint is superseded.
-- Phone browser/web link versus App Store/Google Play distribution is still pending. A plain-language question has been asked; a normal chat answer is sufficient.
+- **Phone-browser delivery via a web link.** The user selected option 1. Do not ask this choice again. Native app-store packaging is outside the selected scope; installation/offline support remain proposals.
 
 Do not resume the paper exercise or ask the user to choose housing option B. No nation, mandate, policy or outcome was selected in that exercise. It is aborted, not completed.
 
@@ -19,7 +19,7 @@ Do not resume the paper exercise or ask the user to choose housing option B. No 
 
 Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded. Local checks passed: git diff --check and 24 documentation pages with 127 route/file references. Live checks passed: 24 pages, 840 internal links/anchors, 24 page-source links, 24 feedback-link sets and the shared stylesheet. These are documentation checks, not economic or device tests. A temporary live checker is at `/tmp/markets-docs-live-check.py`; do not assume that temporary file survives another environment/session.
 
-**Exact next action: P1 — first-slice decisions.** Integrate any answer to the pending phone-browser versus app-store question, then obtain nation/year and first policy focus before dependent research. Preserve phone-only and modular TypeScript selections. Ask for campaign detail only when its feature needs it. Architecture review is an alternative. Research cannot choose these preferences for the user.
+**Exact next action: P1 — first-slice decisions.** D1 (phone-browser web link) and D2 (modular TypeScript) are accepted. Obtain the first nation/year, then policy focus before dependent research. Preserve the phone-only player target. Ask for campaign detail only when its feature needs it. Architecture review is an alternative. Research cannot choose these preferences for the user.
 
 ## Repository and publication
 
@@ -29,7 +29,7 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 - Branch: main; origin is the repository above.
 - Current publication: GitHub Pages, main:/docs, Jekyll.
 - Documentation package: draft 0.4; original concept chapters retained.
-- At the start of P0, only HANDOVER.md and docs/backlog.md were modified by this assistant's prior walkthrough setup; no unrelated user edits were found.
+- The worktree was clean before recording the user's browser-delivery choice. No unrelated user edits were found.
 - GitHub authentication was checked in this session and available for the owner. Check again when needed; never retain tokens in documentation.
 - No game scripts or model tests exist. Proposed npm commands in delivery.md are future contracts, not executed checks.
 
@@ -38,7 +38,7 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 | Path | Owns |
 | --- | --- |
 | docs/development.md | Documentation map, readiness and scope |
-| docs/requirements.md | Requirement IDs, accepted D2 and remaining decisions D1/D3–D8 |
+| docs/requirements.md | Requirement IDs, accepted D1/D2 and remaining decisions D3–D8 |
 | docs/architecture.md | OO design, module responsibilities, proposed stack and ADRs |
 | docs/simulation.md | State, ordering, accounting, transactions and rule-sheet contract |
 | docs/data-content.md | Nation evidence, content contracts and versioning |
@@ -66,4 +66,4 @@ Do not describe a documentation check as an economic test or claim device result
 
 ## Continuation prompt
 
-> Continue Markets & Mandates from P1 as recorded here. P0 documentation is published and verified. The paper walkthrough is aborted. The user wants researched development and an efficient multi-session process; phones only, modular TypeScript and OO are accepted. Read AGENTS.md, HANDOVER.md, docs/backlog.md and only the active packet's chapters. Preserve decisions, ask only for unresolved dependent preferences, and do not invent nation data or calibrated results. Complete the authorized packet, verify it, update the checkpoint, and give concise next-step options.
+> Continue Markets & Mandates from P1 as recorded here. P0 documentation is published and verified. The paper walkthrough is aborted. The user wants researched development and an efficient multi-session process; phone-browser delivery via a web link, phones only, modular TypeScript and OO are accepted. Read AGENTS.md, HANDOVER.md, docs/backlog.md and only the active packet's chapters. Preserve decisions, ask only for unresolved dependent preferences, and do not invent nation data or calibrated results. Complete the authorized packet, verify it, update the checkpoint, and give concise next-step options.

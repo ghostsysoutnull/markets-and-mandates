@@ -13,7 +13,7 @@ permalink: /development-research/
 
 Research checked on **25 September 2026** against official platform/tool documentation, W3C material, original simulation research and primary economic sources. This supports the development documentation package. It does not constitute a nation baseline, package compatibility test, performance benchmark or economic calibration.
 
-Technical recommendations below are our design judgments based on the game's needs. A source establishes a capability or constraint, not that a tool is necessarily the best choice. Exact runtime/package versions must be selected together and checked at scaffolding time. The user has now specified phones only and a normal modular TypeScript project; distribution through phone browsers or app stores remains a separate question.
+Technical recommendations below are our design judgments based on the game's needs. A source establishes a capability or constraint, not that a tool is necessarily the best choice. Exact runtime/package versions must be selected together and checked at scaffolding time. The user has now specified phones only and a normal modular TypeScript project; the user subsequently selected phone-browser delivery through a web link. Native-store delivery is outside the selected scope.
 
 ## Evidence register
 
@@ -53,7 +53,7 @@ Do not equate package maturity with an evidence-based model. Behavioral coeffici
 
 | Question | Evidence needed | Dependency / completion |
 | --- | --- | --- |
-| Phone distribution | User preference, then official requirements for selected platforms | D1; delivery path and release obligations documented |
+| Supported phone browsers | Delivery choice D1 is resolved as a phone-browser web link; verify exact supported versions and any optional installation/offline behavior | Phone device matrix and release obligations documented |
 | Compatible toolchain | Actual chosen TypeScript/build/test versions, runtime requirements and lockfile experiment | Scaffold packet; commands pass in local and CI environments |
 | Historical nation | Dated primary institutions, budget/sector/household/financial data and transformations | D3; certified initial pack per data contract |
 | Economic closure | Explicit price, production, finance and resource-allocation rules for the selected slice | D4; reconciled fixtures and uncertainty register |
