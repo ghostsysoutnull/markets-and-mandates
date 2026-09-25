@@ -12,7 +12,7 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="{{ '/' | relative_url }}">Markets <span>&</span> Mandates</a>
-      <span class="edition">Design notebook <span aria-hidden="true">/</span> 0.1</span>
+      <span class="edition">Design notebook <span aria-hidden="true">/</span> {{ site.version }}</span>
     </header>
     <div class="site-shell">
       <aside class="sidebar">
@@ -34,7 +34,7 @@
         </article>
         <section class="feedback" aria-label="Share feedback">
           <div><strong>Help shape this game.</strong><p>Bring the page title and your thoughts back to our conversation, or leave a design issue.</p></div>
-          <a class="button" href="https://github.com/ghostsysoutnull/markets-and-mandates/issues/new?template=design-feedback.md&amp;title={{ page.title | prepend: '[Design] ' | uri_escape }}">Give feedback ↗</a>
+          <a class="button" href="https://github.com/ghostsysoutnull/markets-and-mandates/issues/new?template=design-feedback.md&amp;title={{ page.title | prepend: '[Design] ' | cgi_escape }}">Give feedback ↗</a>
         </section>
         <footer>Markets & Mandates · A game about economic choices and their consequences.<br><a href="https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/docs/{{ page.path }}">View this page’s source</a></footer>
       </main>

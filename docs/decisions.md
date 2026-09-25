@@ -11,6 +11,9 @@ permalink: /decisions/
 - The player selects a real nation and can steer its economic arrangements toward greater market coordination, greater state direction, or combinations.
 - Modern national profiles are the primary historical focus, with interest in an earlier 1980s perspective.
 - Central banks belong in the design.
+- Large corporations and private banks act as NPCs with their own objectives and responses.
+- Domestic regulation and international trade decisions are core player tools, subject to national institutions and commitments.
+- The specification should develop actor motives, player actions, constraints, consequences, and examples beyond an outline.
 - The eventual game should be mobile-friendly and delivered as a single HTML and JavaScript page.
 - Current work is on game concepts and documentation, before implementation.
 
@@ -23,7 +26,9 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 | 15 annual turns from 2010 | A manageable recent historical window with room for delayed effects | Desired session length and preferred start date |
 | Two major initiatives per turn | Keeps choices readable and creates priorities | Whether this feels restrictive or artificial |
 | Several policy dimensions | Represents mixed arrangements and sector differences | How much complexity players want to control |
-| Actors respond independently | Gives institutions, firms, and households meaningful behavior | How much influence the player expects |
+| A small cast of visible actors plus broader groups | Gives corporations, banks, and institutions recognizable behavior without representing every business individually | Cast size, fictional or real identities, and how much information the player sees |
+| Negotiated packages and ongoing commitments | Makes investment, trade, and reform unfold over time | How much bargaining and monitoring belongs in each turn |
+| Rulemaking followed by enforcement and review | Connects regulation to capacity and actual compliance | How detailed legal and administrative processes should be |
 | A chosen mandate | Supports different definitions of success | Which objectives make satisfying campaigns |
 | Replay under comparable shocks | Makes policy comparisons educational | How much replay support belongs in the first game |
 
@@ -34,6 +39,8 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 3. **History:** Recognizable historical shocks, a randomized world, or both?
 4. **Success and failure:** Mandate-based assessment, survival pressure, or a campaign that always permits recovery?
 5. **First playable scope:** Which two or three nations would provide the most interesting initial contrasts before expanding to the intended roster?
+6. **NPC detail:** Fictional organizations grounded in history, or carefully researched real organizations? How many should be individually visible?
+7. **Policy detail:** Authored policy packages, adjustable terms, or a mixture? How much of a trade deal or regulation should the player design?
 
 These questions can be answered gradually. Feedback on a specific dilemma may be more useful than settling every rule in advance.
 
@@ -46,6 +53,8 @@ Agree on the role, one annual turn, the outcome dashboard, and several represent
 ### Then: define a focused first simulation
 
 Retain enough of the economy to connect decisions to consequences: a few sectors and household groups, budgets, credit and central-bank responses, trade exposure, implementation delays, and distributional outcomes.
+
+Include meaningful corporate and banking behavior, actual enforcement constraints, and at least one responding foreign partner. These are now part of the core concept, even if their first versions use a small cast and a limited action catalogue.
 
 The full set of topics in this notebook is a design map. Some can initially be represented through simple constraints or events rather than detailed subsystems.
 
@@ -60,6 +69,8 @@ Build the smallest playable campaign that tests the core loop. Evaluate clarity,
 ## What to defer
 
 Detailed electoral simulation, military strategy, a full world economy, granular financial markets, elaborate technology trees, and the 1980s scenario can wait until the main experience works. Their relevant effects can still appear through carefully chosen constraints or events.
+
+Deferring a full world simulation does not remove trade negotiation or partner responses. Deferring granular financial markets does not remove private-bank lending choices or distress. Simplification should preserve the mechanisms that make the player's choices meaningful.
 
 ## Share feedback
 
@@ -81,3 +92,5 @@ Accepted changes should update the relevant page. Record significant decisions b
 | --- | --- |
 | 2026-09-25 | Selected Markets & Mandates as the project name. |
 | 2026-09-25 | Publish the concept draft on GitHub Pages for reading and feedback before game implementation. |
+| 2026-09-25 | Include large corporations and private banks as active NPCs, with regulation and international trade among the player's tools. |
+| 2026-09-25 | Expand the site as draft 0.2 with detailed actor and policy chapters and illustrative multi-turn scenarios. Exact mechanics remain proposals. |

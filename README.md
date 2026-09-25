@@ -4,13 +4,17 @@ An educational, turn-based nation simulation about markets, economic planning, a
 
 **[Read the design spec](https://ghostsysoutnull.github.io/markets-and-mandates/)** · **[Give feedback](https://github.com/ghostsysoutnull/markets-and-mandates/issues/new?template=design-feedback.md)**
 
-The project is in concept development. There is no playable game yet. The documentation captures the initial discussion, identifies working proposals, and keeps open decisions visible.
+The project is in concept development. There is no playable game yet. Draft 0.2 expands the economic concepts into actor behavior, policy choices, institutional constraints, and multi-turn examples. Working proposals and unresolved decisions remain visible.
 
 ## Documentation
 
 - [Overview](docs/index.md)
 - [The game](docs/game.md)
 - [Economic systems](docs/systems.md)
+- [Corporations, banks, and other actors](docs/actors.md)
+- [Regulation and enforcement](docs/regulation.md)
+- [Trade and the international economy](docs/trade.md)
+- [Worked examples](docs/scenarios.md)
 - [Nations and history](docs/nations.md)
 - [Learning through play](docs/learning.md)
 - [Decisions and feedback](docs/decisions.md)

@@ -4,11 +4,18 @@ intro: Policy changes the rules. Households, enterprises, banks, and public inst
 permalink: /systems/
 ---
 
+**On this page**
+
+* Contents
+{:toc}
+
 ## Several dimensions, not one score
 
 Ownership, allocation, competition, public provision, redistribution, and openness should vary independently. Public healthcare does not by itself establish central planning; private ownership does not guarantee competition.
 
 Each sector can combine arrangements. For example, a proposed electricity model could distinguish ownership of generators, regulation of the grid, investment planning, and household subsidies.
+
+The sections below describe proposed model behavior. They establish conceptual relationships and questions to test, not numerical equations or universal estimates of real-world effects.
 
 ## Central banks and monetary policy
 
@@ -27,6 +34,10 @@ An inflationary supply shock should create a dilemma. Interest rates influence d
 
 Germany requires a special constraint in the modern scenario: monetary policy belongs to the Eurosystem. A German player cannot independently set a national policy rate. See the [ECB's institutional overview](https://www.ecb.europa.eu/ecb/orga/escb/html/index.bs.html).
 
+The player should receive a policy explanation from the monetary institution: which conditions motivated its action, which effects are expected, and where uncertainty remains. Asset purchases, government transfers, and bank rescues should have distinct purposes and costs rather than sharing one generic money-creation action.
+
+Changing independence should alter who decides and how expectations may form. It should not grant an automatic prosperity bonus or trigger an inevitable crisis. The institutional design, fiscal commitments, economic conditions, and record of delivery must matter.
+
 ## Commercial banks and credit
 
 Represent who receives financing: households, small businesses, property developers, productive enterprises, or state enterprises. Lending standards, defaults, public development banks, and banking distress should affect the choices available in the economy.
@@ -34,6 +45,8 @@ Represent who receives financing: households, small businesses, property develop
 Modern bank lending can create deposits. Banks should not function as a fixed box of previously saved money, nor should lending be unlimited. The [Bank of England's explanation of money creation](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy) provides the initial reference.
 
 The conceptual distinction matters: fiscal spending, commercial lending, and central-bank operations are related but different actions. Avoid a universal government “print money” button.
+
+Private banks now have a dedicated [NPC specification]({{ '/actors/' | relative_url }}#private-banks), including lending choices, capital and liquidity constraints, government influence, and distress. Their behavior connects monetary policy to the firms and households that actually seek loans.
 
 ## Government finances
 
@@ -43,6 +56,12 @@ Borrowing conditions should depend on the institutional and economic context, in
 
 Exact financing rules and crisis thresholds require research and calibration. Fiscal constraints should be understandable without turning every decision into accounting work.
 
+Player choices include the tax mix, enforcement resources, spending priorities, borrowing, and the pace of adjustment. Tax design should distinguish rates, coverage, and actual collection; increasing a headline rate does not guarantee a proportional revenue increase.
+
+Show the budget cost and the real-resource requirement of a policy separately. Public borrowing can finance an order, but the project still needs workers and materials. In a downturn, unused capacity may change the effects of additional spending. Under supply constraints, the same nominal spending can instead intensify competition for scarce inputs.
+
+Debt interest should respond as relevant obligations refinance or rates reset, rather than repricing every fixed-rate liability instantly. Guarantees may produce no initial cash outlay but create obligations later. These distinctions keep short-term budget relief from hiding future costs.
+
 ## Production and supply chains
 
 Begin with broad sectors: food, energy, manufacturing, housing, and services. They require labor, equipment, infrastructure, and inputs from other sectors or abroad.
@@ -50,6 +69,10 @@ Begin with broad sectors: food, energy, manufacturing, housing, and services. Th
 Funding becomes output only through an implementation process. A power station takes time to construct; training doctors takes time; a factory cannot meet its target without components.
 
 Scarce inputs create bottlenecks. Both public plans and private investment can encounter them. Investment in capacity can improve future choices while imposing present costs.
+
+The player can support capacity, coordinate public procurement, alter ownership, or impose production priorities where available. Producers then adjust within their equipment, skills, inputs, and financing. Quality, maintenance, and inventories matter alongside headline output: achieving a quantity target by exhausting equipment or producing unusable goods should be visible.
+
+Public service capacity follows the same principle. Expanded eligibility for healthcare is a commitment; staffing and facilities determine how much care is delivered. Track access, quality, and waiting where relevant so a spending increase is not automatically scored as an equal service improvement.
 
 ## Labor and households
 
@@ -59,6 +82,10 @@ Labor policy includes bargaining arrangements, training, worker protections, and
 
 Households should respond to conditions. Their consumption, saving, borrowing, and labor choices help connect policy with production and living standards.
 
+The player can influence disposable income and opportunity through taxes, benefits, services, training, and labor rules. A proposed reporting set includes low-income renters, indebted working households, asset-owning households, and retirees, with overlap handled carefully rather than counting the same people twice.
+
+Reports should use real purchasing power as well as nominal income. A wage increase, tax reduction, or benefit expansion may have different implications when rent, food, or energy costs change. Training and migration effects should respect time, suitable jobs, housing, and public-service capacity.
+
 ## Trade, currencies, and external dependence
 
 Imports, exports, exchange rates, foreign financing, and access to strategic inputs connect the nation to the world. Domestic purchasing power does not guarantee access to imported machinery or fuel.
@@ -67,6 +94,8 @@ The first game can use an external world model rather than simulating every othe
 
 Currency arrangements and trade obligations belong in the historical profile. Players should not gain mutually incompatible monetary powers through unrelated toggles.
 
+The [trade chapter]({{ '/trade/' | relative_url }}) develops the actual player actions, negotiated agreements, foreign NPC responses, and policy evaluation. Domestic competition, ownership, and international openness remain separate dimensions.
+
 ## Institutions and political power
 
 Administrative competence, courts, procurement, corruption, lobbying, unions, and political support shape what gets implemented and who benefits.
@@ -74,6 +103,10 @@ Administrative competence, courts, procurement, corruption, lobbying, unions, an
 Institutional quality should be changeable and specific. Avoid assigning a permanent national “efficiency” trait. Public and private organizations can both suffer from weak oversight or capture.
 
 Political resistance should have an explanation: a group loses income, fears unemployment, faces higher taxes, or distrusts the reform. Support should not be an unexplained penalty for choosing a particular ideology.
+
+Implementation capacity has competing uses. A large ownership reform, a new benefit program, and a major enforcement expansion can strain the same legal, technical, and managerial resources. Hiring and training can improve future capacity, but should also take time and money.
+
+The [regulation chapter]({{ '/regulation/' | relative_url }}) separates rulemaking from enforcement, and describes actor responses and review. Political structure and economic ownership must not be collapsed into one axis: state direction of production is not itself a complete description of a nation's political institutions.
 
 ## Information and incentives
 
@@ -93,6 +126,12 @@ Market arrangements pose their own questions:
 - Can households obtain essentials without enough purchasing power?
 
 Treat these as conditional mechanisms. Better governance, competition, information, and accountability can change outcomes. Neither public nor private ownership should receive an automatic success or failure modifier.
+
+Planning can range from public investment coordination and nonbinding priorities to directed credit, administered prices, and binding production or allocation orders. The spec should explain which powers a selected policy actually changes.
+
+The player can improve information through reporting, inspections, demand surveys, price signals, and local discretion. Each has costs and weaknesses. A manager rewarded only for meeting a target may conceal a problem; a buyer's willingness to pay also reflects purchasing power, not every dimension of social need.
+
+The proposed model should make unmet demand observable through appropriate indicators: prices, inventories, waiting lists, unfilled orders, or rationing. Suppressing a price signal should not erase the underlying scarcity, and a profitable sale should not automatically establish universal access.
 
 ## Innovation, environment, and resilience
 

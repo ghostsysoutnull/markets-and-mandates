@@ -24,8 +24,29 @@ This draft does not yet assign country scores or present researched national pro
 | Institutions | State capacity, legal constraints, competition rules, and implementation processes |
 | Demographics | Age structure, workforce trends, and migration |
 | Political economy | Groups with influence, likely supporters of change, and likely sources of resistance |
+| Major economic actors | Significant corporations, private and public lenders, public enterprises, and the broader competitive landscape |
+| Regulatory authority | Which institutions set and enforce rules, what capacity they have, and what needs legislation or legal review |
+| International commitments | Trade agreements, shared policy powers, tariff commitments, and procedures for changing obligations |
 
 A short player-facing briefing should explain the most relevant features. A deeper reference view can show data, dates, sources, and simplifications.
+
+## The opening briefing
+
+Before choosing a nation, the player should understand how it currently works and what would be difficult to change. A proposed briefing contains a short institutional portrait, major strengths and vulnerabilities, a few immediate dilemmas, and the most consequential limits on player authority.
+
+After selection, introduce the central bank or monetary arrangement, the relevant regulators, a few corporate and banking NPCs, and the household groups most exposed to the opening conditions. Identify which details are historical facts and which named actors or situations are fictional abstractions.
+
+Show policy dimensions separately, preferably with sector examples. A label such as “mixed economy” is useful context but too broad to tell the player how investment, prices, services, and trade are actually organized.
+
+The profile should answer practical questions: Can the government set this tariff? Who supervises this bank? Who owns the electricity network? What would it take to change ownership? Which households are most exposed to higher interest rates or energy prices?
+
+## How differences become gameplay
+
+Starting conditions should change the available route, not just an action's numerical bonus. A measure may be enacted nationally, require a regulator's decision, need regional cooperation, or require agreement through a shared institution.
+
+Corporations and banks should reflect the researched structure of the economy. Concentrated lending, export dependencies, public ownership, or fragmented production create different interactions when present. These characteristics must be established for the actual starting year rather than assigned from a country's reputation.
+
+For comparisons, keep the mechanism consistent while allowing conditions to differ. The same housing policy may encounter land, construction, finance, or administrative constraints in different nations. The report should identify the binding constraint so players can learn from the comparison.
 
 ## Modern campaign: proposed 2010–2025
 
@@ -41,6 +62,8 @@ Two possible event modes remain open:
 - **Experimental sandbox:** plausible shocks vary, with repeatable settings for comparing policies.
 
 The rules must distinguish genuinely external events from domestic crises that should emerge from economic conditions.
+
+Institutional changes during the historical window need explicit treatment. A change that depends on the player's political choices cannot both be unavoidable history and a freely chosen policy outcome. The scenario must state which developments are fixed context and which can diverge.
 
 ## An optional 1980s scenario
 
