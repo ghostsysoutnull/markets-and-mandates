@@ -16,6 +16,24 @@ The user aborted the interactive paper walkthrough on 25 September 2026 and requ
 
 **Current work:** the user adopted the [campaign design]({{ '/campaign-design/' | relative_url }}) with 12 turns per year. Record acceptance and monthly contracts, then complete authorized P2b/P3 inputs. Broad research and campaign selection are settled; a prototype remains rejected.
 
+## Next session: P2b-budget — opening budget and financing
+
+**Status:** next bounded packet under the existing data/authority/rule authorization. The user ended the current session after requesting this handover; do not start the packet during closure.
+
+**Objective:** make the monthly budget/financing behavior concrete enough to implement, with a truthful readiness assessment.
+**Read:** HANDOVER; public-account/authority entries in UK implementation inputs; simulation C01/C03; monthly rules M03–M06. Follow only their relevant sources.
+**Deliverables:**
+
+1. A dated opening public-account record: cash, authorized/used/reserved spending, due obligations and relevant debt/refinancing cohorts. Source each value; distinguish actual stocks from forecasts and leave unavailable fields explicitly unresolved.
+2. Exact authority, cash settlement and funding rules, including insufficient authority/cash, borrowing refusal, maturity and lawful recovery. Every payment/claim has a counterpart; proposals cannot mint money.
+3. Independently calculated funded, unfunded and maturing-debt fixtures. Synthetic inputs stay labeled and separate from the historical baseline.
+4. A concrete coding-readiness result for this production feature: required inputs/tests ready, or the exact missing dependency. Do not call the whole economy implementation-ready.
+
+**Boundaries:** no fresh six-nation research, campaign questionnaire, prototype, full household/production model or unrelated tooling. Broader campaign inputs stay on the existing ledger. Do not invent balances, legal powers or coefficients to close a gap.
+**Checks:** validate changed calculations, units, authority evidence and document consistency once. For publication, confirm the affected page/content after deployment; no repeated whole-site crawl for status edits.
+**Next after completion:** present the concrete budget/financing coding packet when its dependencies are ready. Game implementation remains distinct from the accepted specification work.
+**Preferred:** resume this packet. **Alternative:** review existing coding blockers before further evidence work. No choice is required to end the current session.
+
 ## Work queue
 
 | Packet | Result | Status / dependencies |
@@ -82,9 +100,9 @@ The user may prefer to inspect the architecture before settling product scope. T
 
 **Objective:** apply the user's “12 turns per year, option 1” consistently and make monthly timing reviewable and testable.
 **Outputs:** accepted campaign/decision records; M01–M12 calendar, rates, flow/stock, fiscal, project, reporting and end rules; F01–F12 synthetic fixtures; 22 sourced tax/monetary/fiscal observations; ten concrete authority routes with remaining gaps.
-**Validation:** `python3 scripts/verify_specification.py` checks documentation arithmetic, not an implemented economy. Publication/link evidence follows after deployment.
+**Validation:** `python3 scripts/verify_specification.py` checks documentation arithmetic, not an implemented economy. The completed publication evidence is recorded below.
 **Status:** monthly acceptance/temporal packet done — published in `aaf69ae` through successful Pages run [36212045962](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36212045962). Arithmetic and local diff/structure/navigation checks passed (34 pages, 151 Liquid references). Live checks passed for 34 pages, 1,473 internal links/anchors, 34 source/feedback sets, stylesheet and exact contents of three data artifacts. These are documentation/arithmetic checks, not a completed economic model. P2b/P3 as a whole remain in progress: the input ledger explicitly lists uncaptured accounts, legal details and behavioral evidence.
-**Checkpoint:** continue public-account and household initialization under existing authorization; do not ask for another option-1 approval. Keep the next packet bounded and explain its concrete output before starting.
+**Checkpoint:** session closed; resume only P2b-budget above under existing authorization. Do not ask for another option-1 approval or expand into household initialization in the same packet.
 
 ## P2b — Research the selected playable baseline
 

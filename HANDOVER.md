@@ -2,9 +2,19 @@
 
 Updated 25 September 2026. Read AGENTS.md, this file, docs/backlog.md, then only the chapters needed for the next task. Current user instructions override old checkpoints.
 
+## Session closed — resume here
+
+The user requested a documentation handover and an end to this session. **Do not continue research or implementation as part of closing it.** The last product decision and existing authorization are preserved below.
+
+**Actual state:** no playable game, TypeScript application or calibrated national economy exists. Published work is design, research, source extracts and a documentation arithmetic checker. The monthly campaign change is complete; full P2b/P3 is not.
+
+**Next session, preferred:** complete **P2b-budget — UK opening budget and financing rules**, defined in docs/backlog.md. Read only this handover, that packet, the public-account rows of docs/uk-implementation-inputs.md, C01/C03 in docs/simulation.md and M03–M06 in docs/monthly-rules.md. Use the UK profile only for the linked evidence. Do not reread every chapter.
+
+**Alternative:** review the existing coding blockers with the user before further evidence work. This is an optional change of focus, not a requirement to reauthorize the accepted UK campaign or data/rule work.
+
 ## Accepted campaign and current authorization
 
-The latest user message is **“12 turns per year, option 1”**. This adopts the campaign design and authorizes completing its starting data, authority routes and economic rules, with monthly timing. Do not ask for campaign adoption or nation selection again.
+The latest product decision is **“12 turns per year, option 1”**. This adopts the campaign design and authorizes completing its starting data, authority routes and economic rules, with monthly timing. Do not ask for campaign adoption or nation selection again.
 
 - UK, opening 1 January 2010; end after December 2019: **120 monthly turns**, 12 per year, ten years.
 - Income/employment, productive enterprises and England housing; correct UK/devolved authority boundaries.
@@ -32,9 +42,13 @@ Campaign/requirements/interface/simulation/decisions/index/development/backlog/A
 
 **P2b/P3 as a whole are still in progress.** This packet does not complete the full economic baseline. Do not conceal that limitation. The input ledger lists actual missing opening public/bank/household/sector accounts, dated authorities, tax categories/payroll records, project bills/durations, behavioral parameters and reconciled policy alternatives. Only the temporal contracts and limited calculation above have their input-independent arithmetic checked.
 
-**Exact next action:** continue the already-authorized UK public-account and household initialization in a clearly bounded packet. The user asked “what is happening??” twice during this turn; the assistant acknowledged that the timing amendment expanded into too much specification/research without making that clear. Keep the next packet concrete, announce its size/scope plainly and give concise status; do not imply game code exists. Read the input ledger and selected sources; do not repeat broad profiles. A tax rate or aggregate fiscal forecast cannot substitute for joint household weights, dated Treasury balances or a debt maturity ladder. Use source/period/coverage reconciliation; never invent a missing historical value or claim an unrun model test.
+**Next bounded output:** one opening public-account record with dated sourced values and explicit missing fields; an executable specification for appropriation versus cash, monthly payments, borrowing/refinancing and rejection/recovery; and independently calculated funded/unfunded/maturing-debt fixtures. Distinguish synthetic test values from the historical opening state. This prepares the budget/financing production feature, not another general design document.
 
-**User-facing next options:** preferred continuation is the remaining UK inputs/rules under existing authorization; alternative is reviewing the monthly interaction while independent evidence work continues. Do not make further progress contingent on a new adoption approval.
+**Scope limit:** do not expand that packet into full household, banking, housing or production research. Keep only counterparts needed to reconcile its transactions and list dependent gaps. Do not invent figures to make it appear ready. If a necessary source is unavailable, name the exact missing field and affected behavior.
+
+**Path to code:** after those dependencies are demonstrably ready, present the concrete budget/financing implementation packet with its inputs and tests. The earlier authorization covers data/authority/rule completion; it is not blanket permission for game implementation. Other campaign areas remain on the ledger, not prerequisites for unrelated infrastructure.
+
+**Process correction:** the user repeatedly challenged long, opaque documentation work and repeated whole-site link checks. Announce one concrete output, keep status concise, and prioritize game readiness. A status-only handover update needs a diff check and one targeted live-content confirmation after deployment. Do not rerun the whole-site crawler, economic checker or unchanged source checks; broaden only when the actual change or a failure justifies it. Do not create a second publication solely to insert the first publication's success into the documents.
 
 ## Repository and publishing
 
@@ -43,10 +57,10 @@ Campaign/requirements/interface/simulation/decisions/index/development/backlog/A
 - Documentation: https://ghostsysoutnull.github.io/markets-and-mandates/
 - Branch: main; GitHub Pages main:/docs, Jekyll.
 - Draft 0.7 is published and live-verified; this follow-up records completion.
-- Worktree was clean at this packet's start. Current changes are this packet's documentation, data and arithmetic checker; no unrelated edits found.
+- The monthly work is committed in `aaf69ae`; its evidence checkpoint is `d2acf5b` (Pages `36212147947` succeeded). The worktree was clean before this closing handover. This closing commit changes only handover/backlog/process records; no source data, rules or game code.
 - Check tool/authentication availability as needed; never record credentials. Do not assume temporary helper scripts persist.
 
-When documentation is authorized: diff/structure checks, commit and push specific changed files, wait for the actual Pages deployment, inspect live content/internal links/anchors/assets/source/feedback links, and record evidence. Preserve this site when game delivery is later implemented.
+When documentation is authorized: check the actual diff, commit and push specific changed files, wait for the actual Pages deployment, then verify only affected live content and links. Reuse existing evidence for unchanged pages/assets; do not repeat a whole-site audit for status edits. Preserve this site when game delivery is later implemented.
 
 ## Prior completion evidence
 
@@ -76,4 +90,4 @@ These are documentation/research checks, not calibrated simulation evidence. WDI
 
 ## Continuation prompt
 
-> Read AGENTS.md, HANDOVER.md and docs/backlog.md. The user adopted the UK campaign with 12 turns/year: 120 monthly turns, 2010–2019, with income/employment, enterprises and England housing. Prototype rejected; paper walkthrough aborted; carbon/climate excluded. Continue the already-authorized P2b/P3 data/authority/rule completion using docs/uk-implementation-inputs.md. Monthly contracts and arithmetic fixtures exist, but the full opening economy is not initialized. Do not ask for adoption again, repeat broad research, invent inputs, or claim game-code authorization from the design choice alone. Keep handoffs concise with concrete options and a preference.
+> Read AGENTS.md, HANDOVER.md and the P2b-budget packet in docs/backlog.md. Resume the accepted UK campaign: 120 monthly turns, 2010–2019; income/employment, enterprises and England housing; phones/web link, modular TypeScript and OO; carbon/climate excluded; prototype rejected and paper walkthrough aborted. Complete only the opening budget and financing specification: dated account inputs, C01/C03 authority/cash/debt rules and independent funded/unfunded/refinancing fixtures. Existing research/rule authorization persists. Do not repeat broad research, reopen campaign adoption, invent inputs or start unrelated implementation. Keep checks proportional—no whole-site link crawler for status changes. Report exactly which budget feature can be coded and which necessary inputs remain missing.

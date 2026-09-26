@@ -83,6 +83,14 @@ Use reviewable commits with a concrete purpose. Preserve unrelated changes; stag
 
 When documentation publication is in scope, update affected chapters/navigation and state records consistently, run diff/link checks, commit and push the authorized changes, watch the actual Pages deployment, then verify live content and links. Record the new build, not a historical successful run. Game release follows the separate [delivery contract]({{ '/delivery/' | relative_url }}).
 
+## Proportionate checks and session closure
+
+Following the user's feedback, keep verification tied to the actual change. A status/handover edit needs a diff/consistency review and one targeted live-content check after the relevant deployment. Reuse evidence for unchanged pages and assets. Run a whole-site link check only for site-wide navigation/routing changes or a demonstrated widespread failure, never repeatedly because a status record changed.
+
+Do not rerun the economic arithmetic checker when only prose status changed. Do not generate a second documentation deployment solely to record the first deployment's success; final handoff and GitHub run history can carry that result. Preserve exact substantive checkpoints without a publication loop.
+
+When the user asks to end the session, record completed work, unfinished dependencies, accepted choices and one bounded next packet, commit/publish the authorized handover, then stop. Do not start the next packet or ask a new product question during closure. A future session should resume from the checkpoint instead of rereading or rewriting the entire specification.
+
 ## Copyable continuation brief
 
 > Continue Markets & Mandates. Read AGENTS.md, HANDOVER.md and docs/backlog.md, then only the chapters linked by the active packet. The paper walkthrough was aborted. The current direction is researched development documentation for mobile/web with TypeScript and OO. Preserve accepted decisions; distinguish recommendations from requirements. Complete the authorized packet and its checks, update the checkpoint, and give concise next-step options. Do not fabricate nation data, calibrated outcomes, user approvals, or test results.

@@ -20,4 +20,6 @@ Follow `docs/workflow.md`: select a bounded packet, read only relevant context, 
 
 When asked to update documentation, update affected chapters consistently and use the established publishing workflow: commit and push authorized changes, wait for GitHub Pages deployment, then verify live content and links. Preserve the documentation site when designing game delivery.
 
+Keep verification proportional. For status/handover edits, review the diff and confirm affected live content after deployment; do not repeat whole-site link crawls or unchanged arithmetic checks. Avoid a second publication solely to record deployment success. When asked to end a session, update the checkpoint, publish the authorized handover, then stop without starting the next packet.
+
 End each substantive handoff with concrete next-step options and clearly mark the preferred option. Do not reopen decisions already made or mark work complete without its acceptance evidence.
