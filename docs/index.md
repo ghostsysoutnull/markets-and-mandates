@@ -20,16 +20,20 @@ The question at the heart of the game is:
 | Player role | The nation's executive leadership: government and cabinet, subject to national institutions |
 | Starting nations | United States, United Kingdom, Germany, Russia, China, and Japan |
 | Research baseline | Accepted: broad 2010 profiles for all six nations, before choosing a playable nation or policy sector |
-| Main campaign | Proposed: 15 annual turns; exact gameplay start and duration remain open |
+| Main campaign | Recommended for review: UK, ten annual turns in 2010–2019, income/employment, enterprises and England housing |
 | Historical perspective | Modern profiles first; an optional 1980s scenario later |
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
 | Excluded subject matter | Carbon-emissions and climate-change challenges, policies, events, and scoring |
 | Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
 | Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser delivery via a web link is accepted. |
-| Current stage | Development documentation and broad 2010 nation research, draft 0.5; no game implementation yet |
+| Current stage | Complete campaign design proposal, draft 0.6; nation research published; no game implementation yet |
 
 The premise and educational focus come from the initial discussion. Specific turn counts, dates, mechanics, and scope below are **working proposals**, not a finished or calibrated simulation.
+
+## Read the proposed complete game
+
+Start with the **[campaign design for review]({{ '/campaign-design/' | relative_url }})**: what happens from opening briefing to final assessment, the actual policy controls, actor motives and economic mechanisms. Recommended defaults are explicit and still need review. The user has rejected a prototype; the target is a complete game. Numerical inputs and policy-specific legal routes remain listed completion work, not claimed results.
 
 ## Development documentation
 
@@ -54,7 +58,11 @@ Read the [six-nation 2010 research]({{ '/nation-research/' | relative_url }}) fo
 11. **[Decisions & feedback]({{ '/decisions/' | relative_url }})** — The choices still open and a suggested path toward a focused first game.
 12. **[Sources]({{ '/sources/' | relative_url }})** — Initial institutional references and the research still required.
 
-For a concrete sense of play, start with the [worked examples]({{ '/scenarios/' | relative_url }}). They are illustrative branches, not predictions or implemented mechanics.
+For the proposed end-to-end experience, start with the [campaign design for review]({{ '/campaign-design/' | relative_url }}). Older worked examples are illustrative branches, not predictions, implemented mechanics or a required walkthrough.
+
+## What changed in draft 0.6
+
+Added a coherent campaign proposal, a concrete policy catalogue, actor decision rules, campaign assessment, economic rule inventory and phone screen sequence. The user authorized drafting this design for review, not adopting its defaults or starting implementation. The earlier 15-turn proposal is superseded as the recommendation by ten turns for this campaign.
 
 ## What changed in draft 0.5
 

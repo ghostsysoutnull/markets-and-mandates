@@ -11,7 +11,8 @@ Latest explicit answers:
 - **Normal TypeScript project with multiple source files.** The older single physical HTML output constraint is superseded.
 - **Phone-browser delivery via a web link.** The user selected option 1. Do not ask this choice again. Native app-store packaging is outside the selected scope; installation/offline support remain proposals.
 - **Carbon-emissions and climate-change challenges excluded throughout the game.** No related accounting, policy tools, mandates, events, scores or hidden rewards/penalties. This is not deferred expansion work. Other environmental topics are not selected by this decision.
-- **Broad 2010 research accepted.** The user's latest option 1 selects broad profiles for all six nations, one researcher per nation in two batches, before choosing the first playable nation and policy family. No sector focus is required. This supersedes the electricity prerequisite, and explicitly authorizes these sub-agents. 1 January 2010 is the shared editorial institutional snapshot, not a selected exact gameplay start date.
+- **Complete game design requested; prototype rejected.** Latest option 1 authorizes drafting a coherent campaign design with recommended defaults for review. It does not approve those defaults or game implementation.
+- **Broad 2010 research accepted.** The earlier research option 1 selected broad profiles for all six nations, one researcher per nation in two batches, before choosing the first playable nation and policy family. No sector focus is required. This supersedes the electricity prerequisite, and explicitly authorizes these sub-agents. 1 January 2010 is the shared editorial institutional snapshot, not a selected exact gameplay start date.
 
 Do not resume the paper exercise or ask the user to choose housing option B. No nation, mandate, policy or outcome was selected in that exercise. It is aborted, not completed.
 
@@ -29,7 +30,11 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 
 **Data checkpoint:** the shared comparison uses retrospective 2010 WDI population/GDP-growth observations, API update 2026-07-13, retrieval 2026-09-25. `docs/assets/data/nation-comparison-2010.csv` preserves 12 values with provenance. They are comparison evidence, not opening-known forecasts or runnable game data. Each profile labels legal-version, data and rights gaps; Russia/Japan budget-detail gaps and China executive/Party boundaries remain visible.
 
-**Exact next action: P1 — choose the first playable nation, then policy scope.** Start with `docs/nation-research.md` and the relevant profile rather than repeating all research. Preferred option: choose one nation using the institutional comparison, then select a bounded policy family for P2b/P3. Alternative: compare two candidate policy families across shortlisted nations first. 2010 research and carbon/climate exclusion are settled. Do not ask again for an electricity prerequisite or begin game implementation without an authorized packet.
+**Current packet: P1-design — complete campaign proposal for review.** The user rejected a prototype and selected an assistant-authored design after challenging the lack of a concrete end-to-end game. `docs/campaign-design.md` now recommends a UK campaign, ten annual turns (2010–2019), income/employment, productive enterprises and England housing. It specifies actions, actor motives/decisions, progress, recovery, end conditions, comparison and coding milestones. `simulation.md` owns C01–C11 and their remaining inputs; `interface.md` owns the screen sequence. These are proposed defaults, not accepted nation/mechanics, calibrated data or game code.
+
+**Current validation checkpoint:** draft 0.6 authored; git diff --check and local validation passed for 32 pages, 123 Liquid route/file references, navigation, table columns and required campaign sections. Publication and live verification pending. A–E in the campaign chapter identify the remaining concrete data, authority, model, fixtures and release artifacts. Do not claim implementation readiness while their dependent inputs remain absent. No new broad research or sub-agents were used.
+
+**Exact next action after publication:** present the campaign-design link and two concrete review options. Preferred: adopt the proposed campaign direction, then complete its named model dependencies for authorized coding. Alternative: revise specific nation, scope or gameplay defaults. Do not return to an abstract nation/policy questionnaire, propose a prototype, resume the paper exercise, or treat design-authoring approval as implementation approval.
 
 ## Repository and publication
 
@@ -38,7 +43,7 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 - Documentation: https://ghostsysoutnull.github.io/markets-and-mandates/
 - Branch: main; origin is the repository above.
 - Current publication: GitHub Pages, main:/docs, Jekyll.
-- Documentation package: draft 0.5 published; original concept chapters retained.
+- Documentation package: draft 0.5 published; draft 0.6 campaign proposal being published. Original concept chapters retained.
 - The worktree was clean at P2a start. Research is committed and pushed; this follow-up records verified completion. No unrelated edits were found. All research workers finished their assignments.
 - GitHub authentication was checked in this session and available for the owner. Check again when needed; never retain tokens in documentation.
 - No game scripts or model tests exist. Proposed npm commands in delivery.md are future contracts, not executed checks.
@@ -47,6 +52,7 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 
 | Path | Owns |
 | --- | --- |
+| docs/campaign-design.md | Complete recommended campaign for review; policy catalogue, actors, ending and remaining artifacts |
 | docs/development.md | Documentation map, readiness and scope |
 | docs/requirements.md | Requirement IDs, accepted D1/D2 and remaining decisions D3–D8 |
 | docs/architecture.md | OO design, module responsibilities, proposed stack and ADRs |
@@ -67,7 +73,7 @@ Original game/government/systems/interest-rates/actors/regulation/trade/nations/
 
 Educational turn-based nation simulation; executive leadership constrained by actual institutions; distinct ownership/allocation/competition/public provision/redistribution/regulation/trade dimensions; active banks and corporations; separate monetary/borrowing rates and refinancing delays; real resources and delivery constraints; lawmakers, courts and partners with their own roles; distributional and delayed consequences; historical facts, assumptions and results visibly separated.
 
-The intended roster remains US, UK, Germany, Russia, China and Japan. 2010 is the accepted broad research year; no first playable nation or exact opening date has been chosen. A 2010–2025 campaign, 15 annual turns, two initiatives, fictional visible actors and continuation across successive executives remain proposals. The proposed toolchain, rule scheduling, storage scheme and first-slice scope are also recommendations, not blanket user approvals. Carbon-emissions and climate-change challenges are excluded from all future nation briefs and gameplay; historical sources must still be represented accurately, with omissions disclosed.
+The intended roster remains US, UK, Germany, Russia, China and Japan. 2010 is the accepted broad research year; no first playable nation or exact opening date has been chosen. The current recommendation is ten annual turns (2010–2019), two initiatives plus an annual budget, fictional composite commercial actors and executive continuity; all await review. It supersedes the earlier 15-turn recommendation for this proposed release. The proposed toolchain, rule scheduling, storage scheme and first-slice scope are also recommendations, not blanket user approvals. Carbon-emissions and climate-change challenges are excluded from all future nation briefs and gameplay; historical sources must still be represented accurately, with omissions disclosed.
 
 ## Completion and publishing checks
 
@@ -77,4 +83,4 @@ Do not describe a documentation check as an economic test or claim device result
 
 ## Continuation prompt
 
-> Read AGENTS.md, HANDOVER.md and docs/backlog.md. P2a is complete and published: broad 2010 profiles for all six nations, with a shared institutional comparison and explicit evidence gaps. Continue P1 by helping select the first playable nation, then policy family; use docs/nation-research.md and only the relevant profiles. Research did not select a sector, exact gameplay opening date or campaign length. Preserve carbon/climate exclusion, phones only, web-link delivery, modular TypeScript and OO. Do not repeat broad research, require electricity, resume the aborted walkthrough or begin implementation without an authorized packet.
+> Read AGENTS.md, HANDOVER.md and docs/backlog.md. P2a broad research is complete. The user rejected a prototype and requested a complete campaign design with recommended defaults for review. Read docs/campaign-design.md and respond to their review; do not restart broad research or ask them to design the game. UK, ten turns and three policy areas are recommendations, not accepted choices. Keep exact outstanding model/data inputs visible. Preserve phone-only browser delivery, modular TypeScript/OO, the carbon/climate exclusion and the aborted paper exercise. Do not start implementation without an authorized packet.

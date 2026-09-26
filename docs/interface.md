@@ -15,7 +15,7 @@ permalink: /interface/
 
 At every decision, answer: what situation am I in, what can I decide, what does it require, who else has authority, and what happens next? Present a short explanation first and deeper evidence on demand. Never require the player to infer whether a button drafts, submits, authorizes, or advances time.
 
-Use four proposed destinations: Briefing, Policies, Commitments, and Report. A persistent campaign header shows nation, period, current phase and save status. Actor, source and system detail opens from relevant content rather than expanding the main navigation indefinitely. Use a simple labeled navigation control on phone screens; final bottom versus top placement requires a screen prototype and accessibility check.
+Use four proposed destinations: Briefing, Policies, Commitments, and Report. A persistent campaign header shows nation, period, current phase and save status. Actor, source and system detail opens from relevant content rather than expanding the main navigation indefinitely. The campaign proposal recommends bottom navigation; validate it in the actual phone interface with accessibility checks.
 
 ## Screen contracts
 
@@ -68,6 +68,29 @@ If PWA/offline scope is accepted, explain which scenario content is available of
 
 ## Visual and usability review
 
-Before styling a large application, create portrait and landscape phone screen specifications for briefing, proposal, encounter and report using the selected slice's actual information. Review whether a player can explain the action, authority, cost and delayed consequence. The aborted paper walkthrough is not required to resume; later interface testing can use a prototype or a document review chosen by the user.
+Before styling a large application, create portrait and landscape phone screen specifications for briefing, proposal, encounter and report using the selected slice's actual information. Review whether a player can explain the action, authority, cost and delayed consequence. The paper walkthrough remains aborted and the user rejected a prototype deliverable; review these specifications and test the actual game interface during implementation.
 
 The initial art direction, typography, sounds and motion remain open. Prefer legible restrained styling while testing the core screens. No final mockups, real-device results or usability findings are claimed in this package.
+
+## Campaign screen sequence
+
+The [recommended campaign]({{ '/campaign-design/' | relative_url }}) gives these screens a concrete job. It remains a proposal; the user rejected a prototype as the deliverable. Implement these as the actual game screens once authorized. A preliminary interactive walkthrough is not required.
+
+| Screen | Visible controls and information | Transition |
+| --- | --- | --- |
+| Start | New campaign, Resume; source/scope summary; mandate cards with exact success test | Confirm creates a versioned campaign, or shows why its data pack is unavailable. |
+| Briefing | Year, mandate progress, three priority issues, money already committed, due decisions | Open a relevant policy or obligation; no irreversible action from a headline. |
+| Annual budget | Existing commitments first; editable supported tax/transfer schedules and operating allocations; financing gap | Save draft or submit through the correct fiscal route. Structural changes link to initiatives. |
+| Policy catalogue | Income/employment, Enterprises, England housing; initiative slots remaining | Open a package. Empty unavailable nations and unsupported actions are not advertised as playable. |
+| Proposal | Objective, adjustable terms, funding source, authority, earliest delivery, ongoing costs and alternative approaches | Submit after validation. Show whether this consumes an initiative and what is still awaiting another actor. |
+| Offer/decision | Named institution or composite actor, motive, original terms beside amended terms | Accept, revise or decline; exact financial changes and obligations appear before confirmation. |
+| Commitments | Stage, spent and reserved money, physical progress, next obligation, recorded blocker | Inspect or propose a lawful change; cancellation explicitly lists sunk and termination costs. |
+| Advance | Approved budget, pending matters, automatic payments, likely resource conflicts | Confirm resolution. A saved encounter interrupts only when the player's decision is needed. |
+| Report | Household results, employment, output/delivery, finance and institutional outcomes | “Why?” opens actual rule/transaction evidence; Continue starts next year or the final assessment. |
+| Final assessment | Achieved/not achieved with individual tests, comparison run, distribution, outstanding costs and decisions timeline | Review; replay identical external conditions; or start another mandate. |
+
+Use a portrait-first briefing style with bottom navigation and a persistent nation/year/save header. No hover-only controls or mandatory drag sliders; numeric terms also have labeled editable inputs. Depth opens in ordinary detail screens with Back preserving drafts and scroll position. Chart values remain available as text.
+
+Incomplete input preserves the draft and focuses the specific field. A rejected proposal shows the blocker and an available revision, without treating refusal as a software error. A failed save leaves the decision recoverable and never shows “Saved.” Pending actor encounters survive reload. The final advance cannot resolve twice from repeated taps.
+
+No visual mockup, implemented screen, accessibility pass or device test is claimed by this specification. UI acceptance is against the real integrated campaign and the accessibility/recovery contracts above.

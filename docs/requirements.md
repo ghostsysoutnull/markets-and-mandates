@@ -15,6 +15,8 @@ The player leads a nation's executive, changes economic arrangements, and learns
 
 The requirements below turn that concept into proposed acceptance contracts. They do not approve every implementation detail or establish numerical economic effects. Requirement IDs remain stable when wording improves; retired IDs stay in the history.
 
+**Current review:** the user rejected a prototype and selected an assistant-authored complete design proposal. The [campaign design for review]({{ '/campaign-design/' | relative_url }}) recommends UK 2010–2019, three connected policy areas, two initiatives plus an annual budget, and mandate-based assessment. These are recommendations, not accepted D3–D8 choices. No interactive paper exercise is required.
+
 ## Player journeys and acceptance
 
 | ID | Journey or behavior | Observable acceptance |
@@ -40,7 +42,7 @@ The requirements below turn that concept into proposed acceptance contracts. The
 
 An electricity slice may explore affordability, reliability, ownership, competition, investment, financing, fuel supply, construction and maintenance. Its alternatives must be assessed on those included mechanisms. Historical sources may discuss excluded subjects; disclose the model's boundary without treating historical policies as nonexistent. This decision does not settle unrelated local pollution or other environmental mechanics.
 
-Recommend one researched nation, one starting date, one mandate, and a short repeatable sequence covering policy drafting, an actor or institutional response, delivery, an annual report, and save/resume. Include enough later time to observe at least one delayed obligation. The number of turns is a decision, not an estimate of development effort.
+The [campaign design for review]({{ '/campaign-design/' | relative_url }}) now recommends a complete ten-turn campaign with three connected policy areas. It includes policy drafting, institutional responses, delivery, reports, save/resume and a campaign ending. Internal implementation increments must build toward this complete experience; a prototype is not the requested deliverable. Duration and breadth await review.
 
 For the selected policy family, represent households, producers, a public budget, relevant financing, and the actual institution with authority. Keep unsupported actions visibly unavailable with an explanation, or omit them from this slice. Do not advertise all six nations as playable while only one has content.
 
@@ -52,11 +54,11 @@ The first slice needs a no-change branch and at least two meaningful policy alte
 | --- | --- | --- | --- |
 | D1 | Phone-browser delivery via a web link | **Accepted:** the user selected option 1. Native app-store packaging is outside this scope. PWA installation and offline play are separate optional proposals. | Distribution channel resolved; exact supported browsers remain to be verified |
 | D2 | Modular production project | **Accepted:** normal TypeScript project with multiple source files. The old single physical HTML output requirement is superseded. | Resolved; configure the chosen build in P4 |
-| D3 | Research year and first playable nation | **2010 accepted for broad research across all six nations.** Select the first playable nation after comparing profiles. The 1 January institutional snapshot is a research convention; exact gameplay start and campaign duration remain open. | Broad P2a research authorized; playable nation still needed for P2b/P3 |
-| D4 | First-slice policy family and depth? | Open. Broad nation research comes first and has no selected sector focus. Later choose one connected family with alternatives, an institutional encounter, and delayed effects. | Blocks focused P2b/P3, not broad P2a research |
-| D5 | Turn length, initiative limits, campaign duration? | Retain annual reports; evaluate a bounded initiative budget. The earlier two-initiative/15-turn proposal remains unsettled. | Balancing and campaign acceptance |
-| D6 | Succession and end conditions? | Continue across executives with mandate-specific assessment; define transitions for D3. | Full campaign release, not basic infrastructure |
-| D7 | Historical or experimental events; fictional or real NPCs? | Versioned external events and fictional named actors grounded in evidence, with clear labels. | Content authoring and replay semantics |
+| D3 | Research year and first playable nation | **2010 accepted for broad research across all six nations.** UK with a 1 January 2010 opening is now recommended in the campaign proposal, awaiting review. The research snapshot did not itself select gameplay dates. | Broad P2a research authorized; playable nation still needed for P2b/P3 |
+| D4 | First-slice policy family and depth? | Recommended for review: income/employment, productive enterprises and England housing, sharing finance and resource constraints. Broad research is complete. | Blocks focused P2b/P3, not broad P2a research |
+| D5 | Turn length, initiative limits, campaign duration? | Recommended for review: ten annual turns, 2010–2019; two major initiatives plus the annual budget. Replaces the earlier 15-turn recommendation for this campaign. | Balancing and campaign acceptance |
+| D6 | Succession and end conditions? | Recommended for review: executive continuity, explicit successor mandates, recovery rather than automatic crisis game-over; final-three-year mandate comparison and unpaid-obligation guard. See campaign design. | Full campaign release, not basic infrastructure |
+| D7 | Historical or experimental events; fictional or real NPCs? | Recommended for review: counterfactual future, versioned external events, deterministic actor decisions, real institutions and labeled fictional composite firms/lenders. | Content authoring and replay semantics |
 | D8 | UI dependency choice? | Start with the semantic DOM/controller proposal; compare a component framework against the actual screen needs before locking it. | UI scaffold; domain work can proceed independently |
 
 The user answered **phones only** and **normal TypeScript project with multiple source files**. The user subsequently selected **phone-browser delivery via a web link**, resolving D1 as well as D2. Recommendations are not user selections. Do not ask the user to reselect D1/D2 or repeat all remaining questions at every session: request only the next dependent decisions and keep settled answers here and in the decision log.

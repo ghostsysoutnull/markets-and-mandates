@@ -26,11 +26,17 @@ permalink: /decisions/
 
 The detailed mechanisms in this notebook are an initial proposal for review. Positive reception of the concept does not settle every design choice below.
 
+## Current campaign proposal
+
+The user rejected a prototype, then selected option 1: draft a complete game design with recommended defaults for review. The [campaign design for review]({{ '/campaign-design/' | relative_url }}) is that deliverable. Its UK campaign, ten annual turns and three connected policy areas are **proposed**, not accepted. Approval to author the design is not authorization to implement it. Review this coherent package instead of restarting a questionnaire or broad research.
+
+**Preferred:** adopt the proposed campaign direction and close its listed model inputs. **Alternative:** revise the parts of this design that do not match the intended game.
+
 ## Working proposals
 
 | Proposal | Why it is attractive | What needs review |
 | --- | --- | --- |
-| 15 annual turns from 2010 | 2010 is accepted for nation research; a longer campaign could show delayed effects | Exact gameplay start, turn length and campaign duration remain open |
+| Ten annual turns, 2010–2019 | Current complete-campaign recommendation; enough time for delayed effects | Awaiting review; replaces the older 15-turn recommendation |
 | Two major initiatives per turn | Keeps choices readable and creates priorities | Whether this feels restrictive or artificial |
 | Several policy dimensions | Represents mixed arrangements and sector differences | How much complexity players want to control |
 | A small cast of visible actors plus broader groups | Gives corporations, banks, and institutions recognizable behavior without representing every business individually | Cast size, fictional or real identities, and how much information the player sees |
@@ -43,23 +49,15 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 
 ## Questions for the next discussion
 
-1. **Depth:** Should this feel like an accessible strategy game or a detailed economic sandbox? The current recommendation is accessible strategy with optional depth.
-2. **Campaign continuity:** The player is the executive. Should play continue across successors as recommended, and how should changing mandates constrain the new agenda?
-3. **History:** Recognizable historical shocks, a randomized world, or both?
-4. **Success and failure:** Mandate-based assessment, survival pressure, or a campaign that always permits recovery?
-5. **First playable scope:** After the accepted six-nation 2010 research, which one nation and policy family should become the first playable slice?
-6. **NPC detail:** Fictional organizations grounded in history, or carefully researched real organizations? How many should be individually visible?
-7. **Policy detail:** Authored policy packages, adjustable terms, or a mixture? How much of a trade deal or regulation should the player design?
-
-These questions can be answered gradually. Feedback on a specific dilemma may be more useful than settling every rule in advance.
+Review the [campaign design for review]({{ '/campaign-design/' | relative_url }}) as a package: adopt its defaults, or identify the experience to change. It already recommends nation, scope, pacing, actor treatment, continuity and success tests. These are review choices, not seven unanswered questions delegated back to the user.
 
 ## Current development path
 
-Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). The documentation foundation is complete. Research broad 2010 profiles for all six nations, compare them, then select one playable nation and policy scope for focused evidence and rules. Implement only an authorized slice and evaluate it on phones before release or expansion.
+Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). The documentation foundation is complete. Broad six-nation research is complete. Review the complete campaign proposal, finish the named dependent data and rules, then implement authorized production milestones toward the complete phone game.
 
 The [requirements decision sheet]({{ '/requirements/' | relative_url }}) owns open delivery and first-slice questions. The [architecture records]({{ '/architecture/' | relative_url }}) distinguish accepted TypeScript/OO constraints from proposed libraries and boundaries. Research cannot silently accept a product preference.
 
-A paper playthrough is no longer the selected route. Later usability/model evaluation can use reviewed specifications and a prototype without resuming the aborted housing exercise.
+A paper playthrough is no longer the selected route. The user also rejected a prototype deliverable. Review the complete specification and evaluate the actual game during implementation.
 
 ## What to defer
 
@@ -108,3 +106,4 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Selected a fresh session for the next nation-selection and research work (P1/P2). This option 1 does not select the earlier UK/2010 recommendation; nation and starting year remain open. |
 | 2026-09-25 | Excluded all environmental challenges related to carbon emissions or climate change. Updated concepts, policy examples and research boundaries accordingly. The assistant's proposal to research six nations in two batches using 2010 and electricity remains unselected; the user requested suggestions and then set this exclusion. |
 | 2026-09-25 | Selected option 1: broad 2010 profiles for all six nations, one researcher per nation in two batches, followed by choosing the first playable nation and policy scope. Supersedes the proposed electricity prerequisite. Authorizes this parallel research and its documentation, not six game implementations. |
+| 2026-09-25 | Rejected a prototype and selected option 1: assistant drafts a complete campaign design for review, recommending defaults and identifying remaining decisions. This authorizes design documentation, not adoption of the UK/ten-turn/three-area proposal or game implementation. |

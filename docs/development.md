@@ -19,10 +19,13 @@ On 25 September 2026 the user stopped the interactive walkthrough and requested 
 
 This package supplies requirements, contracts, decision records, research, and an executable work sequence. It is not a claim that the economic model is calibrated or every product decision is settled. Unresolved dependencies are explicit so implementation does not silently choose them.
 
+**Current packet:** the user selected drafting a complete game design for review after rejecting a prototype. The [campaign design for review]({{ '/campaign-design/' | relative_url }}) supplies recommended defaults and the finite remaining model artifacts. Review it as one coherent proposal; no implementation or default acceptance is implied.
+
 ## Document ownership
 
 | Document | Owns | Read when |
 | --- | --- | --- |
+| [Campaign design for review]({{ '/campaign-design/' | relative_url }}) | End-to-end experience, recommended campaign scope, policy catalogue and ending | Reviewing what the game will actually do |
 | [Product requirements]({{ '/requirements/' | relative_url }}) | Scope, user journeys, requirement IDs, acceptance criteria | Selecting a feature or reviewing completion |
 | [Architecture and decisions]({{ '/architecture/' | relative_url }}) | OO responsibilities, dependencies, proposed stack, ADRs | Changing modules or technical boundaries |
 | [Simulation contract]({{ '/simulation/' | relative_url }}) | State transitions, ordering, accounting, reproducibility | Implementing any rule or turn processing |
@@ -46,7 +49,7 @@ Use **accepted** for a user decision; **proposed** for a recommendation; **verif
 | Gate | Evidence required | Current state |
 | --- | --- | --- |
 | Documentation foundation | Linked requirements, architecture, workflow, research, and work packets | Provided in draft 0.4; subject to review |
-| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1/D2 and 2010 research year resolved; first playable nation and D4–D8 remain open |
+| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1/D2 and 2010 research year resolved; complete campaign proposal available for review; defaults not yet accepted |
 | Model-ready slice | Versioned rule sheets, initialized state, funding and accounting, expected test outcomes | Not ready; dependencies in simulation and data chapters |
 | Implementation-ready packet | Narrow objective, settled dependencies, affected contracts, acceptance checks | Use the workflow template; no game code yet |
 | Playable release | Completed implementation plus browser, recovery, economic, usability, and deployment evidence | Not started |
@@ -55,7 +58,7 @@ Do not hold all work until every future expansion is specified. Resolve the depe
 
 ## Scope discipline
 
-The full vision includes multiple real nations and interacting institutions. The recommended first slice uses one selected nation and a small authored policy catalogue, with other systems represented at the level needed to explain those policies. The user selected broad 2010 research across all six nations before choosing a playable nation or sector. The [research hub]({{ '/nation-research/' | relative_url }}) separates this comparison from later model-ready data. Housing and electricity are candidates, not accepted first-slice selections.
+The full vision includes multiple real nations and interacting institutions. The current campaign recommendation uses one nation and three connected policy areas, with other systems represented at the level needed to explain those policies. Internal slices contribute to the complete game; they are not a prototype substitute. The user selected broad 2010 research across all six nations before choosing a playable nation or sector. The [research hub]({{ '/nation-research/' | relative_url }}) separates this comparison from later model-ready data. Housing and electricity are candidates, not accepted first-slice selections.
 
 Accounts, cloud synchronization, multiplayer, native stores, analytics, monetization, and downloaded executable mods are not accepted requirements. Keep them outside the proposed first slice unless the user adds them. This reduces dependencies without denying future extensions.
 
@@ -74,4 +77,4 @@ The user explicitly excludes carbon-emissions and climate-change challenges acro
 | Documentation drifts between sessions | One owning chapter per contract; update handover, backlog and decisions with the change | Every packet |
 | Distribution expands into native obligations | Keep the accepted phone-browser scope; require an explicit scope change before native-store work | P1/P9 |
 
-**Preferred next step:** use the [six-nation research]({{ '/nation-research/' | relative_url }}) to choose one first playable nation, then settle its policy scope and gather the detailed evidence needed for rules. An alternative is to compare possible policy families across two shortlisted nations before selecting one.
+**Preferred next step:** review and adopt the [campaign design for review]({{ '/campaign-design/' | relative_url }}), then close its explicitly listed data/rule dependencies for actual coding. **Alternative:** revise the proposed nation, policy breadth or campaign ending first. Broad nation research is complete.

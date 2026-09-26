@@ -9,6 +9,8 @@ permalink: /game/
 * Contents
 {:toc}
 
+**Read the complete [campaign design for review]({{ '/campaign-design/' | relative_url }}) first** for the recommended ten-year UK campaign, policy catalogue, actor decisions, success rules and path to implementation. The concepts below remain background; the campaign defaults await user review. The user rejected a prototype as the deliverable.
+
 ## The player's role
 
 You control the nation's **executive leadership: the government and its cabinet**, rather than one named politician. You propose reforms and budgets, administer authorized programs, negotiate within your powers, and respond to events. Your authority is limited by the nation's laws, administrative capacity, political support, and monetary arrangements.

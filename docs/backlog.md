@@ -10,16 +10,18 @@ The user aborted the interactive paper walkthrough on 25 September 2026 and requ
 
 **Phone-browser delivery via a web link is now accepted (D1).** D1/D2 are resolved and 2010 is accepted for broad nation research; the first playable nation and policy scope remain open. PWA installation and offline play remain optional proposals. The documentation package does not authorize arbitrary game implementation or invent the missing economic model.
 
-**Current session:** the user selected broad 2010 profiles for all six nations, with one researcher per nation in two batches, before choosing the first playable nation and policy scope. No sector focus is required. This supersedes the proposed electricity prerequisite and splits P2 into broad research (P2a) and later focused model data (P2b). The [research hub]({{ '/nation-research/' | relative_url }}) owns the shared comparison; [HANDOVER.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) records progress.
+**Completed research packet:** the user selected broad 2010 profiles for all six nations, with one researcher per nation in two batches, before choosing the first playable nation and policy scope. No sector focus is required. This supersedes the proposed electricity prerequisite and splits P2 into broad research (P2a) and later focused model data (P2b). The [research hub]({{ '/nation-research/' | relative_url }}) owns the shared comparison; [HANDOVER.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) records progress.
 
 **Accepted scope change:** carbon-emissions and climate-change challenges are excluded throughout the game, including related policies, mandates, events and scoring. They are not deferred features. Electricity research, if selected, focuses on affordability, reliability, ownership, financing, investment, fuel supply and delivery constraints.
+
+**Current packet P1-design:** the user rejected a prototype and selected a complete assistant-authored design for review. The [campaign design for review]({{ '/campaign-design/' | relative_url }}) recommends the campaign, player actions, policy controls, actor rules, ending and implementation milestones. Defaults await review. Broad research is complete; do not return to nation selection without first reviewing this concrete proposal.
 
 ## Work queue
 
 | Packet | Result | Status / dependencies |
 | --- | --- | --- |
 | P0 | Development documentation package and researched technical baseline | Done — published draft 0.4; 24 live pages and 840 internal links/anchors verified |
-| P1 | First-slice decision record | In progress — D1/D2, 2010 research year and carbon/climate exclusion accepted; choose playable nation and policy scope after P2a |
+| P1 | First-slice decision record | In progress — complete campaign design drafted for review; D3–D8 defaults are recommendations, not accepted choices |
 | P2a | Broad sourced 2010 profiles for all six nations and shared comparison | Done — six reviewed profiles and comparison published as draft 0.5; evidence below |
 | P2b | Selected nation/policy baseline and model-ready authority map | Blocked on playable nation and policy scope from D3/D4; builds on P2a |
 | P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2b inputs |
@@ -47,13 +49,23 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 **Read:** Requirements D1–D8, architecture ADRs, game concepts.
 **Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-browser, phone-only and modular-TS decisions.
 **Acceptance:** Every first-slice feature maps to a requirement and every excluded major subsystem has an explicit simplification. A successor or end-of-campaign feature has defined behavior before being included.
-**Next action:** Use the completed P2a profiles to choose the first playable nation and policy scope. Broad research covers all six nations; it does not authorize six implementations. Phone-browser delivery, 2010 research year and the carbon/climate exclusion are settled. Do not resume the housing exercise or reopen the session choice.
+**Next action:** review the [campaign design for review]({{ '/campaign-design/' | relative_url }}). Preferred: adopt its coherent direction, then complete named model artifacts A–D. Alternative: revise specific campaign defaults. The user rejected a prototype; no interactive paper exercise or fresh broad research is required.
 
 **Bounded scope-update packet (25 September 2026):** remove carbon/climate gameplay proposals from concepts, policy examples and reports; apply the exclusion to requirements and research contracts; update decisions and handover. Acceptance requires consistent scope wording, valid documentation links, and verified publication. No game implementation or nation research is part of this update.
 
 **Scope-update completion evidence:** done in commit `76b2973`, published through successful Pages run [36206310487](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36206310487). Diff checks and 77 local Liquid route/file references passed. Live verification passed for the changed scope wording, all 24 pages, 842 internal links/anchors, 24 source links, 24 feedback-link sets and the stylesheet. P1's remaining product choices are still open.
 
 The user may prefer to inspect the architecture before settling product scope. That review is a valid alternative, not a reason to silently choose the nation.
+
+## P1-design — Complete campaign proposal
+
+**Objective:** specify a reviewable game from campaign start to ending, with recommended defaults rather than another list of unanswered questions.
+**Authorization:** latest option 1; draft design only. Prototype rejected.
+**Output:** campaign chapter, economic rule inventory, phone screen sequence, consistent requirements/decisions/navigation and resumable handover.
+**Acceptance:** actions, authority, actor motives, consequences, progression, ending and remaining numerical/legal inputs are explicit; no invented coefficients or simulated results; publication and links verified.
+**Status:** design authored; local diff/navigation/structure checks passed (32 pages, 123 Liquid references). Publication and live validation in progress. Product defaults and coding remain unapproved.
+**Next:** review the recommended design as a package, or revise its concrete defaults.
+
 
 ## P2a — Broad six-nation research
 
@@ -136,4 +148,4 @@ The user may prefer to inspect the architecture before settling product scope. T
 | Six-nation playable expansion, 1980s scenario, detailed electoral/military/world systems | Deferred until the first slice is evaluated; broad six-nation research is authorized now |
 | Full desktop experience, accounts, cloud sync, multiplayer, telemetry | Outside current accepted scope; add only through an explicit decision |
 
-**Preferred next step after P2a:** choose one playable nation from the researched comparison, then select its first policy family for P2b/P3. **Alternative:** compare two candidate policy families across shortlisted nations before selecting the first slice. The 2010 broad research and carbon/climate exclusion are already accepted.
+**Preferred next step:** adopt the [campaign design for review]({{ '/campaign-design/' | relative_url }}) and complete the named model artifacts for coding. **Alternative:** revise its nation, policy breadth or campaign rules. The 2010 broad research, subject exclusion and prototype rejection are settled.
