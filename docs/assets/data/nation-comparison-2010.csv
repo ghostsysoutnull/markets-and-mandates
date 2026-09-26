@@ -1,0 +1,13 @@
+country_iso3,indicator,observation_year,value,unit,source,source_last_updated,retrieved_at
+CHN,SP.POP.TOTL,2010,1337705000,persons,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+DEU,SP.POP.TOTL,2010,81776930,persons,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+GBR,SP.POP.TOTL,2010,62766365,persons,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+JPN,SP.POP.TOTL,2010,128070000,persons,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+RUS,SP.POP.TOTL,2010,142849468,persons,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+USA,SP.POP.TOTL,2010,309378227,persons,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+CHN,NY.GDP.MKTP.KD.ZG,2010,10.5916903885704,percent_per_year,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+DEU,NY.GDP.MKTP.KD.ZG,2010,4.13463778522758,percent_per_year,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+GBR,NY.GDP.MKTP.KD.ZG,2010,2.26054460931586,percent_per_year,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+JPN,NY.GDP.MKTP.KD.ZG,2010,4.13645589222239,percent_per_year,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+RUS,NY.GDP.MKTP.KD.ZG,2010,4.49999999920672,percent_per_year,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25
+USA,NY.GDP.MKTP.KD.ZG,2010,2.69519258673525,percent_per_year,World Bank World Development Indicators (source 2),2026-07-13,2026-09-25

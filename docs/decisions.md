@@ -22,6 +22,7 @@ permalink: /decisions/
 - Prepare researched development documentation and an efficient process across sessions before beginning implementation. Phone-browser delivery via a web link is accepted; native-store packaging is outside the selected scope.
 - The user **aborted the interactive paper walkthrough**. It is not a prerequisite for subsequent work.
 - Carbon-emissions and climate-change challenges are excluded throughout the game, including related policy tools, mandates, events and scoring. This is a scope exclusion, not a deferred feature.
+- Research broad **2010 profiles for all six nations**, with one researcher per nation in two batches, before choosing the first playable nation and policy scope. No electricity or other sector focus is required for this research.
 
 The detailed mechanisms in this notebook are an initial proposal for review. Positive reception of the concept does not settle every design choice below.
 
@@ -29,7 +30,7 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 
 | Proposal | Why it is attractive | What needs review |
 | --- | --- | --- |
-| 15 annual turns from 2010 | A manageable recent historical window with room for delayed effects | Desired session length and preferred start date |
+| 15 annual turns from 2010 | 2010 is accepted for nation research; a longer campaign could show delayed effects | Exact gameplay start, turn length and campaign duration remain open |
 | Two major initiatives per turn | Keeps choices readable and creates priorities | Whether this feels restrictive or artificial |
 | Several policy dimensions | Represents mixed arrangements and sector differences | How much complexity players want to control |
 | A small cast of visible actors plus broader groups | Gives corporations, banks, and institutions recognizable behavior without representing every business individually | Cast size, fictional or real identities, and how much information the player sees |
@@ -46,7 +47,7 @@ The detailed mechanisms in this notebook are an initial proposal for review. Pos
 2. **Campaign continuity:** The player is the executive. Should play continue across successors as recommended, and how should changing mandates constrain the new agenda?
 3. **History:** Recognizable historical shocks, a randomized world, or both?
 4. **Success and failure:** Mandate-based assessment, survival pressure, or a campaign that always permits recovery?
-5. **First playable scope:** Which two or three nations would provide the most interesting initial contrasts before expanding to the intended roster?
+5. **First playable scope:** After the accepted six-nation 2010 research, which one nation and policy family should become the first playable slice?
 6. **NPC detail:** Fictional organizations grounded in history, or carefully researched real organizations? How many should be individually visible?
 7. **Policy detail:** Authored policy packages, adjustable terms, or a mixture? How much of a trade deal or regulation should the player design?
 
@@ -54,7 +55,7 @@ These questions can be answered gradually. Feedback on a specific dilemma may be
 
 ## Current development path
 
-Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). First complete the documentation foundation and settle dependent first-slice choices; then research one selected nation and specify its rules; implement the authorized slice; evaluate it on phones before release or expansion.
+Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). The documentation foundation is complete. Research broad 2010 profiles for all six nations, compare them, then select one playable nation and policy scope for focused evidence and rules. Implement only an authorized slice and evaluate it on phones before release or expansion.
 
 The [requirements decision sheet]({{ '/requirements/' | relative_url }}) owns open delivery and first-slice questions. The [architecture records]({{ '/architecture/' | relative_url }}) distinguish accepted TypeScript/OO constraints from proposed libraries and boundaries. Research cannot silently accept a product preference.
 
@@ -106,3 +107,4 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Selected option 1: phone-browser delivery via a web link (D1). Native app-store packaging is outside the selected scope; PWA installation and offline play are not implied by this choice. |
 | 2026-09-25 | Selected a fresh session for the next nation-selection and research work (P1/P2). This option 1 does not select the earlier UK/2010 recommendation; nation and starting year remain open. |
 | 2026-09-25 | Excluded all environmental challenges related to carbon emissions or climate change. Updated concepts, policy examples and research boundaries accordingly. The assistant's proposal to research six nations in two batches using 2010 and electricity remains unselected; the user requested suggestions and then set this exclusion. |
+| 2026-09-25 | Selected option 1: broad 2010 profiles for all six nations, one researcher per nation in two batches, followed by choosing the first playable nation and policy scope. Supersedes the proposed electricity prerequisite. Authorizes this parallel research and its documentation, not six game implementations. |

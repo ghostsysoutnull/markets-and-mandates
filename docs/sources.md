@@ -34,11 +34,15 @@ Institutions explain their own frameworks and analysis. Broader research, histor
 
 Corporate strategies, negotiations, enforcement sequences, and the four worked scenarios are proposed game designs. They are not case studies extracted from these references. Their outcomes are conditional illustrations, and no numerical calibration has been performed.
 
-The executive role, legislative blocs, judicial encounters, and continuity across administrations are design abstractions. They do not establish the actual constitutional framework of any starting nation. Country-specific powers, case procedures, and succession arrangements require dated primary evidence and appropriate historical analysis.
+The executive role, legislative blocs, judicial encounters, and continuity across administrations are design abstractions. They do not establish the actual constitutional framework of any starting nation. The [2010 nation profiles]({{ '/nation-research/' | relative_url }}) supply initial dated authority evidence and identify remaining gaps in case procedures and succession treatment.
+
+## Nation research
+
+The [six-nation 2010 research hub]({{ '/nation-research/' | relative_url }}) links separate country evidence registers, dated institutional profiles, policy possibilities and gaps. Its small WDI comparison includes a saved extract and attribution. This broad research is distinct from a reconciled playable baseline and calibrated policy effects.
 
 ## Research still required
 
-- Dated starting profiles for every selected nation, including period-specific monetary mandates and legal powers.
+- Detailed starting data and remaining authority gaps for the nation and policy family selected after the broad 2010 comparison.
 - Comparable economic, fiscal, sectoral, demographic, and distributional data.
 - Evidence on ownership reforms, competition, public provision, planning systems, and institutional capacity.
 - Policy lags, uncertainty, distributional effects, and variation across national circumstances.

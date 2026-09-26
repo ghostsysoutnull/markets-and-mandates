@@ -8,7 +8,7 @@ permalink: /nations/
 
 The intended starting set is the **United States, United Kingdom, Germany, Russia, China, and Japan**, with room to expand. Use the United Kingdom rather than England when modeling national fiscal and monetary institutions.
 
-This draft does not yet assign country scores or present researched national profiles. Those require year-specific evidence. The roster is a design direction, not a claim that six nations fit neatly on a single economic spectrum.
+The user selected broad **2010 research for all six nations**, before choosing a first playable nation or policy focus. The [six-nation research hub]({{ '/nation-research/' | relative_url }}) links the profiles, shared method, comparison and remaining evidence gaps. These are descriptive research documents, not calibrated game packs or country scores. The roster does not imply that six nations fit neatly on a single economic spectrum.
 
 ## What each profile should contain
 
@@ -57,7 +57,7 @@ For comparisons, keep the mechanism consistent while allowing conditions to diff
 
 ## Modern campaign: proposed 2010–2025
 
-The working proposal is 15 annual turns beginning in 2010. This is a convenient design window, not a settled requirement.
+**2010 is accepted as the common research year.** Profiles use 1 January 2010 as an editorial reference for institutions and label later changes separately. This does not settle the exact playable opening date or campaign length. The earlier 15-turn, 2010–2025 campaign remains a proposal.
 
 Use information available at the chosen starting point to construct the opening state. Evidence from the following years can inform scenarios, broad plausibility checks, and educational comparisons. Do not silently use a 2025 statistic as a 2010 starting condition.
 

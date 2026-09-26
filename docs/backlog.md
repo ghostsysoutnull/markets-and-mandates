@@ -8,9 +8,9 @@ permalink: /backlog/
 
 The user aborted the interactive paper walkthrough on 25 September 2026 and requested the documents needed to develop the game with researched decisions, TypeScript/JavaScript, object-oriented architecture and an efficient process across sessions. Subsequent clarification: **phones only; a normal TypeScript project with multiple source files**. Desktop gameplay and the single-file output requirement are superseded.
 
-**Phone-browser delivery via a web link is now accepted (D1).** P1 is active, with D1 and D2 resolved; nation/year and first-slice scope remain open. PWA installation and offline play remain optional proposals. The documentation package does not authorize arbitrary game implementation or invent the missing economic model.
+**Phone-browser delivery via a web link is now accepted (D1).** D1/D2 are resolved and 2010 is accepted for broad nation research; the first playable nation and policy scope remain open. PWA installation and offline play remain optional proposals. The documentation package does not authorize arbitrary game implementation or invent the missing economic model.
 
-**Current session:** the selected fresh session has begun. The user asked about parallel researchers for all six nations and requested recommendations. The assistant proposed two batches of three researchers, a common 2010 baseline and electricity investment/affordability, followed by selection of the first playable nation. This plan, starting year and policy focus remain proposals; no research agents have been launched. UK/2010 remains a provisional first-playable recommendation. Use the checkpoint in [HANDOVER.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md).
+**Current session:** the user selected broad 2010 profiles for all six nations, with one researcher per nation in two batches, before choosing the first playable nation and policy scope. No sector focus is required. This supersedes the proposed electricity prerequisite and splits P2 into broad research (P2a) and later focused model data (P2b). The [research hub]({{ '/nation-research/' | relative_url }}) owns the shared comparison; [HANDOVER.md](https://github.com/ghostsysoutnull/markets-and-mandates/blob/main/HANDOVER.md) records progress.
 
 **Accepted scope change:** carbon-emissions and climate-change challenges are excluded throughout the game, including related policies, mandates, events and scoring. They are not deferred features. Electricity research, if selected, focuses on affordability, reliability, ownership, financing, investment, fuel supply and delivery constraints.
 
@@ -19,9 +19,10 @@ The user aborted the interactive paper walkthrough on 25 September 2026 and requ
 | Packet | Result | Status / dependencies |
 | --- | --- | --- |
 | P0 | Development documentation package and researched technical baseline | Done — published draft 0.4; 24 live pages and 840 internal links/anchors verified |
-| P1 | First-slice decision record | In progress — D1/D2 and carbon/climate exclusion accepted; nation/year and policy scope remain open; six-nation research proposal under discussion |
-| P2 | One sourced nation/year and authority map | Blocked on D3 and model scope from D4 |
-| P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2 inputs |
+| P1 | First-slice decision record | In progress — D1/D2, 2010 research year and carbon/climate exclusion accepted; choose playable nation and policy scope after P2a |
+| P2a | Broad sourced 2010 profiles for all six nations and shared comparison | In progress — authorized; one researcher per nation in two batches; no sector prerequisite |
+| P2b | Selected nation/policy baseline and model-ready authority map | Blocked on playable nation and policy scope from D3/D4; builds on P2a |
+| P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2b inputs |
 | P4 | Modular TypeScript scaffold and verification commands | Future implementation; needs authorized scope, A05/D8 and compatible tool versions |
 | P5 | Deterministic domain slice | Future implementation; needs P3/P4 |
 | P6 | Durable saves, import/export and recovery | Future implementation; needs domain schema; phone-browser delivery accepted |
@@ -46,7 +47,7 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 **Read:** Requirements D1–D8, architecture ADRs, game concepts.
 **Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-browser, phone-only and modular-TS decisions.
 **Acceptance:** Every first-slice feature maps to a requirement and every excluded major subsystem has an explicit simplification. A successor or end-of-campaign feature has defined behavior before being included.
-**Next action:** Settle the proposed common 2010 baseline and electricity focus, or the user's preferred alternative, before launching dependent nation research. The user is considering parallel research across the roster before choosing the first playable nation. Keep that broader research scope distinct from six playable implementations. Phone-browser delivery and the carbon/climate exclusion are settled. Do not resume the housing exercise or reopen the session choice.
+**Next action:** Complete and review P2a, then use the profiles to choose the first playable nation and policy scope. Broad research covers all six nations; it does not authorize six implementations. Phone-browser delivery, 2010 research year and the carbon/climate exclusion are settled. Do not resume the housing exercise or reopen the session choice.
 
 **Bounded scope-update packet (25 September 2026):** remove carbon/climate gameplay proposals from concepts, policy examples and reports; apply the exclusion to requirements and research contracts; update decisions and handover. Acceptance requires consistent scope wording, valid documentation links, and verified publication. No game implementation or nation research is part of this update.
 
@@ -54,12 +55,23 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 
 The user may prefer to inspect the architecture before settling product scope. That review is a valid alternative, not a reason to silently choose the nation.
 
-## P2 — Research the selected baseline
+## P2a — Broad six-nation research
 
-**Objective:** Produce a dated, sourced authority map and the smallest initial dataset needed for P3.
-**Read:** Nations, data/content, government, interest rates and the relevant sector chapter.
-**Output:** Evidence records, institutional routes, raw/derived definitions, limitations and rights to use the data.
-**Acceptance:** Formal versus effective powers distinguished; values have observation periods and units; gaps block their dependent feature instead of becoming invented defaults. No parameter calibration claimed from a descriptive profile.
+**Status:** in progress; explicitly selected 25 September 2026.
+**Objective:** Give the user a sourced comparison of all six nations in 2010 before selecting a first playable nation or sector.
+**Read:** Nations, data/content, government and interest rates; use the shared method in [Six nations in 2010]({{ '/nation-research/' | relative_url }}).
+**Output:** Six substantial profiles, source registers, institutional routes, ownership/public-service/finance/trade descriptions, policy possibilities, data limits and a comparison. One researcher per nation, in two batches of three; parent handles integration and publication.
+**Scope:** Research reference year 2010; institutional snapshot 1 January is an editorial convention. Later-year changes and retrospective statistics are labeled. No electricity focus, carbon/climate gameplay, first-nation selection or game implementation.
+**Acceptance:** Every profile covers the shared questions, uses dated primary evidence, distinguishes formal powers from practice and historical facts from design hypotheses, and identifies feature-specific gaps. Parent performs a second review, checks cross-profile comparability, publishes and verifies the result. No calibrated baseline claimed.
+**Checkpoint:** all six broad profiles drafted, self-reviewed and parent-reviewed; China source-provenance and executive-role clarifications completed. Runtime limits total child threads, so three workers handled one nation at a time across two batches. Shared WDI observations and displayed rounding checked; local page routes, profile anchors and table structure checked. Publication and live verification remain pending.
+
+## P2b — Research the selected playable baseline
+
+**Objective:** Produce the precise authority map and smallest reconciled initial dataset required by the selected policy rules.
+**Dependencies:** P2a, first playable nation (D3), and policy scope (D4). No need to repeat established broad research.
+**Read:** Selected profile, data/content, government, interest rates and relevant policy chapters.
+**Output:** Focused evidence records, institutional routes, raw/derived definitions, source rights and unresolved inputs.
+**Acceptance:** Formal versus effective powers distinguished; every required value has period, unit and vintage; accounts reconcile; gaps block dependent features instead of becoming invented defaults. No causal parameter calibration inferred from descriptive statistics.
 
 ## P3 — Specify the economic slice
 
@@ -118,9 +130,9 @@ The user may prefer to inspect the architecture before settling product scope. T
 | Earlier item | Disposition |
 | --- | --- |
 | B1: interactive annual-turn paper walkthrough | **Aborted by user.** No policy selected, no outcomes resolved. Do not resume or mark complete. |
-| B2: focused nation research | Replaced by P2 after explicit nation/year selection |
+| B2: focused nation research | Replaced by broad P2a and focused P2b under the accepted 2010 research plan |
 | B3: implementation after design | Replaced by P4–P9 with concrete dependencies |
-| Six-nation expansion, 1980s scenario, detailed electoral/military/world systems | Deferred until the first slice is evaluated |
+| Six-nation playable expansion, 1980s scenario, detailed electoral/military/world systems | Deferred until the first slice is evaluated; broad six-nation research is authorized now |
 | Full desktop experience, accounts, cloud sync, multiplayer, telemetry | Outside current accepted scope; add only through an explicit decision |
 
-**Preferred next step (proposal):** select 2010 and electricity affordability/reliability, then research all six nations in two batches and use the evidence to select the first playable nation. **Alternative:** choose housing or another policy focus and starting year before assigning researchers. All briefs must respect the accepted carbon/climate exclusion; the exclusion alone does not select the research proposal.
+**Preferred next step after P2a:** choose one playable nation from the researched comparison, then select its first policy family for P2b/P3. **Alternative:** compare two candidate policy families across shortlisted nations before selecting the first slice. The 2010 broad research and carbon/climate exclusion are already accepted.

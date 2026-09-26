@@ -6,7 +6,9 @@ The project is preparing researched development specifications. Accepted technic
 
 The interactive paper walkthrough was **aborted by the user**. Do not resume it or require it before development. Its existing fictional scenarios are explanatory examples, not completed player decisions.
 
-Carbon-emissions and climate-change challenges are **outside the game scope**, not deferred features. Do not introduce carbon accounting, carbon policies, decarbonisation objectives, climate events, or climate-related rewards and penalties. Electricity proposals should focus on affordability, reliability, ownership, investment, financing, fuel supply and delivery. Distinguish this model boundary from historical facts in sources.
+Carbon-emissions and climate-change challenges are **outside the game scope**, not deferred features. Do not introduce carbon accounting, carbon policies, decarbonisation objectives, climate events, or climate-related rewards and penalties. Apply this boundary to all nation research and policy families. Distinguish this model boundary from historical facts in sources.
+
+Broad **2010 research across all six nations** is accepted before choosing the first playable nation and policy family. Do not require an electricity or other sector focus for those profiles. Parallel nation research is authorized for this packet; do not infer blanket permission to delegate unrelated work or implement six campaigns.
 
 Do the authorized work to completion. A future implementation packet in the backlog is not by itself authorization to start coding. Keep accepted direction, engineering proposals, historical facts, synthetic fixtures and simulated results distinct. Research consequential uncertain claims; do not invent nation profiles, coefficients, benchmarks or test results.
 

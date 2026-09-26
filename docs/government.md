@@ -15,7 +15,7 @@ The player controls the nation's **executive leadership: the government and its 
 
 You set the economic agenda, propose budgets and legislation, administer authorized programs, negotiate within your powers, and respond to crises. You cannot automatically command lawmakers, judges, an independent central bank, private firms, or foreign governments.
 
-This role is the design direction. The precise treatment of leadership changes and electoral consequences remains a working proposal described below. Country-specific powers still require historical research.
+This role is the design direction. The precise treatment of leadership changes and electoral consequences remains a working proposal described below. The [2010 nation profiles]({{ '/nation-research/' | relative_url }}) provide initial dated authority research; detailed case procedures and playable succession rules still require the selected scenario’s specification.
 
 ## Executive powers and limits
 

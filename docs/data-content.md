@@ -11,13 +11,13 @@ permalink: /data-content/
 
 ## Status and ownership
 
-This is the proposed content contract. No researched nation pack or calibrated parameter set exists. The accepted roster remains United States, United Kingdom, Germany, Russia, China and Japan; the initial nation and year are open. [Nations and history]({{ '/nations/' | relative_url }}) owns the conceptual profile requirements.
+This is the proposed content contract. Broad 2010 research across the United States, United Kingdom, Germany, Russia, China and Japan is accepted; see the [research hub]({{ '/nation-research/' | relative_url }}). These descriptive profiles are separate from a validated playable nation pack or calibrated parameter set, neither of which exists. The first playable nation and policy scope remain open. [Nations and history]({{ '/nations/' | relative_url }}) owns the conceptual profile requirements.
 
 Keep human-readable evidence notes in documentation and future validated machine-readable content in a dedicated content directory. Do not extract economic data by scraping prose at runtime. Do not fetch changing live statistics during a campaign; a scenario needs a reproducible, dated baseline.
 
 ## Nation research method
 
-After nation/year selection, identify the actual executive, monetary regime, legislative route, budget fallback, court powers, regulator, trade commitments and succession rules. Separate formal legal authority from evidence of effective practice. A current institutional website is not sufficient evidence for a historical arrangement if the law changed.
+For the accepted broad 2010 research, identify the actual executive, monetary regime, legislative route, budget fallback, court powers, regulator, trade commitments and succession rules. Separate formal legal authority from evidence of effective practice. A current institutional website is not sufficient evidence for a historical arrangement if the law changed.
 
 For each required variable, record definition, units, currency, nominal/real basis, price year, population coverage, geography, period, source series/table, retrieval date, revision vintage and transformation. Prefer primary statistical agencies, central banks, budget documents and legislation. Comparable international datasets are useful when their definitions and coverage fit. Explain discrepancies instead of averaging incompatible figures.
 

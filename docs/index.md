@@ -19,14 +19,15 @@ The question at the heart of the game is:
 | Experience | An accessible strategy game with optional deeper explanations |
 | Player role | The nation's executive leadership: government and cabinet, subject to national institutions |
 | Starting nations | United States, United Kingdom, Germany, Russia, China, and Japan |
-| Main campaign | Proposed: 15 annual turns beginning in 2010, concluding in 2025 |
+| Research baseline | Accepted: broad 2010 profiles for all six nations, before choosing a playable nation or policy sector |
+| Main campaign | Proposed: 15 annual turns; exact gameplay start and duration remain open |
 | Historical perspective | Modern profiles first; an optional 1980s scenario later |
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
 | Excluded subject matter | Carbon-emissions and climate-change challenges, policies, events, and scoring |
 | Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
 | Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser delivery via a web link is accepted. |
-| Current stage | Researched development documentation, draft 0.4; no game implementation yet |
+| Current stage | Development documentation and broad 2010 nation research, draft 0.5; no game implementation yet |
 
 The premise and educational focus come from the initial discussion. Specific turn counts, dates, mechanics, and scope below are **working proposals**, not a finished or calibrated simulation.
 
@@ -35,6 +36,8 @@ The premise and educational focus come from the initial discussion. Specific tur
 Start with the **[development specification]({{ '/development/' | relative_url }})** for requirements, OO architecture, simulation and data contracts, phone interface, saves, validation, research and the session workflow. Accepted requirements, technical proposals and unresolved product choices are labeled separately.
 
 The interactive paper walkthrough was aborted at the user's request. The next work follows the [development backlog]({{ '/backlog/' | relative_url }}); no paper playthrough is a prerequisite. The existing concept chapters below remain the game's design foundation.
+
+Read the [six-nation 2010 research]({{ '/nation-research/' | relative_url }}) for the shared comparison and links to each country profile. Broad nation research comes before selection of a playable nation or policy family.
 
 ## Read the concept
 
@@ -53,9 +56,13 @@ The interactive paper walkthrough was aborted at the user's request. The next wo
 
 For a concrete sense of play, start with the [worked examples]({{ '/scenarios/' | relative_url }}). They are illustrative branches, not predictions or implemented mechanics.
 
-## What changed in draft 0.4
+## What changed in draft 0.5
 
-The project now has a researched development documentation package and explicit work packets for future sessions. Phones only, modular TypeScript source and object-oriented design are accepted constraints. Nation baselines, quantitative rules, toolchain implementation and real-device tests remain future work. The documents expose these dependencies rather than treating them as settled.
+Broad 2010 research now covers all six nations before a playable nation or policy family is chosen. The [research hub]({{ '/nation-research/' | relative_url }}) explains dated institutional snapshots, source registers, retrospective data and remaining gaps. Carbon-emissions and climate-change challenges are excluded. A researched profile does not constitute a calibrated or playable nation pack.
+
+## Earlier development draft 0.4
+
+The project now has a researched development documentation package and explicit work packets for future sessions. Phones only, modular TypeScript source and object-oriented design are accepted constraints. Playable nation baselines, quantitative rules, toolchain implementation and real-device tests remain future work. The documents expose these dependencies rather than treating them as settled.
 
 ## Earlier concept draft 0.3
 

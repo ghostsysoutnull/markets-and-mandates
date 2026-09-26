@@ -46,7 +46,7 @@ Use **accepted** for a user decision; **proposed** for a recommendation; **verif
 | Gate | Evidence required | Current state |
 | --- | --- | --- |
 | Documentation foundation | Linked requirements, architecture, workflow, research, and work packets | Provided in draft 0.4; subject to review |
-| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1/D2 resolved; remaining choices in D3–D8 |
+| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1/D2 and 2010 research year resolved; first playable nation and D4–D8 remain open |
 | Model-ready slice | Versioned rule sheets, initialized state, funding and accounting, expected test outcomes | Not ready; dependencies in simulation and data chapters |
 | Implementation-ready packet | Narrow objective, settled dependencies, affected contracts, acceptance checks | Use the workflow template; no game code yet |
 | Playable release | Completed implementation plus browser, recovery, economic, usability, and deployment evidence | Not started |
@@ -55,7 +55,7 @@ Do not hold all work until every future expansion is specified. Resolve the depe
 
 ## Scope discipline
 
-The full vision includes multiple real nations and interacting institutions. The recommended first slice uses one selected nation and a small authored policy catalogue, with other systems represented at the level needed to explain those policies. Nation selection is open. Housing is a candidate feature, not a selection inherited from the aborted exercise.
+The full vision includes multiple real nations and interacting institutions. The recommended first slice uses one selected nation and a small authored policy catalogue, with other systems represented at the level needed to explain those policies. The user selected broad 2010 research across all six nations before choosing a playable nation or sector. The [research hub]({{ '/nation-research/' | relative_url }}) separates this comparison from later model-ready data. Housing and electricity are candidates, not accepted first-slice selections.
 
 Accounts, cloud synchronization, multiplayer, native stores, analytics, monetization, and downloaded executable mods are not accepted requirements. Keep them outside the proposed first slice unless the user adds them. This reduces dependencies without denying future extensions.
 
@@ -65,7 +65,7 @@ The user explicitly excludes carbon-emissions and climate-change challenges acro
 
 | Risk | Control and evidence | Owning packet |
 | --- | --- | --- |
-| Scope grows to six unfinished nations | Select one researched slice and explicitly defer expansion | P1/P2 |
+| Broad research is mistaken for six authorized implementations | Complete the six profiles, then select one playable slice and defer implementation expansion | P1/P2a/P2b |
 | Plausible prose hides missing model rules | Require units, ordering, ledgers, parameters and independently checkable fixtures | P3 |
 | Ideology is encoded as an automatic bonus | Compare alternatives and symmetrical physical constraints across sensitivity runs | P3/P8 |
 | Phone interruption loses decisions | Atomic checkpoints, saved encounters, import/export and actual-device recovery tests | P6/P8 |
@@ -74,4 +74,4 @@ The user explicitly excludes carbon-emissions and climate-change challenges acro
 | Documentation drifts between sessions | One owning chapter per contract; update handover, backlog and decisions with the change | Every packet |
 | Distribution expands into native obligations | Keep the accepted phone-browser scope; require an explicit scope change before native-store work | P1/P9 |
 
-**Preferred next step:** settle the first-slice decision sheet in [requirements]({{ '/requirements/' | relative_url }}), then research the selected nation and specify the initial rules. An alternative is to review the OO architecture first if its boundaries are the immediate concern.
+**Preferred next step:** use the [six-nation research]({{ '/nation-research/' | relative_url }}) to choose one first playable nation, then settle its policy scope and gather the detailed evidence needed for rules. An alternative is to compare possible policy families across two shortlisted nations before selecting one.

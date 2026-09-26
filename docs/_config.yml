@@ -1,6 +1,6 @@
 title: Markets & Mandates
 description: A nation. Economic choices. Institutions and consequences.
-version: "0.4"
+version: "0.5"
 url: https://ghostsysoutnull.github.io
 baseurl: /markets-and-mandates
 markdown: kramdown
@@ -54,6 +54,8 @@ navigation:
     url: /scenarios/
   - title: Nations & history
     url: /nations/
+  - title: Six nations in 2010
+    url: /nation-research/
   - title: Learning through play
     url: /learning/
   - title: Decisions & feedback
