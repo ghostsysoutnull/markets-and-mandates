@@ -121,7 +121,7 @@ The player must distinguish a genuine disruption from a poorly planned or opport
 
 ### Turn 4: compare outcomes
 
-Completed maintenance and capacity can improve reliability, while fuel exposure or weak execution may leave problems unresolved. The report separates outages, access, household bills, fiscal transfers, environmental effects, and outstanding obligations.
+Completed maintenance and capacity can improve reliability, while fuel exposure or weak execution may leave problems unresolved. The report separates outages, access, household bills, fiscal transfers, fuel dependence, and outstanding obligations. Carbon-emissions and climate-change effects are excluded from this scenario and the wider game.
 
 A comparison run under private ownership with credible regulation and financing may also improve reliability. A poorly governed public or private operator may fail. The explanation must identify mechanisms rather than attribute the result solely to the ownership label.
 

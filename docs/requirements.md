@@ -36,6 +36,10 @@ The requirements below turn that concept into proposed acceptance contracts. The
 
 ## Proposed first playable scope
 
+**Accepted scope exclusion (25 September 2026):** no environmental challenges related to carbon emissions or climate change. This applies throughout the game, not only to the first slice. Exclude carbon/emissions accounting, carbon taxes or trading, emissions targets, decarbonisation mandates, climate-change events, and climate-related scores, rewards or penalties. These are excluded features, not a future expansion backlog.
+
+An electricity slice may explore affordability, reliability, ownership, competition, investment, financing, fuel supply, construction and maintenance. Its alternatives must be assessed on those included mechanisms. Historical sources may discuss excluded subjects; disclose the model's boundary without treating historical policies as nonexistent. This decision does not settle unrelated local pollution or other environmental mechanics.
+
 Recommend one researched nation, one starting date, one mandate, and a short repeatable sequence covering policy drafting, an actor or institutional response, delivery, an annual report, and save/resume. Include enough later time to observe at least one delayed obligation. The number of turns is a decision, not an estimate of development effort.
 
 For the selected policy family, represent households, producers, a public budget, relevant financing, and the actual institution with authority. Keep unsupported actions visibly unavailable with an explanation, or omit them from this slice. Do not advertise all six nations as playable while only one has content.

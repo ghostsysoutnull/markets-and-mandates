@@ -21,6 +21,7 @@ permalink: /decisions/
 - Use a normal **TypeScript project with multiple source files**, compiled to JavaScript, with **object-oriented design**. This supersedes the earlier single-file delivery constraint.
 - Prepare researched development documentation and an efficient process across sessions before beginning implementation. Phone-browser delivery via a web link is accepted; native-store packaging is outside the selected scope.
 - The user **aborted the interactive paper walkthrough**. It is not a prerequisite for subsequent work.
+- Carbon-emissions and climate-change challenges are excluded throughout the game, including related policy tools, mandates, events and scoring. This is a scope exclusion, not a deferred feature.
 
 The detailed mechanisms in this notebook are an initial proposal for review. Positive reception of the concept does not settle every design choice below.
 
@@ -104,3 +105,4 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Clarified phones only and a normal TypeScript project with multiple source files; superseded desktop targeting and the single physical HTML output constraint. Distribution was not yet selected at this checkpoint; resolved in the following entry. |
 | 2026-09-25 | Selected option 1: phone-browser delivery via a web link (D1). Native app-store packaging is outside the selected scope; PWA installation and offline play are not implied by this choice. |
 | 2026-09-25 | Selected a fresh session for the next nation-selection and research work (P1/P2). This option 1 does not select the earlier UK/2010 recommendation; nation and starting year remain open. |
+| 2026-09-25 | Excluded all environmental challenges related to carbon emissions or climate change. Updated concepts, policy examples and research boundaries accordingly. The assistant's proposal to research six nations in two batches using 2010 and electricity remains unselected; the user requested suggestions and then set this exclusion. |

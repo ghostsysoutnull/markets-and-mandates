@@ -22,6 +22,7 @@ The question at the heart of the game is:
 | Main campaign | Proposed: 15 annual turns beginning in 2010, concluding in 2025 |
 | Historical perspective | Modern profiles first; an optional 1980s scenario later |
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
+| Excluded subject matter | Carbon-emissions and climate-change challenges, policies, events, and scoring |
 | Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
 | Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser delivery via a web link is accepted. |

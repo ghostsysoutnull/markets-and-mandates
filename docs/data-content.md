@@ -23,6 +23,8 @@ For each required variable, record definition, units, currency, nominal/real bas
 
 Select the smallest dataset that can initialize the chosen model. A variable that does not affect a rule, displayed learning outcome, or validation check should not become a research dependency merely because it is available. Conversely, a missing debt maturity distribution cannot be replaced with an invented national stereotype.
 
+Apply the accepted exclusion of carbon-emissions and climate-change challenges to every nation brief: do not collect emissions inventories or climate parameters for gameplay, or author related policies, mandates, events or scores. An electricity study should focus on affordability, reliability, ownership, investment, financing, fuel supply and delivery constraints. A source may combine those subjects with climate policy. Extract only evidence supporting included mechanisms, record relevant omissions, and do not present the resulting simplified model as a complete historical reconstruction. Do not reuse an estimate combining included and excluded policy effects as a standalone coefficient without a justified separation.
+
 ## Evidence records
 
 | Field | Contract |

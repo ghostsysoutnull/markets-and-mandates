@@ -13,7 +13,7 @@ permalink: /regulation/
 
 Domestic regulation belongs among the player's main actions. It determines what organizations may do, their obligations, the protections people receive, and the remedies available when rules are broken.
 
-Regulation should have several dimensions. Competition enforcement, worker protection, financial resilience, environmental rules, and barriers to entry are different choices. “More regulation” should not be a single slider with a fixed growth penalty or welfare bonus.
+Regulation should have several dimensions. Competition enforcement, worker protection, financial resilience, utility-service obligations, and barriers to entry are different choices. “More regulation” should not be a single slider with a fixed growth penalty or welfare bonus.
 
 All actions below are proposed game tools. Their legal availability and institutional owner must be checked for the nation and starting year.
 
@@ -24,7 +24,6 @@ All actions below are proposed game tools. Their legal availability and institut
 | Competition | Investigate abuse, review mergers, require access to essential networks, seek structural remedies through the relevant process | Entry, price and quality changes, legal challenges, compliance costs, and changes to investment |
 | Banking | Change capital or liquidity rules through the responsible institution, restrict risky lending, strengthen supervision and consumer protection | Portfolio changes, repricing, retained earnings, new capital, reduced risk, or avoidance attempts |
 | Labor | Change wage floors, safety standards, dismissal rules, bargaining arrangements, and training support | Wage bargaining, hiring, productivity investment, prices, formalization, and compliance |
-| Environment | Set emissions standards, pollution charges, reporting duties, resource limits, and transition deadlines | Cleaner investment, output changes, cost pass-through, innovation, relocation proposals, and evasion risk |
 | Utilities | Set service obligations, access rules, pricing arrangements, and investment requirements | Maintenance, service coverage, financing needs, quality, and entry where feasible |
 | Consumers and products | Set safety, disclosure, warranty, and lending-conduct standards | Trust, product changes, compliance burdens, and enforcement disputes |
 | Business entry | Simplify permits, revise licenses, improve registration, or impose justified qualifications | New entry, administrative workload, safety outcomes, and incumbent responses |
@@ -32,11 +31,13 @@ All actions below are proposed game tools. Their legal availability and institut
 
 These response lists are possibilities to assess, not guaranteed effects. Magnitude and direction depend on the rule, starting conditions, implementation, and actor behavior. The [OECD's competition assessment work](https://www.oecd.org/en/topics/sub-issues/competitive-and-fair-markets/competition-assessment.html) is an initial reference for examining how rules affect entry and rivalry.
 
+Carbon-emissions and climate-change regulation is outside the accepted game scope: no carbon taxes, emissions trading, decarbonisation targets or related compliance challenges. Other environmental regulation, such as local pollution controls, is not selected by this catalogue and would need its own scope decision.
+
 ## Designing a rule
 
 A regulation proposal should state its objective and target problem, the actors covered, its standard or restriction, and which institution administers it. It also needs an implementation schedule, funding, penalties or remedies, review arrangements, and expected uncertainties.
 
-For example, a new industrial pollution standard might cover large plants first, give existing facilities a transition period, fund inspectors, and offer conditional support for equipment replacement. The player should see why those choices change costs, speed, coverage, and public exposure.
+For example, a new industrial workplace-safety standard might cover large plants first, give existing facilities a transition period, fund inspectors, and offer conditional support for equipment replacement. The player should see why those choices change costs, speed, coverage, and worker exposure to hazards.
 
 Exemptions are a policy decision. They may accommodate genuine constraints or create loopholes and unequal treatment. Actors should be able to argue for them; the player should see who benefits.
 

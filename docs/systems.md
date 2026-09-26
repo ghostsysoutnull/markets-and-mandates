@@ -126,7 +126,7 @@ Market arrangements pose their own questions:
 
 - Can dominant firms block competition?
 - Does profitable investment address essential needs?
-- Who bears pollution costs?
+- Who bears the costs of service interruptions?
 - Can households obtain essentials without enough purchasing power?
 
 Treat these as conditional mechanisms. Better governance, competition, information, and accountability can change outcomes. Neither public nor private ownership should receive an automatic success or failure modifier.
@@ -137,11 +137,13 @@ The player can improve information through reporting, inspections, demand survey
 
 The proposed model should make unmet demand observable through appropriate indicators: prices, inventories, waiting lists, unfilled orders, or rationing. Suppressing a price signal should not erase the underlying scarcity, and a profitable sale should not automatically establish universal access.
 
-## Innovation, environment, and resilience
+<a id="innovation-environment-and-resilience"></a>
 
-Research, education, infrastructure, and new enterprises offer delayed and uncertain benefits. Pollution, depleted resources, and climate exposure can create delayed costs.
+## Innovation and supply resilience
 
-The core design should include long-term capacity and external costs. Detailed technology trees, resource systems, and climate modeling can remain later expansions.
+Research, education, infrastructure, and new enterprises offer delayed and uncertain benefits. Deferred maintenance, dependence on a limited set of suppliers, and shortages of equipment or skilled workers can create delayed costs.
+
+The core design should include long-term capacity, upkeep, and supply continuity. Detailed technology trees and resource systems remain proposals. Carbon emissions and climate change are excluded from the game, including related challenges, policies, event effects and outcome measures; they are not deferred expansions. This is a model scope choice, not a claim about historical economies.
 
 ## Transitions between systems
 

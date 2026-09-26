@@ -50,11 +50,13 @@ This distinction should remain visible as the player steers toward more planning
 | Competition | Simplify business entry, challenge monopolies, regulate a network utility |
 | Public provision | Expand public healthcare, subsidize childcare, change eligibility for a guaranteed service |
 | Redistribution | Adjust taxes, transfers, unemployment insurance, or pensions |
-| Regulation | Set labor, environmental, financial, and consumer rules; fund enforcement and review outcomes |
+| Regulation | Set labor, financial, utility-service, and consumer rules; fund enforcement and review outcomes |
 | Trade and investment | Change tariffs, support an industry, permit foreign investment, diversify suppliers |
 | Institutions | Reform procurement, strengthen administration, or change a monetary institution where legally possible |
 
 Policies should be concrete packages with a cost, expected mechanism, implementation time, and known uncertainties. National institutional constraints can make some choices unavailable or require preliminary reforms.
+
+Carbon-emissions and climate-change challenges are excluded from the game. Policies, events, mandates and outcome reports must respect the [accepted scope boundary]({{ '/requirements/' | relative_url }}#proposed-first-playable-scope).
 
 The detailed catalogues are in [Regulation & enforcement]({{ '/regulation/' | relative_url }}) and [Trade & the international economy]({{ '/trade/' | relative_url }}). The organizations responding to those policies are described in [Corporations & banks]({{ '/actors/' | relative_url }}).
 
@@ -93,7 +95,7 @@ Track a limited dashboard, with detail available on demand:
 - Inequality and economic insecurity.
 - Inflation and shortages.
 - Public finances and debt-service pressures.
-- Environmental conditions and resilience.
+- Infrastructure reliability and supply resilience.
 
 Reports should show how outcomes differ across households, regions, and businesses. A national average can improve while a particular group becomes worse off.
 

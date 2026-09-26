@@ -59,6 +59,8 @@ The full vision includes multiple real nations and interacting institutions. The
 
 Accounts, cloud synchronization, multiplayer, native stores, analytics, monetization, and downloaded executable mods are not accepted requirements. Keep them outside the proposed first slice unless the user adds them. This reduces dependencies without denying future extensions.
 
+The user explicitly excludes carbon-emissions and climate-change challenges across the game. This is an accepted boundary, not deferred expansion work. Policy catalogues, datasets, NPC objectives, event effects and reports must follow the [requirements]({{ '/requirements/' | relative_url }}#proposed-first-playable-scope). Electricity remains a possible policy focus through affordability, reliability, ownership, financing and supply.
+
 ## Material risks and their controls
 
 | Risk | Control and evidence | Owning packet |
