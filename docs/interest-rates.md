@@ -54,7 +54,7 @@ Track broad categories of existing debt and new borrowing. Fixed-rate obligation
 
 For each group, report how much debt is exposed soon, the expected payment change, and the timing. The first design can use aggregate maturity groups instead of tracking individual contracts.
 
-A reduction in new lending today may slow future construction and investment. Conversely, lower rates may take time to affect production. The annual turn should explain delayed transmission even if the internal sequence is simplified.
+A reduction in new lending today may slow future construction and investment. Conversely, lower rates may take time to affect production. The monthly turn and annual summary should explain delayed transmission even if the internal sequence is simplified.
 
 ## Inflation and real borrowing conditions
 
@@ -82,4 +82,4 @@ The report should connect policy rates, actual offers, credit volumes, refinanci
 
 The [housing authorization scenario]({{ '/scenarios/' | relative_url }}#housing-legislation-courts-and-interest-rates) shows a supported program facing judicial delay and changing finance costs. The [housing and banking scenario]({{ '/scenarios/' | relative_url }}#housing-credit-and-bank-distress) follows lender risk and financial distress.
 
-Open details include the number of visible loan categories, monetary decision timing within an annual turn, expectation formation, and the treatment of tools beyond the policy rate. The concept commits to distinct rates, institutional authority, actor responses, and delays; exact numerical relationships remain to be researched and tested.
+Open details include the number of visible loan categories, monetary decision timing within a monthly turn, expectation formation, and the treatment of tools beyond the policy rate. The concept commits to distinct rates, institutional authority, actor responses, and delays; exact numerical relationships remain to be researched and tested.

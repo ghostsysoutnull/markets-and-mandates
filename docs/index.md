@@ -20,20 +20,20 @@ The question at the heart of the game is:
 | Player role | The nation's executive leadership: government and cabinet, subject to national institutions |
 | Starting nations | United States, United Kingdom, Germany, Russia, China, and Japan |
 | Research baseline | Accepted: broad 2010 profiles for all six nations, before choosing a playable nation or policy sector |
-| Main campaign | Recommended for review: UK, ten annual turns in 2010–2019, income/employment, enterprises and England housing |
+| Main campaign | Accepted: UK, 120 monthly turns in 2010–2019; income/employment, enterprises and England housing |
 | Historical perspective | Modern profiles first; an optional 1980s scenario later |
 | Main decisions | Ownership, allocation, competition, public services, redistribution, regulation, trade, and institutional reform |
 | Excluded subject matter | Carbon-emissions and climate-change challenges, policies, events, and scoring |
 | Active counterparts | Lawmakers, courts, central banks, corporations, private banks, public enterprises, worker groups, and foreign partners |
 | Success | A chosen public mandate, assessed alongside its wider consequences |
 | Intended delivery | Phones only; modular TypeScript/JavaScript with OO design. Phone-browser delivery via a web link is accepted. |
-| Current stage | Complete campaign design proposal, draft 0.6; nation research published; no game implementation yet |
+| Current stage | Campaign adopted with 12 turns/year, draft 0.7; monthly rules and UK implementation inputs; no game implementation yet |
 
-The premise and educational focus come from the initial discussion. Specific turn counts, dates, mechanics, and scope below are **working proposals**, not a finished or calibrated simulation.
+The premise and educational focus come from the initial discussion. The UK campaign and monthly timing are accepted. Unresolved numerical and technical details remain labeled proposals or gaps; no calibrated simulation is claimed.
 
-## Read the proposed complete game
+## Read the accepted campaign
 
-Start with the **[campaign design for review]({{ '/campaign-design/' | relative_url }})**: what happens from opening briefing to final assessment, the actual policy controls, actor motives and economic mechanisms. Recommended defaults are explicit and still need review. The user has rejected a prototype; the target is a complete game. Numerical inputs and policy-specific legal routes remain listed completion work, not claimed results.
+Start with the **[campaign design]({{ '/campaign-design/' | relative_url }})**: what happens from opening briefing to final assessment, the actual policy controls, actor motives and economic mechanisms. The user adopted this direction with 12 turns per year: 120 monthly turns over ten years. The user has rejected a prototype; the target is a complete game. Numerical inputs and policy-specific legal routes remain listed completion work, not claimed results.
 
 ## Development documentation
 
@@ -45,7 +45,7 @@ Read the [six-nation 2010 research]({{ '/nation-research/' | relative_url }}) fo
 
 ## Read the concept
 
-1. **[The game]({{ '/game/' | relative_url }})** — Your role, the yearly turn, decisions, outcomes, and a sample dilemma.
+1. **[The game]({{ '/game/' | relative_url }})** — Your role, the monthly turn, decisions, outcomes, and a sample dilemma.
 2. **[The executive, lawmakers & courts]({{ '/government/' | relative_url }})** — Executive powers, legislative bargaining, judicial review, and changes of government.
 3. **[Economic systems]({{ '/systems/' | relative_url }})** — Credit, production, households, institutions, and transitions.
 4. **[Interest rates & monetary choices]({{ '/interest-rates/' | relative_url }})** — Who sets which rates, how debt reprices, and tensions with the executive.
@@ -58,9 +58,13 @@ Read the [six-nation 2010 research]({{ '/nation-research/' | relative_url }}) fo
 11. **[Decisions & feedback]({{ '/decisions/' | relative_url }})** — The choices still open and a suggested path toward a focused first game.
 12. **[Sources]({{ '/sources/' | relative_url }})** — Initial institutional references and the research still required.
 
-For the proposed end-to-end experience, start with the [campaign design for review]({{ '/campaign-design/' | relative_url }}). Older worked examples are illustrative branches, not predictions, implemented mechanics or a required walkthrough.
+For the accepted end-to-end experience, start with the [campaign design]({{ '/campaign-design/' | relative_url }}). Older worked examples are illustrative branches, not predictions, implemented mechanics or a required walkthrough.
 
-## What changed in draft 0.6
+## What changed in draft 0.7
+
+The user adopted the campaign with 12 monthly turns per year. Timing now covers 120 turns, monthly project/cash processing, annual fiscal authority and a 36-month final assessment window. [Monthly rules]({{ '/monthly-rules/' | relative_url }}) include checkable fixtures; [UK implementation inputs]({{ '/uk-implementation-inputs/' | relative_url }}) separate sourced opening facts and legal routes from outstanding numerical work.
+
+## Earlier design draft 0.6
 
 Added a coherent campaign proposal, a concrete policy catalogue, actor decision rules, campaign assessment, economic rule inventory and phone screen sequence. The user authorized drafting this design for review, not adopting its defaults or starting implementation. The earlier 15-turn proposal is superseded as the recommendation by ten turns for this campaign.
 

@@ -19,15 +19,17 @@ On 25 September 2026 the user stopped the interactive walkthrough and requested 
 
 This package supplies requirements, contracts, decision records, research, and an executable work sequence. It is not a claim that the economic model is calibrated or every product decision is settled. Unresolved dependencies are explicit so implementation does not silently choose them.
 
-**Current packet:** the user selected drafting a complete game design for review after rejecting a prototype. The [campaign design for review]({{ '/campaign-design/' | relative_url }}) supplies recommended defaults and the finite remaining model artifacts. Review it as one coherent proposal; no implementation or default acceptance is implied.
+**Current work:** the user adopted the [campaign design]({{ '/campaign-design/' | relative_url }}) with 12 turns per year: 120 monthly turns for UK 2010–2019. Complete the authorized data, authority and economic rules. The monthly timing contract is specified; a fully initialized/certified economic pack and game implementation do not yet exist.
 
 ## Document ownership
 
 | Document | Owns | Read when |
 | --- | --- | --- |
-| [Campaign design for review]({{ '/campaign-design/' | relative_url }}) | End-to-end experience, recommended campaign scope, policy catalogue and ending | Reviewing what the game will actually do |
+| [Campaign design]({{ '/campaign-design/' | relative_url }}) | End-to-end experience, recommended campaign scope, policy catalogue and ending | Reviewing what the game will actually do |
 | [Product requirements]({{ '/requirements/' | relative_url }}) | Scope, user journeys, requirement IDs, acceptance criteria | Selecting a feature or reviewing completion |
 | [Architecture and decisions]({{ '/architecture/' | relative_url }}) | OO responsibilities, dependencies, proposed stack, ADRs | Changing modules or technical boundaries |
+| [Monthly rules]({{ '/monthly-rules/' | relative_url }}) | Clock, temporal conversions, fiscal cadence and assessment window | Implementing time, rates or progress |
+| [UK implementation inputs]({{ '/uk-implementation-inputs/' | relative_url }}) | Sourced opening evidence, authority routes and exact unresolved inputs | Completing P2b/P3 |
 | [Simulation contract]({{ '/simulation/' | relative_url }}) | State transitions, ordering, accounting, reproducibility | Implementing any rule or turn processing |
 | [Data and content]({{ '/data-content/' | relative_url }}) | Nation evidence, authored policies, schemas, versioning | Researching a nation or writing scenario content |
 | [Mobile and web interface]({{ '/interface/' | relative_url }}) | Screens, interaction, accessibility, responsive behavior | Building or reviewing player-facing flows |
@@ -49,7 +51,7 @@ Use **accepted** for a user decision; **proposed** for a recommendation; **verif
 | Gate | Evidence required | Current state |
 | --- | --- | --- |
 | Documentation foundation | Linked requirements, architecture, workflow, research, and work packets | Provided in draft 0.4; subject to review |
-| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1/D2 and 2010 research year resolved; complete campaign proposal available for review; defaults not yet accepted |
+| First-slice definition | Initial nation/year, turn and campaign scope, UI approach | D1–D7 campaign direction accepted, including UK and monthly timing; D8 engineering details remain proposals |
 | Model-ready slice | Versioned rule sheets, initialized state, funding and accounting, expected test outcomes | Not ready; dependencies in simulation and data chapters |
 | Implementation-ready packet | Narrow objective, settled dependencies, affected contracts, acceptance checks | Use the workflow template; no game code yet |
 | Playable release | Completed implementation plus browser, recovery, economic, usability, and deployment evidence | Not started |
@@ -58,17 +60,17 @@ Do not hold all work until every future expansion is specified. Resolve the depe
 
 ## Scope discipline
 
-The full vision includes multiple real nations and interacting institutions. The current campaign recommendation uses one nation and three connected policy areas, with other systems represented at the level needed to explain those policies. Internal slices contribute to the complete game; they are not a prototype substitute. The user selected broad 2010 research across all six nations before choosing a playable nation or sector. The [research hub]({{ '/nation-research/' | relative_url }}) separates this comparison from later model-ready data. Housing and electricity are candidates, not accepted first-slice selections.
+The full vision includes multiple real nations and interacting institutions. The accepted campaign uses the UK and three connected policy areas, with other systems represented at the level needed to explain those policies. Internal slices contribute to the complete game; they are not a prototype substitute. The user selected broad 2010 research across all six nations before choosing a playable nation or sector. The [research hub]({{ '/nation-research/' | relative_url }}) separates this comparison from later model-ready data. Income/employment, enterprises and England housing are selected. No electricity prerequisite remains.
 
 Accounts, cloud synchronization, multiplayer, native stores, analytics, monetization, and downloaded executable mods are not accepted requirements. Keep them outside the proposed first slice unless the user adds them. This reduces dependencies without denying future extensions.
 
-The user explicitly excludes carbon-emissions and climate-change challenges across the game. This is an accepted boundary, not deferred expansion work. Policy catalogues, datasets, NPC objectives, event effects and reports must follow the [requirements]({{ '/requirements/' | relative_url }}#proposed-first-playable-scope). Electricity remains a possible policy focus through affordability, reliability, ownership, financing and supply.
+The user explicitly excludes carbon-emissions and climate-change challenges across the game. This is an accepted boundary, not deferred expansion work. Policy catalogues, datasets, NPC objectives, event effects and reports must follow the [requirements]({{ '/requirements/' | relative_url }}#proposed-first-playable-scope). The selected three-area campaign follows that boundary; do not add a separate electricity research prerequisite.
 
 ## Material risks and their controls
 
 | Risk | Control and evidence | Owning packet |
 | --- | --- | --- |
-| Broad research is mistaken for six authorized implementations | Complete the six profiles, then select one playable slice and defer implementation expansion | P1/P2a/P2b |
+| Broad research is mistaken for six authorized implementations | Six profiles are complete; implement the selected UK campaign first and defer nation expansion | P1/P2a/P2b |
 | Plausible prose hides missing model rules | Require units, ordering, ledgers, parameters and independently checkable fixtures | P3 |
 | Ideology is encoded as an automatic bonus | Compare alternatives and symmetrical physical constraints across sensitivity runs | P3/P8 |
 | Phone interruption loses decisions | Atomic checkpoints, saved encounters, import/export and actual-device recovery tests | P6/P8 |
@@ -77,4 +79,4 @@ The user explicitly excludes carbon-emissions and climate-change challenges acro
 | Documentation drifts between sessions | One owning chapter per contract; update handover, backlog and decisions with the change | Every packet |
 | Distribution expands into native obligations | Keep the accepted phone-browser scope; require an explicit scope change before native-store work | P1/P9 |
 
-**Preferred next step:** review and adopt the [campaign design for review]({{ '/campaign-design/' | relative_url }}), then close its explicitly listed data/rule dependencies for actual coding. **Alternative:** revise the proposed nation, policy breadth or campaign ending first. Broad nation research is complete.
+**Preferred next work:** complete the [UK input register]({{ '/uk-implementation-inputs/' | relative_url }}) under the accepted option-1 authorization, then its dependent numerical fixtures. **Alternative:** review a specific monthly interaction while independent input work continues. Campaign adoption and broad research are settled.

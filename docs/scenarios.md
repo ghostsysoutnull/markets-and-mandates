@@ -4,6 +4,8 @@ intro: Follow decisions through several turns, including the reactions the playe
 permalink: /scenarios/
 ---
 
+**Timing note:** these earlier fictional examples use annual narrative steps. The adopted game now uses 12 monthly turns/year; see [monthly rules]({{ '/monthly-rules/' | relative_url }}). They are not executed campaigns, player decisions or a required paper walkthrough.
+
 **On this page**
 
 * Contents

@@ -1,6 +1,6 @@
 ---
 title: The game
-intro: A few meaningful decisions each year. Consequences that continue unfolding after the turn ends.
+intro: Monthly decisions and annual priorities. Consequences that continue unfolding after the turn ends.
 permalink: /game/
 ---
 
@@ -9,7 +9,7 @@ permalink: /game/
 * Contents
 {:toc}
 
-**Read the complete [campaign design for review]({{ '/campaign-design/' | relative_url }}) first** for the recommended ten-year UK campaign, policy catalogue, actor decisions, success rules and path to implementation. The concepts below remain background; the campaign defaults await user review. The user rejected a prototype as the deliverable.
+**Read the complete [campaign design]({{ '/campaign-design/' | relative_url }}) first** for the accepted ten-year UK campaign with 120 monthly turns, policy catalogue, actor decisions, success rules and path to implementation. The concepts below remain background; the campaign direction is accepted; numerical inputs and authority details still need completion. The user rejected a prototype as the deliverable.
 
 ## The player's role
 
@@ -17,18 +17,20 @@ You control the nation's **executive leadership: the government and its cabinet*
 
 Lawmakers, courts, independent monetary institutions, households, and businesses act within their own roles. Greater state direction can expand your responsibilities, but also requires information and implementation capacity. The executive role and its relationship to other institutions must fit each nation's historical profile.
 
-The preferred working proposal is to continue playing across successive governments. A leadership change alters your mandate and coalition while preserving the economy and its obligations. Exact election and succession rules remain open. See [The executive, lawmakers & courts]({{ '/government/' | relative_url }}) for authority, bargaining, legal review, and campaign continuity.
+The accepted campaign continues across successive governments. A leadership change alters your mandate and coalition while preserving the economy and its obligations. Exact election and succession rules remain open. See [The executive, lawmakers & courts]({{ '/government/' | relative_url }}) for authority, bargaining, legal review, and campaign continuity.
 
-## A yearly turn
+<a id="a-yearly-turn"></a>
+
+## A monthly turn
 
 1. **Read the report.** See what changed, who benefited, which earlier decisions are taking effect, and what is becoming a problem.
-2. **Choose priorities.** Proposed limit: two major initiatives, alongside adjustments to recurring budget priorities. Continuing projects keep using funds and administrative capacity. Major changes should not bypass the initiative limit merely by being labeled a budget adjustment.
+2. **Choose priorities.** Two major initiatives per calendar year, alongside monthly management and lawful adjustments to recurring budget priorities. Continuing projects keep using funds and administrative capacity. Major changes should not bypass the initiative limit merely by being labeled a budget adjustment.
 3. **Negotiate and respond.** Seek legislative support and consider amendments; address major legal challenges, corporate proposals, bank requests, or trade negotiations. An energy shock, strike, innovation, or harvest failure may require a response. Major new commitments compete for the same resources as planned initiatives.
-4. **Advance the year.** Actors respond, projects progress, and institutions implement their decisions. The central bank and regulators act under their mandates; firms and households respond to the resulting conditions. The report explains results and unfinished effects.
+4. **Advance the month.** Actors respond, projects progress, and institutions implement their decisions. The central bank and regulators act under their mandates; firms and households respond to the resulting conditions. The report explains results and unfinished effects.
 
-The initiative limit is a proposed pacing rule. Funding, real resources, implementation capacity, and legal authority are separate constraints. A policy can be affordable on paper yet impossible to deliver this year.
+The initiative limit is a gameplay pacing rule, retained per year when turns became monthly. Funding, real resources, implementation capacity, and legal authority are separate constraints. A policy can be affordable on paper yet impossible to deliver this year.
 
-An annual turn summarizes developments within the year; it does not imply that real actors wait a year between every response. The ordering and handling of urgent events remain design decisions. The player should see likely institutional responses before committing, without receiving a guaranteed outcome.
+There are 12 calendar-month turns per year, 120 in the accepted 2010–2019 campaign. Dated events and obligations resolve within the month; December also produces an annual summary. The [monthly rules]({{ '/monthly-rules/' | relative_url }}) specify ordering and urgent encounters. The player should see likely institutional responses before committing, without receiving a guaranteed outcome.
 
 ## What the player controls
 
@@ -115,6 +117,6 @@ Report institutional outcomes separately: what lawmakers authorized, whether a c
 
 ## Crises and recovery
 
-Banking distress, fiscal stress, shortages, and loss of political support should constrain future choices and create recovery problems. The preferred continuity model allows leadership changes without ending play. Whether severe economic crises can end a campaign remains open; continuing through a difficult recovery may teach more than an immediate game-over screen.
+Banking distress, fiscal stress, shortages, and loss of political support should constrain future choices and create recovery problems. The adopted continuity model preserves play across leadership changes and permits recovery from economic crises. The campaign ends after December 2019 or the player’s voluntary early exit; the [assessment rules]({{ '/campaign-design/' | relative_url }}#campaign-ending-and-success) determine mandate success.
 
 Next: [Economic systems]({{ '/systems/' | relative_url }}).

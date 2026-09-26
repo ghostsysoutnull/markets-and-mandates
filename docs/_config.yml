@@ -1,6 +1,6 @@
 title: Markets & Mandates
 description: A nation. Economic choices. Institutions and consequences.
-version: "0.6"
+version: "0.7"
 url: https://ghostsysoutnull.github.io
 baseurl: /markets-and-mandates
 markdown: kramdown
@@ -16,7 +16,7 @@ defaults:
 navigation:
   - title: Overview
     url: /
-  - title: Campaign design for review
+  - title: Campaign design
     url: /campaign-design/
   - title: Development specification
     url: /development/
@@ -24,6 +24,10 @@ navigation:
     url: /requirements/
   - title: TypeScript architecture
     url: /architecture/
+  - title: Monthly rules
+    url: /monthly-rules/
+  - title: UK implementation inputs
+    url: /uk-implementation-inputs/
   - title: Simulation contract
     url: /simulation/
   - title: Data & content

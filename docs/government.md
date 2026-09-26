@@ -4,6 +4,8 @@ intro: You lead the government. Turning a policy intention into a lasting result
 permalink: /government/
 ---
 
+The [accepted UK campaign]({{ '/campaign-design/' | relative_url }}) now continues across executives and uses 120 monthly turns. The general institutional concepts below do not certify the still-incomplete UK succession algorithm or authority inputs.
+
 **On this page**
 
 * Contents

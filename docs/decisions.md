@@ -24,36 +24,31 @@ permalink: /decisions/
 - Carbon-emissions and climate-change challenges are excluded throughout the game, including related policy tools, mandates, events and scoring. This is a scope exclusion, not a deferred feature.
 - Research broad **2010 profiles for all six nations**, with one researcher per nation in two batches, before choosing the first playable nation and policy scope. No electricity or other sector focus is required for this research.
 
-The detailed mechanisms in this notebook are an initial proposal for review. Positive reception of the concept does not settle every design choice below.
+The current campaign direction is explicitly adopted below. Detailed numerical and technical proposals remain labeled separately.
 
-## Current campaign proposal
+## Accepted campaign and timing
 
-The user rejected a prototype, then selected option 1: draft a complete game design with recommended defaults for review. The [campaign design for review]({{ '/campaign-design/' | relative_url }}) is that deliverable. Its UK campaign, ten annual turns and three connected policy areas are **proposed**, not accepted. Approval to author the design is not authorization to implement it. Review this coherent package instead of restarting a questionnaire or broad research.
+The user selected **option 1: adopt the design**, with **12 turns per year**. The [campaign design]({{ '/campaign-design/' | relative_url }}) now specifies UK, January 2010–December 2019, **120 monthly turns**, income/employment, enterprises and England housing. Executive continuity, counterfactual future, deterministic composite commercial actors, mandate assessment, saves and replay are adopted directions. Numerical/legal implementation details still need completion.
 
-**Preferred:** adopt the proposed campaign direction and close its listed model inputs. **Alternative:** revise the parts of this design that do not match the intended game.
+The annual budget and two major reforms per calendar year are retained while routine decisions and consequences resolve monthly. This is the stated pacing interpretation of the timing amendment. Do not silently multiply annual resources or initiative opportunities by twelve.
 
-## Working proposals
-
-| Proposal | Why it is attractive | What needs review |
+| Choice | Status | Remaining work |
 | --- | --- | --- |
-| Ten annual turns, 2010–2019 | Current complete-campaign recommendation; enough time for delayed effects | Awaiting review; replaces the older 15-turn recommendation |
-| Two major initiatives per turn | Keeps choices readable and creates priorities | Whether this feels restrictive or artificial |
-| Several policy dimensions | Represents mixed arrangements and sector differences | How much complexity players want to control |
-| A small cast of visible actors plus broader groups | Gives corporations, banks, and institutions recognizable behavior without representing every business individually | Cast size, fictional or real identities, and how much information the player sees |
-| Negotiated packages and ongoing commitments | Makes investment, trade, and reform unfold over time | How much bargaining and monitoring belongs in each turn |
-| Rulemaking followed by enforcement and review | Connects regulation to capacity and actual compliance | How detailed legal and administrative processes should be |
-| A chosen mandate | Supports different definitions of success | Which objectives make satisfying campaigns |
-| Replay under comparable shocks | Makes policy comparisons educational | How much replay support belongs in the first game |
-| Continue across successive executives | Preserves the educational campaign while mandates and coalitions change | Succession triggers, control of a successor agenda, and accountability for each administration |
-| Institutions appear at consequential decisions | Makes political and legal limits meaningful without constant procedural management | Which votes and cases deserve player attention |
+| UK opening and three policy areas | Accepted | Reconciled January inputs and exact package authority |
+| Twelve turns per year for ten years | Accepted: 120 monthly turns | Implement clock, saves and monthly resolution against M01–M12 |
+| Budget and major initiatives | Annual fiscal authority; retain two major reforms/year | Monthly management, dated fiscal rules and pacing evaluation |
+| Composite firms/banks and real institutions | Accepted direction | Balance sheets, motives, legal boundaries and behavioral evidence |
+| Mandates, continuity and recovery | Accepted direction | Fixed metric definitions, successor procedure and tested end conditions |
+| Saves, export/import and comparable replay | In adopted campaign | Storage schema, recovery and reproducibility implementation |
+| UI libraries, precise runtime/browser versions | Engineering proposals | Choose compatible versions when implementation is authorized |
 
-## Questions for the next discussion
+## Next work
 
-Review the [campaign design for review]({{ '/campaign-design/' | relative_url }}) as a package: adopt its defaults, or identify the experience to change. It already recommends nation, scope, pacing, actor treatment, continuity and success tests. These are review choices, not seven unanswered questions delegated back to the user.
+The user has already authorized completing starting data, authority routes and economic rules. [Monthly rules]({{ '/monthly-rules/' | relative_url }}) and [UK implementation inputs]({{ '/uk-implementation-inputs/' | relative_url }}) record progress and exact gaps. Do not ask again to adopt the design, select a nation or authorize that evidence work. This is not blanket authorization to skip dependencies or implement six campaigns.
 
 ## Current development path
 
-Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). The documentation foundation is complete. Broad six-nation research is complete. Review the complete campaign proposal, finish the named dependent data and rules, then implement authorized production milestones toward the complete phone game.
+Use the [development specification]({{ '/development/' | relative_url }}) and P0–P9 [backlog]({{ '/backlog/' | relative_url }}). The documentation foundation is complete. Broad six-nation research is complete. Complete the adopted campaign’s named dependent data and rules, then implement authorized production milestones toward the complete phone game.
 
 The [requirements decision sheet]({{ '/requirements/' | relative_url }}) owns open delivery and first-slice questions. The [architecture records]({{ '/architecture/' | relative_url }}) distinguish accepted TypeScript/OO constraints from proposed libraries and boundaries. Research cannot silently accept a product preference.
 
@@ -73,7 +68,7 @@ Each review handoff should provide concrete next-step options and explicitly mar
 
 The user replaced the walkthrough-first plan with researched development documentation. The [backlog and session plan]({{ '/backlog/' | relative_url }}) records P0–P9 and the aborted B1 for continuity. Preserve the accepted phone-only and modular TypeScript choices.
 
-Defining campaign continuity and political consequences remains an open design task, not a settled decision. It must be resolved before implementing the corresponding campaign feature.
+Executive continuity and recovery are accepted. The exact successor algorithm, authority deadlines and numerical political conditions still need their rule records before implementation.
 
 ## Share feedback
 
@@ -107,3 +102,4 @@ Accepted changes should update the relevant page. Record significant decisions b
 | 2026-09-25 | Excluded all environmental challenges related to carbon emissions or climate change. Updated concepts, policy examples and research boundaries accordingly. The assistant's proposal to research six nations in two batches using 2010 and electricity remains unselected; the user requested suggestions and then set this exclusion. |
 | 2026-09-25 | Selected option 1: broad 2010 profiles for all six nations, one researcher per nation in two batches, followed by choosing the first playable nation and policy scope. Supersedes the proposed electricity prerequisite. Authorizes this parallel research and its documentation, not six game implementations. |
 | 2026-09-25 | Rejected a prototype and selected option 1: assistant drafts a complete campaign design for review, recommending defaults and identifying remaining decisions. This authorizes design documentation, not adoption of the UK/ten-turn/three-area proposal or game implementation. |
+| 2026-09-25 | Selected option 1 to adopt the UK campaign design, amended to 12 turns per year: monthly turns, 120 over 2010–2019. Authorized completing starting data, authority routes and economic rules. Preserve annual fiscal authority and the existing two-major-reforms-per-year pace as the explicit timing interpretation. Prototype remains rejected; no claim of completed numerical model or blanket game-code authorization. |

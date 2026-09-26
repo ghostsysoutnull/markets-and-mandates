@@ -1,0 +1,105 @@
+{
+  "status": "synthetic specification fixtures; not nation data or simulated results",
+  "calendar": {
+    "start": "2010-01",
+    "last": "2019-12",
+    "turns_per_year": 12,
+    "years": 10,
+    "total_turns": 120,
+    "assessment": "2020-01",
+    "final_window_start_index": 84,
+    "final_window_months": 36
+  },
+  "equal_payment": {
+    "annual_pence": 10000,
+    "monthly_pence": [
+      834,
+      834,
+      834,
+      834,
+      833,
+      833,
+      833,
+      833,
+      833,
+      833,
+      833,
+      833
+    ]
+  },
+  "nominal_interest": {
+    "principal_pence": 120000,
+    "annual_nominal_rate": "0.12",
+    "monthly_interest_pence": 1200,
+    "annual_paid_pence": 14400,
+    "closing_principal_pence": 120000
+  },
+  "effective_interest": {
+    "annual_effective_rate": "0.12",
+    "monthly_rate": "0.009488792934582975",
+    "annual_factor": "1.12"
+  },
+  "stage": {
+    "start": "2010-01",
+    "minimum_duration_months": 24,
+    "monthly_max_fraction": "1/24",
+    "complete_at_close": "2011-12",
+    "usable_from": "2012-01"
+  },
+  "final_commission": {
+    "commission_at_close": "2019-12",
+    "usable_from": "2020-01",
+    "operating_months_in_campaign": 0
+  },
+  "cash_gap": {
+    "cash_pence": 10000,
+    "due_pence": 12000,
+    "finance_pence": 0,
+    "gap_pence": 2000
+  },
+  "due_guard": {
+    "close": "2019-12-31",
+    "overdue_due_date": "2019-12-31",
+    "future_due_date": "2020-01-01"
+  },
+  "reforms": {
+    "annual_slots": 2,
+    "submissions_2010": 2,
+    "remaining_after_reload": 0,
+    "remaining_february": 0,
+    "remaining_january_2011": 2
+  },
+  "stock": {
+    "opening_homes": 100,
+    "completions": 0,
+    "retirements": 0,
+    "closing_homes": 100
+  },
+  "income": {
+    "monthly_real_gbp": 100,
+    "months": 36,
+    "equivalent_members": 1,
+    "average_annual_real_gbp": 1200
+  },
+  "tax": {
+    "status": "synthetic annual incomes; researched 2009-10 standard tax parameters; not PAYE implementation",
+    "cases": [
+      {
+        "gross_gbp": 6475,
+        "tax_gbp": 0
+      },
+      {
+        "gross_gbp": 20000,
+        "tax_gbp": 2705
+      },
+      {
+        "gross_gbp": 43875,
+        "tax_gbp": 7480
+      },
+      {
+        "gross_gbp": 50000,
+        "tax_gbp": 9930
+      }
+    ]
+  }
+}

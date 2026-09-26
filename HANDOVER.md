@@ -1,86 +1,79 @@
 # Markets & Mandates — session handover
 
-Updated 25 September 2026. Read AGENTS.md first, then this file and docs/backlog.md. The current user overrides older plans.
+Updated 25 September 2026. Read AGENTS.md, this file, docs/backlog.md, then only the chapters needed for the next task. Current user instructions override old checkpoints.
 
-## Current objective and accepted changes
+## Accepted campaign and current authorization
 
-The user **aborted the interactive walkthrough** and requested all necessary development documentation, researched rather than assumed, for mobile/web with JavaScript/TypeScript, OO and an efficient process across sessions.
+The latest user message is **“12 turns per year, option 1”**. This adopts the campaign design and authorizes completing its starting data, authority routes and economic rules, with monthly timing. Do not ask for campaign adoption or nation selection again.
 
-Latest explicit answers:
-- **Phones only.** Desktop gameplay is not a product target.
-- **Normal TypeScript project with multiple source files.** The older single physical HTML output constraint is superseded.
-- **Phone-browser delivery via a web link.** The user selected option 1. Do not ask this choice again. Native app-store packaging is outside the selected scope; installation/offline support remain proposals.
-- **Carbon-emissions and climate-change challenges excluded throughout the game.** No related accounting, policy tools, mandates, events, scores or hidden rewards/penalties. This is not deferred expansion work. Other environmental topics are not selected by this decision.
-- **Complete game design requested; prototype rejected.** Latest option 1 authorizes drafting a coherent campaign design with recommended defaults for review. It does not approve those defaults or game implementation.
-- **Broad 2010 research accepted.** The earlier research option 1 selected broad profiles for all six nations, one researcher per nation in two batches, before choosing the first playable nation and policy family. No sector focus is required. This supersedes the electricity prerequisite, and explicitly authorizes these sub-agents. 1 January 2010 is the shared editorial institutional snapshot, not a selected exact gameplay start date.
+- UK, opening 1 January 2010; end after December 2019: **120 monthly turns**, 12 per year, ten years.
+- Income/employment, productive enterprises and England housing; correct UK/devolved authority boundaries.
+- Executive continuity, counterfactual future, real institutions and fictional composite firms/lenders; deterministic actor decisions, versioned external event paths, mandate assessment, recovery, saves/export/import and comparable replay.
+- Preserve annual budget authority and the existing two-major-reforms-per-calendar-year pace. This is the explicit interpretation of the timing amendment, stated in chat and docs; monthly management and encounters continue between reforms. Do not silently multiply annual initiative allowance or resources by twelve.
+- Phones only, phone-browser delivery by web link, modular TypeScript/JavaScript and OO. Native-store packaging is outside scope; PWA/offline remain separate proposals.
+- Carbon-emissions and climate-change challenges are excluded entirely, not deferred.
+- Prototype rejected. Interactive paper walkthrough aborted; no player decisions or outcomes came from it. Neither is a development prerequisite.
+- Broad six-nation research is complete. Its scoped parallel authorization does not authorize unrelated agents or six game implementations. No agents used in the current packet.
+- Design adoption does not claim a calibrated numerical pack or authorize arbitrary game implementation. D8 toolchain details remain proposals; use concrete authorized coding packets after their actual dependencies are ready.
 
-Do not resume the paper exercise or ask the user to choose housing option B. No nation, mandate, policy or outcome was selected in that exercise. It is aborted, not completed.
+## Current packet and exact checkpoint
 
-## Current work and exact next action
+**P1-monthly / P3-time:** record campaign acceptance, specify monthly timing consistently, and begin the authorized UK model inputs. Draft 0.7 adds:
 
-**P0 — development documentation foundation is complete.** Nine new engineering/product chapters plus a development hub are published with primary-source research, requirements, OO boundaries, model/data contracts, phone UX, saves, tests and session workflow. No game implementation, dependency installation or quantitative calibration has been produced. Broad nation research is now published and verified under P2a.
+- `docs/monthly-rules.md`: M01–M12 calendar/slots, fiscal authority, stock/flow conversion, rates, tax dates, project duration, settlement, reports and 36-month final assessment.
+- `docs/uk-implementation-inputs.md`: 22 sourced tax/NI/monetary/fiscal observations, ten concrete authority routes with evidence limits, a limited annual income-tax calculation and exact outstanding model inputs.
+- `docs/assets/data/uk-opening-evidence.csv`: attributed facts and forecasts, not an initialized state. The forecast table's investment measure is net of asset sales; end-March debt is not January cash.
+- `docs/assets/data/monthly-rule-fixtures.json`: synthetic temporal and limited-tax arithmetic fixtures, never national observations or simulated outcomes.
+- `scripts/verify_specification.py`: independent documentation arithmetic checks, not a game engine. Covers F01–F12, four tax cases and three fiscal forecast identities.
 
-Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded. Local checks passed: git diff --check and 24 documentation pages with 127 route/file references. Live checks passed: 24 pages, 840 internal links/anchors, 24 page-source links, 24 feedback-link sets and the shared stylesheet. These are documentation checks, not economic or device tests. A temporary live checker is at `/tmp/markets-docs-live-check.py`; do not assume that temporary file survives another environment/session.
+Campaign/requirements/interface/simulation/decisions/index/development/backlog/AGENTS now record acceptance and monthly timing. Original research profiles have explicit historical-checkpoint notices so their old “no nation selected” wording is not mistaken for current direction. Historical illustrative scenarios stay fictional.
 
-**Completed bounded packet: record the accepted carbon/climate exclusion.** Concepts, regulation examples, outcome reporting, requirements, content/research boundaries, decisions and overview now reflect it. Electricity remains a candidate focused on affordability, reliability, ownership, investment, financing, fuel supply and delivery. Commit `76b2973` published through successful Pages run `36206310487`. `git diff --check` passed; local validation checked 24 pages and 77 Liquid route/file references. Live verification checked the new scope wording, 24 pages, 842 internal links/anchors, 24 source links, 24 feedback-link sets and the stylesheet. The former systems-section anchor is retained for existing links. These are documentation checks only. This follow-up checkpoint records the verified publication; no game implementation or nation research was performed.
+**Validation so far:** `python3 scripts/verify_specification.py` passed for 22 records, temporal arithmetic, four tax cases and three fiscal identities. Local diff/structure/navigation checks also passed for 34 pages and 151 Liquid references. Publication and live verification are pending. No game, payroll, calibrated macroeconomic or device tests have run.
 
-**P2a — six broad 2010 nation profiles is complete.** Draft 0.5 contains the US, UK, Germany, Russia, China and Japan profiles, a shared institutional comparison, source registers, dated observations and explicit feature-specific gaps. No sector or first playable nation is selected. Three workers handled one nation at a time across two batches because the runtime caps total child threads. All six profiles were self-reviewed and parent-reviewed; source-provenance, historical timing, source-table/anchor and executive-role issues were corrected.
+**P2b/P3 as a whole are still in progress.** This packet does not complete the full economic baseline. Do not conceal that limitation. The input ledger lists actual missing opening public/bank/household/sector accounts, dated authorities, tax categories/payroll records, project bills/durations, behavioral parameters and reconciled policy alternatives. Only the temporal contracts and limited calculation above have their input-independent arithmetic checked.
 
-**Publication evidence:** research commit `3dd2fd0`, successful Pages run `36209286984`. Local checks passed: git diff --check, six profile structures, 31 pages, 107 Liquid route/file references and reproduction of all 12 displayed WDI values. Live checks passed: 31 pages, 1,207 internal links/anchors, 31 source links, 31 feedback-link sets, stylesheet and exact CSV content; no duplicate anchors or unrendered templates. Source authors checked their references; parent independently spot-checked consequential sources and read every profile. These checks do not certify all policy routes, calibrated economics or phone usability.
+**Exact next action:** finish the current publication/checks, then continue the already-authorized UK public-account and household initialization. Read the input ledger and selected sources; do not repeat broad profiles. A tax rate or aggregate fiscal forecast cannot substitute for joint household weights, dated Treasury balances or a debt maturity ladder. Use source/period/coverage reconciliation; never invent a missing historical value or claim an unrun model test.
 
-**Data checkpoint:** the shared comparison uses retrospective 2010 WDI population/GDP-growth observations, API update 2026-07-13, retrieval 2026-09-25. `docs/assets/data/nation-comparison-2010.csv` preserves 12 values with provenance. They are comparison evidence, not opening-known forecasts or runnable game data. Each profile labels legal-version, data and rights gaps; Russia/Japan budget-detail gaps and China executive/Party boundaries remain visible.
+**User-facing next options:** preferred continuation is the remaining UK inputs/rules under existing authorization; alternative is reviewing the monthly interaction while independent evidence work continues. Do not make further progress contingent on a new adoption approval.
 
-**Current packet: P1-design — complete campaign proposal for review.** The user rejected a prototype and selected an assistant-authored design after challenging the lack of a concrete end-to-end game. `docs/campaign-design.md` now recommends a UK campaign, ten annual turns (2010–2019), income/employment, productive enterprises and England housing. It specifies actions, actor motives/decisions, progress, recovery, end conditions, comparison and coding milestones. `simulation.md` owns C01–C11 and their remaining inputs; `interface.md` owns the screen sequence. These are proposed defaults, not accepted nation/mechanics, calibrated data or game code.
+## Repository and publishing
 
-**Completion evidence:** draft 0.6 published in commit `14f2fb4`, successful Pages run `36210726464`. Local diff/structure/navigation checks passed for 32 pages and 123 Liquid route/file references. Live checks passed for 32 pages, 1,297 internal links/anchors, 32 source links, 32 feedback sets, stylesheet and exact comparison CSV; new campaign/rule/interface content verified, no duplicate anchors or unrendered templates. These are documentation checks, not economic/game/device tests. This follow-up records that verified publication. A–E in the campaign chapter identify the remaining concrete data, authority, model, fixtures and release artifacts. Do not claim implementation readiness while their dependent inputs remain absent. No new broad research or sub-agents were used.
-
-**Exact next action after publication:** present the campaign-design link and two concrete review options. Preferred: adopt the proposed campaign direction, then complete its named model dependencies for authorized coding. Alternative: revise specific nation, scope or gameplay defaults. Do not return to an abstract nation/policy questionnaire, propose a prototype, resume the paper exercise, or treat design-authoring approval as implementation approval.
-
-## Repository and publication
-
-- Local directory: /home/bpfurtado/codex-area/devel/central-planned-economy-game
+- Directory: `/home/bpfurtado/codex-area/devel/central-planned-economy-game`
 - Repository: https://github.com/ghostsysoutnull/markets-and-mandates
 - Documentation: https://ghostsysoutnull.github.io/markets-and-mandates/
-- Branch: main; origin is the repository above.
-- Current publication: GitHub Pages, main:/docs, Jekyll.
-- Documentation package: draft 0.6 campaign proposal published and live-verified. Original concept chapters retained.
-- The worktree was clean at P1-design start. The design is committed and pushed; this follow-up records verified completion. No unrelated edits were found and no agents were delegated this packet.
-- GitHub authentication was checked in this session and available for the owner. Check again when needed; never retain tokens in documentation.
-- No game scripts or model tests exist. Proposed npm commands in delivery.md are future contracts, not executed checks.
+- Branch: main; GitHub Pages main:/docs, Jekyll.
+- Latest verified published edition before this packet: 0.6. Draft 0.7 is being prepared for publication.
+- Worktree was clean at this packet's start. Current changes are this packet's documentation, data and arithmetic checker; no unrelated edits found.
+- Check tool/authentication availability as needed; never record credentials. Do not assume temporary helper scripts persist.
 
-## Read only what the packet needs
+When documentation is authorized: diff/structure checks, commit and push specific changed files, wait for the actual Pages deployment, inspect live content/internal links/anchors/assets/source/feedback links, and record evidence. Preserve this site when game delivery is later implemented.
+
+## Prior completion evidence
+
+| Packet | Publication and checks |
+| --- | --- |
+| P0 documentation foundation | `be68d69`; Pages `36184371335`; 24 pages/840 internal links |
+| Carbon/climate exclusion | `76b2973`; Pages `36206310487`; 24 pages/842 internal links |
+| P2a six-nation 2010 research | `3dd2fd0`; Pages `36209286984`; 31 pages/1,207 internal links; 12 WDI comparison observations reproduced; checkpoint `4e993c7` |
+| P1 design proposal | `14f2fb4`; Pages `36210726464`; 32 pages/1,297 internal links, 32 source/feedback sets and CSV; checkpoint `e17636e`, Pages `36210802052` also verified |
+
+These are documentation/research checks, not calibrated simulation evidence. WDI observations are retrospective 2010 comparison data, not opening-known forecasts. The latest user acceptance supersedes the old proposal-only status and annual turns.
+
+## Read only relevant ownership
 
 | Path | Owns |
 | --- | --- |
-| docs/campaign-design.md | Complete recommended campaign for review; policy catalogue, actors, ending and remaining artifacts |
-| docs/development.md | Documentation map, readiness and scope |
-| docs/requirements.md | Requirement IDs, accepted D1/D2 and remaining decisions D3–D8 |
-| docs/architecture.md | OO design, module responsibilities, proposed stack and ADRs |
-| docs/simulation.md | State, ordering, accounting, transactions and rule-sheet contract |
-| docs/data-content.md | Nation evidence, content contracts and versioning |
-| docs/nation-research.md | Shared 2010 method, links to six profiles, comparison and data provenance |
-| docs/interface.md | Phone screen flows, accessibility and interruption |
-| docs/delivery.md | Saves, migrations, offline and deployment |
-| docs/verification.md | Software/model/device acceptance and evidence |
-| docs/development-research.md | Dated primary-source findings and limitations |
-| docs/workflow.md | Session startup, packets, checkpoints and handoffs |
-| docs/backlog.md | P0–P9, dependencies, completion and aborted B1 |
-| docs/decisions.md | Product decision history and remaining choices |
-
-Original game/government/systems/interest-rates/actors/regulation/trade/nations/learning chapters remain the concept sources. Worked scenarios are illustrative branches, not interactive outcomes or quantitative evidence.
-
-## Accepted game direction to preserve
-
-Educational turn-based nation simulation; executive leadership constrained by actual institutions; distinct ownership/allocation/competition/public provision/redistribution/regulation/trade dimensions; active banks and corporations; separate monetary/borrowing rates and refinancing delays; real resources and delivery constraints; lawmakers, courts and partners with their own roles; distributional and delayed consequences; historical facts, assumptions and results visibly separated.
-
-The intended roster remains US, UK, Germany, Russia, China and Japan. 2010 is the accepted broad research year; no first playable nation or exact opening date has been chosen. The current recommendation is ten annual turns (2010–2019), two initiatives plus an annual budget, fictional composite commercial actors and executive continuity; all await review. It supersedes the earlier 15-turn recommendation for this proposed release. The proposed toolchain, rule scheduling, storage scheme and first-slice scope are also recommendations, not blanket user approvals. Carbon-emissions and climate-change challenges are excluded from all future nation briefs and gameplay; historical sources must still be represented accurately, with omissions disclosed.
-
-## Completion and publishing checks
-
-For documentation: review changes, run git diff --check, verify links/navigation and stale plan references, commit and push the authorized changes, wait for the actual new Pages run, then inspect live pages, anchors, assets and source links. Preserve the current documentation site when planning the later game build.
-
-Do not describe a documentation check as an economic test or claim device results without hardware/browser evidence. Keep progress summaries concise; long specifications belong in the owning chapters. End handoffs with concrete next-step options and mark the preferred one.
+| docs/campaign-design.md | Accepted experience, policy scope, actors, ending, coding milestones |
+| docs/monthly-rules.md | M01–M12 temporal specification and F01–F12 fixtures |
+| docs/uk-implementation-inputs.md | Focused P2b/P3 evidence, authority map, missing inputs |
+| docs/nation-uk-2010.md | Broad historical UK source register and institutional facts |
+| docs/requirements.md / docs/decisions.md | Accepted choices and remaining engineering decisions |
+| docs/simulation.md | C01–C11, state, ledgers, rules and invariants |
+| docs/data-content.md | Provenance/content/parameter contracts |
+| docs/interface.md / docs/delivery.md | Phone flows and save/release contracts |
+| docs/architecture.md / docs/verification.md | OO boundaries, engineering proposals and evidence requirements |
+| docs/backlog.md / docs/workflow.md | Work state and session/publication process |
 
 ## Continuation prompt
 
-> Read AGENTS.md, HANDOVER.md and docs/backlog.md. P2a broad research is complete. The user rejected a prototype and requested a complete campaign design with recommended defaults for review. Read docs/campaign-design.md and respond to their review; do not restart broad research or ask them to design the game. UK, ten turns and three policy areas are recommendations, not accepted choices. Keep exact outstanding model/data inputs visible. Preserve phone-only browser delivery, modular TypeScript/OO, the carbon/climate exclusion and the aborted paper exercise. Do not start implementation without an authorized packet.
+> Read AGENTS.md, HANDOVER.md and docs/backlog.md. The user adopted the UK campaign with 12 turns/year: 120 monthly turns, 2010–2019, with income/employment, enterprises and England housing. Prototype rejected; paper walkthrough aborted; carbon/climate excluded. Continue the already-authorized P2b/P3 data/authority/rule completion using docs/uk-implementation-inputs.md. Monthly contracts and arithmetic fixtures exist, but the full opening economy is not initialized. Do not ask for adoption again, repeat broad research, invent inputs, or claim game-code authorization from the design choice alone. Keep handoffs concise with concrete options and a preference.

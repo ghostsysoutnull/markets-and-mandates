@@ -79,3 +79,9 @@ If a turn blocks interaction, profile before optimizing. A worker, chunked proce
 Each task provides a requirement/rule reference, observable implementation or document change, applicable checks and results, compatibility impact, and updated checkpoint. A release additionally needs the chosen browser/device matrix, save recovery, content evidence, model evaluation, live deployment verification and known limitations. Open optional enhancements do not block a narrow slice; missing required evidence does.
 
 Documentation-only changes need diff review, stable links/navigation, consistency across current-state records, source support and publication checks if published. Do not install the proposed game toolchain just to check Markdown. No economic test suite can pass before the model exists.
+
+## Monthly specification evidence
+
+The accepted campaign has 120 monthly turns. Before engine implementation, run `python3 scripts/verify_specification.py` to reproduce F01–F12 temporal fixture arithmetic, four limited annual-tax cases and three fiscal forecast identities. It also checks the 22-record evidence extract structure. These are documentation arithmetic checks, not implemented gameplay, comprehensive PAYE, macroeconomic calibration or real-device tests.
+
+Later engine tests must independently exercise duplicate Advance month, a saved mid-month encounter, no January double-budget, no repeated annual allowance, fixed-rate repricing, preserved construction duration, 36-month assessment and the final December-to-assessment transition. See [monthly rules]({{ '/monthly-rules/' | relative_url }}) and [UK implementation inputs]({{ '/uk-implementation-inputs/' | relative_url }}).

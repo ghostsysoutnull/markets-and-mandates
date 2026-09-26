@@ -10,6 +10,8 @@ Carbon-emissions and climate-change challenges are **outside the game scope**, n
 
 Broad **2010 research across all six nations** is accepted before choosing the first playable nation and policy family. Do not require an electricity or other sector focus for those profiles. Parallel nation research is authorized for this packet; do not infer blanket permission to delegate unrelated work or implement six campaigns.
 
+The user has now **adopted the UK campaign design**, with **12 turns per year**: monthly turns from January 2010 through December 2019 (120 turns). Income/employment, enterprises and England housing are selected. A prototype is rejected. Completing starting data, authority routes and economic rules is authorized; do not ask for campaign adoption again. Preserve annual budget authority and the prior two-major-reforms-per-year pace as the stated monthly interpretation. Numerical readiness and game implementation must not be claimed from design acceptance alone.
+
 Do the authorized work to completion. A future implementation packet in the backlog is not by itself authorization to start coding. Keep accepted direction, engineering proposals, historical facts, synthetic fixtures and simulated results distinct. Research consequential uncertain claims; do not invent nation profiles, coefficients, benchmarks or test results.
 
 The user wants substantial explanations of game concepts, actor motives, choices, institutional limits and consequences. Put detailed specifications in their owning chapters and keep chat handoffs concise. Ask product questions in plain language, accept normal chat answers, and preserve settled choices.

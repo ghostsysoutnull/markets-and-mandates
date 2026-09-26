@@ -4,6 +4,8 @@ intro: A government with its own currency, shared European trade powers, devolve
 permalink: /nation-uk-2010/
 ---
 
+**Later campaign decision:** the UK campaign is now adopted with 120 monthly turns in 2010–2019. This page preserves the earlier broad research; statements below about an unselected nation/sector describe that research checkpoint. Current implementation work is in [UK inputs]({{ '/uk-implementation-inputs/' | relative_url }}).
+
 **On this page**
 
 * Contents

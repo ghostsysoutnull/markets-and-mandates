@@ -4,7 +4,7 @@ intro: Make the next decision understandable on a phone, with detail available w
 permalink: /interface/
 ---
 
-**Status:** proposed interaction specification. Phones accessed through a browser web link are the accepted target. First nation, exact supported browser versions and visual identity are still open. This chapter describes the game interface, not the existing documentation website.
+**Status:** proposed interaction specification. Phones accessed through a browser web link are the accepted target. The UK campaign and monthly turns are accepted; exact supported browser versions and visual identity still require verification/design. This chapter describes the game interface, not the existing documentation website.
 
 **On this page**
 
@@ -15,7 +15,7 @@ permalink: /interface/
 
 At every decision, answer: what situation am I in, what can I decide, what does it require, who else has authority, and what happens next? Present a short explanation first and deeper evidence on demand. Never require the player to infer whether a button drafts, submits, authorizes, or advances time.
 
-Use four proposed destinations: Briefing, Policies, Commitments, and Report. A persistent campaign header shows nation, period, current phase and save status. Actor, source and system detail opens from relevant content rather than expanding the main navigation indefinitely. The campaign proposal recommends bottom navigation; validate it in the actual phone interface with accessibility checks.
+Use four proposed destinations: Briefing, Policies, Commitments, and Report. A persistent campaign header shows nation, month/year, turn number, current phase and save status. Actor, source and system detail opens from relevant content rather than expanding the main navigation indefinitely. The campaign proposal recommends bottom navigation; validate it in the actual phone interface with accessibility checks.
 
 ## Screen contracts
 
@@ -23,13 +23,13 @@ Use four proposed destinations: Briefing, Policies, Commitments, and Report. A p
 | --- | --- | --- |
 | Start/resume | Saved campaigns, new campaign, import/export where supported | Resume last checkpoint; distinguish incompatible, corrupted and missing saves |
 | Nation briefing | Date, authority map, strengths, constraints, source/assumption labels | Start only with a valid selected scenario; no fabricated data placeholders |
-| Annual briefing | Mandate, most material changes, due obligations, resource limits | Review policies or outstanding decision; no forced action from reading |
+| Monthly briefing | Mandate, most material changes, due obligations, resource limits | Review policies or outstanding decision; no forced action from reading |
 | Policy catalogue | Available choices, objective, authority, rough resource demand | Open proposal; explain unavailable actions |
 | Policy detail | Adjustable terms, funding, recurring obligations, timing, affected groups | Submit proposal with explicit consequence summary; drafts remain editable |
 | Encounter | Actor request, motive, evidence, changed terms, feasible responses | Accept, counter, decline or defer where available; show effect of each response |
 | Commitment detail | Authorized funds, spent funds, milestones, physical progress, liabilities | Inspect or request a permitted revision; cannot erase sunk costs |
 | Resolution | Current phase, progress/status, no duplicate advance | Preserve last checkpoint; offer recovery on failure |
-| Annual report | Institutional outcomes, delivered results, distribution, finances, delays | Inspect why; acknowledge and continue |
+| Monthly report and December annual summary | Institutional outcomes, delivered results, distribution, finances, delays | Inspect why; acknowledge and continue |
 | Campaign assessment | Mandate results, costs, side effects, uncertainty and comparison | Review/replay if supported; no hidden ideological score |
 
 ## A proposal interaction
@@ -74,22 +74,22 @@ The initial art direction, typography, sounds and motion remain open. Prefer leg
 
 ## Campaign screen sequence
 
-The [recommended campaign]({{ '/campaign-design/' | relative_url }}) gives these screens a concrete job. It remains a proposal; the user rejected a prototype as the deliverable. Implement these as the actual game screens once authorized. A preliminary interactive walkthrough is not required.
+The [accepted campaign]({{ '/campaign-design/' | relative_url }}) gives these screens a concrete job. The user adopted its direction with 12 turns per year and rejected a prototype as the deliverable. Implement these as the actual game screens once authorized. A preliminary interactive walkthrough is not required.
 
 | Screen | Visible controls and information | Transition |
 | --- | --- | --- |
 | Start | New campaign, Resume; source/scope summary; mandate cards with exact success test | Confirm creates a versioned campaign, or shows why its data pack is unavailable. |
-| Briefing | Year, mandate progress, three priority issues, money already committed, due decisions | Open a relevant policy or obligation; no irreversible action from a headline. |
+| Briefing | Month/year, turn out of 120, mandate progress, three priority issues, money already committed, due decisions | Open a relevant policy or obligation; no irreversible action from a headline. |
 | Annual budget | Existing commitments first; editable supported tax/transfer schedules and operating allocations; financing gap | Save draft or submit through the correct fiscal route. Structural changes link to initiatives. |
 | Policy catalogue | Income/employment, Enterprises, England housing; initiative slots remaining | Open a package. Empty unavailable nations and unsupported actions are not advertised as playable. |
 | Proposal | Objective, adjustable terms, funding source, authority, earliest delivery, ongoing costs and alternative approaches | Submit after validation. Show whether this consumes an initiative and what is still awaiting another actor. |
 | Offer/decision | Named institution or composite actor, motive, original terms beside amended terms | Accept, revise or decline; exact financial changes and obligations appear before confirmation. |
 | Commitments | Stage, spent and reserved money, physical progress, next obligation, recorded blocker | Inspect or propose a lawful change; cancellation explicitly lists sunk and termination costs. |
 | Advance | Approved budget, pending matters, automatic payments, likely resource conflicts | Confirm resolution. A saved encounter interrupts only when the player's decision is needed. |
-| Report | Household results, employment, output/delivery, finance and institutional outcomes | “Why?” opens actual rule/transaction evidence; Continue starts next year or the final assessment. |
+| Report | Household results, employment, output/delivery, finance and institutional outcomes | “Why?” opens actual rule/transaction evidence; Continue starts the next month or, after December 2019, the final assessment. |
 | Final assessment | Achieved/not achieved with individual tests, comparison run, distribution, outstanding costs and decisions timeline | Review; replay identical external conditions; or start another mandate. |
 
-Use a portrait-first briefing style with bottom navigation and a persistent nation/year/save header. No hover-only controls or mandatory drag sliders; numeric terms also have labeled editable inputs. Depth opens in ordinary detail screens with Back preserving drafts and scroll position. Chart values remain available as text.
+Use a portrait-first briefing style with bottom navigation and a persistent nation/month/year/turn/save header. No hover-only controls or mandatory drag sliders; numeric terms also have labeled editable inputs. Depth opens in ordinary detail screens with Back preserving drafts and scroll position. Chart values remain available as text.
 
 Incomplete input preserves the draft and focuses the specific field. A rejected proposal shows the blocker and an available revision, without treating refusal as a software error. A failed save leaves the decision recoverable and never shows “Saved.” Pending actor encounters survive reload. The final advance cannot resolve twice from repeated taps.
 

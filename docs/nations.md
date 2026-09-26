@@ -4,6 +4,8 @@ intro: Real countries provide the starting conditions. Their future becomes an e
 permalink: /nations/
 ---
 
+**Current campaign:** the user has since adopted UK 2010–2019 with 12 monthly turns/year and income/employment, enterprises and England housing. Earlier no-selection statements below describe the broad-research checkpoint. Continue [UK implementation inputs]({{ '/uk-implementation-inputs/' | relative_url }}) without repeating nation selection.
+
 ## Initial roster
 
 The intended starting set is the **United States, United Kingdom, Germany, Russia, China, and Japan**, with room to expand. Use the United Kingdom rather than England when modeling national fiscal and monetary institutions.

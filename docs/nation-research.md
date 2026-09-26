@@ -4,6 +4,8 @@ intro: Compare institutions, economic arrangements and routes to action before c
 permalink: /nation-research/
 ---
 
+**Current campaign:** the user has since adopted UK 2010–2019 with 12 monthly turns/year and income/employment, enterprises and England housing. Earlier no-selection statements below describe the broad-research checkpoint. Continue [UK implementation inputs]({{ '/uk-implementation-inputs/' | relative_url }}) without repeating nation selection.
+
 **On this page**
 
 * Contents
