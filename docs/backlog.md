@@ -50,6 +50,8 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 
 **Bounded scope-update packet (25 September 2026):** remove carbon/climate gameplay proposals from concepts, policy examples and reports; apply the exclusion to requirements and research contracts; update decisions and handover. Acceptance requires consistent scope wording, valid documentation links, and verified publication. No game implementation or nation research is part of this update.
 
+**Scope-update completion evidence:** done in commit `76b2973`, published through successful Pages run [36206310487](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36206310487). Diff checks and 77 local Liquid route/file references passed. Live verification passed for the changed scope wording, all 24 pages, 842 internal links/anchors, 24 source links, 24 feedback-link sets and the stylesheet. P1's remaining product choices are still open.
+
 The user may prefer to inspect the architecture before settling product scope. That review is a valid alternative, not a reason to silently choose the nation.
 
 ## P2 — Research the selected baseline
