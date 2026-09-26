@@ -20,7 +20,7 @@ The user aborted the interactive paper walkthrough on 25 September 2026 and requ
 | --- | --- | --- |
 | P0 | Development documentation package and researched technical baseline | Done — published draft 0.4; 24 live pages and 840 internal links/anchors verified |
 | P1 | First-slice decision record | In progress — D1/D2, 2010 research year and carbon/climate exclusion accepted; choose playable nation and policy scope after P2a |
-| P2a | Broad sourced 2010 profiles for all six nations and shared comparison | In progress — authorized; one researcher per nation in two batches; no sector prerequisite |
+| P2a | Broad sourced 2010 profiles for all six nations and shared comparison | Done — six reviewed profiles and comparison published as draft 0.5; evidence below |
 | P2b | Selected nation/policy baseline and model-ready authority map | Blocked on playable nation and policy scope from D3/D4; builds on P2a |
 | P3 | Explicit first-slice rules, accounting and fixtures | Blocked on D4/D5 and required P2b inputs |
 | P4 | Modular TypeScript scaffold and verification commands | Future implementation; needs authorized scope, A05/D8 and compatible tool versions |
@@ -47,7 +47,7 @@ Read [Development specification]({{ '/development/' | relative_url }}) for docum
 **Read:** Requirements D1–D8, architecture ADRs, game concepts.
 **Output:** Accepted distribution path, one nation/year, one policy family and alternatives, bounded turn/campaign scope, actor/event treatment and chosen UI baseline. Preserve the settled phone-browser, phone-only and modular-TS decisions.
 **Acceptance:** Every first-slice feature maps to a requirement and every excluded major subsystem has an explicit simplification. A successor or end-of-campaign feature has defined behavior before being included.
-**Next action:** Complete and review P2a, then use the profiles to choose the first playable nation and policy scope. Broad research covers all six nations; it does not authorize six implementations. Phone-browser delivery, 2010 research year and the carbon/climate exclusion are settled. Do not resume the housing exercise or reopen the session choice.
+**Next action:** Use the completed P2a profiles to choose the first playable nation and policy scope. Broad research covers all six nations; it does not authorize six implementations. Phone-browser delivery, 2010 research year and the carbon/climate exclusion are settled. Do not resume the housing exercise or reopen the session choice.
 
 **Bounded scope-update packet (25 September 2026):** remove carbon/climate gameplay proposals from concepts, policy examples and reports; apply the exclusion to requirements and research contracts; update decisions and handover. Acceptance requires consistent scope wording, valid documentation links, and verified publication. No game implementation or nation research is part of this update.
 
@@ -57,13 +57,14 @@ The user may prefer to inspect the architecture before settling product scope. T
 
 ## P2a — Broad six-nation research
 
-**Status:** in progress; explicitly selected 25 September 2026.
+**Status:** done; explicitly selected and published 25 September 2026.
 **Objective:** Give the user a sourced comparison of all six nations in 2010 before selecting a first playable nation or sector.
 **Read:** Nations, data/content, government and interest rates; use the shared method in [Six nations in 2010]({{ '/nation-research/' | relative_url }}).
 **Output:** Six substantial profiles, source registers, institutional routes, ownership/public-service/finance/trade descriptions, policy possibilities, data limits and a comparison. One researcher per nation, in two batches of three; parent handles integration and publication.
 **Scope:** Research reference year 2010; institutional snapshot 1 January is an editorial convention. Later-year changes and retrospective statistics are labeled. No electricity focus, carbon/climate gameplay, first-nation selection or game implementation.
 **Acceptance:** Every profile covers the shared questions, uses dated primary evidence, distinguishes formal powers from practice and historical facts from design hypotheses, and identifies feature-specific gaps. Parent performs a second review, checks cross-profile comparability, publishes and verifies the result. No calibrated baseline claimed.
-**Checkpoint:** all six broad profiles drafted, self-reviewed and parent-reviewed; China source-provenance and executive-role clarifications completed. Runtime limits total child threads, so three workers handled one nation at a time across two batches. Shared WDI observations and displayed rounding checked; local page routes, profile anchors and table structure checked. Publication and live verification remain pending.
+**Completion evidence:** research commit `3dd2fd0`, successful Pages run [36209286984](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36209286984). All six profiles were self-reviewed and parent-reviewed, including China source-provenance and executive-role corrections. Three workers handled one nation at a time across two batches. Local checks passed for six profiles, 31 pages, 107 Liquid route/file references, table continuity and the 12 displayed WDI values. Live verification passed for 31 pages, 1,207 internal links/anchors, 31 page-source links, 31 feedback-link sets, the stylesheet and exact CSV content. No duplicate anchors or unrendered templates were found. These are research/documentation checks, not model, gameplay or device tests.
+**Checkpoint:** broad research is complete. The first playable nation and policy family remain unselected; each profile names the narrower evidence gaps for P2b. Do not repeat broad research or require a sector before reading the comparison.
 
 ## P2b — Research the selected playable baseline
 
