@@ -63,7 +63,7 @@ The user may prefer to inspect the architecture before settling product scope. T
 **Authorization:** latest option 1; draft design only. Prototype rejected.
 **Output:** campaign chapter, economic rule inventory, phone screen sequence, consistent requirements/decisions/navigation and resumable handover.
 **Acceptance:** actions, authority, actor motives, consequences, progression, ending and remaining numerical/legal inputs are explicit; no invented coefficients or simulated results; publication and links verified.
-**Status:** design authored; local diff/navigation/structure checks passed (32 pages, 123 Liquid references). Publication and live validation in progress. Product defaults and coding remain unapproved.
+**Status:** done — design proposal published in `14f2fb4` through successful Pages run [36210726464](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36210726464). Local diff/navigation/structure checks passed (32 pages, 123 Liquid references). Live checks passed for 32 pages, 1,297 internal links/anchors, 32 source links, 32 feedback sets, stylesheet and comparison CSV; campaign/rule/interface content verified. This completes design authoring and publication only; product defaults, numerical model and coding remain unapproved/uncompleted.
 **Next:** review the recommended design as a package, or revise its concrete defaults.
 
 

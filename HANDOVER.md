@@ -32,7 +32,7 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 
 **Current packet: P1-design — complete campaign proposal for review.** The user rejected a prototype and selected an assistant-authored design after challenging the lack of a concrete end-to-end game. `docs/campaign-design.md` now recommends a UK campaign, ten annual turns (2010–2019), income/employment, productive enterprises and England housing. It specifies actions, actor motives/decisions, progress, recovery, end conditions, comparison and coding milestones. `simulation.md` owns C01–C11 and their remaining inputs; `interface.md` owns the screen sequence. These are proposed defaults, not accepted nation/mechanics, calibrated data or game code.
 
-**Current validation checkpoint:** draft 0.6 authored; git diff --check and local validation passed for 32 pages, 123 Liquid route/file references, navigation, table columns and required campaign sections. Publication and live verification pending. A–E in the campaign chapter identify the remaining concrete data, authority, model, fixtures and release artifacts. Do not claim implementation readiness while their dependent inputs remain absent. No new broad research or sub-agents were used.
+**Completion evidence:** draft 0.6 published in commit `14f2fb4`, successful Pages run `36210726464`. Local diff/structure/navigation checks passed for 32 pages and 123 Liquid route/file references. Live checks passed for 32 pages, 1,297 internal links/anchors, 32 source links, 32 feedback sets, stylesheet and exact comparison CSV; new campaign/rule/interface content verified, no duplicate anchors or unrendered templates. These are documentation checks, not economic/game/device tests. This follow-up records that verified publication. A–E in the campaign chapter identify the remaining concrete data, authority, model, fixtures and release artifacts. Do not claim implementation readiness while their dependent inputs remain absent. No new broad research or sub-agents were used.
 
 **Exact next action after publication:** present the campaign-design link and two concrete review options. Preferred: adopt the proposed campaign direction, then complete its named model dependencies for authorized coding. Alternative: revise specific nation, scope or gameplay defaults. Do not return to an abstract nation/policy questionnaire, propose a prototype, resume the paper exercise, or treat design-authoring approval as implementation approval.
 
@@ -43,8 +43,8 @@ Verification: documentation commit `be68d69`; Pages run `36184371335` succeeded.
 - Documentation: https://ghostsysoutnull.github.io/markets-and-mandates/
 - Branch: main; origin is the repository above.
 - Current publication: GitHub Pages, main:/docs, Jekyll.
-- Documentation package: draft 0.5 published; draft 0.6 campaign proposal being published. Original concept chapters retained.
-- The worktree was clean at P2a start. Research is committed and pushed; this follow-up records verified completion. No unrelated edits were found. All research workers finished their assignments.
+- Documentation package: draft 0.6 campaign proposal published and live-verified. Original concept chapters retained.
+- The worktree was clean at P1-design start. The design is committed and pushed; this follow-up records verified completion. No unrelated edits were found and no agents were delegated this packet.
 - GitHub authentication was checked in this session and available for the owner. Check again when needed; never retain tokens in documentation.
 - No game scripts or model tests exist. Proposed npm commands in delivery.md are future contracts, not executed checks.
 
