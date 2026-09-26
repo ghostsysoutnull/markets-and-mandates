@@ -28,11 +28,11 @@ The latest user message is **“12 turns per year, option 1”**. This adopts th
 
 Campaign/requirements/interface/simulation/decisions/index/development/backlog/AGENTS now record acceptance and monthly timing. Original research profiles have explicit historical-checkpoint notices so their old “no nation selected” wording is not mistaken for current direction. Historical illustrative scenarios stay fictional.
 
-**Validation so far:** `python3 scripts/verify_specification.py` passed for 22 records, temporal arithmetic, four tax cases and three fiscal identities. Local diff/structure/navigation checks also passed for 34 pages and 151 Liquid references. Publication and live verification are pending. No game, payroll, calibrated macroeconomic or device tests have run.
+**Validation so far:** `python3 scripts/verify_specification.py` passed for 22 records, temporal arithmetic, four tax cases and three fiscal identities. Local diff/structure/navigation checks also passed for 34 pages and 151 Liquid references. Published as `aaf69ae` through successful Pages run `36212045962`. Live verification passed for 34 pages, 1,473 internal links/anchors, 34 source links, 34 feedback sets, stylesheet and exact contents of all three data artifacts. New acceptance/monthly/input content verified; no duplicate anchors or unrendered templates. This follow-up records that evidence. No game, payroll, calibrated macroeconomic or device tests have run.
 
 **P2b/P3 as a whole are still in progress.** This packet does not complete the full economic baseline. Do not conceal that limitation. The input ledger lists actual missing opening public/bank/household/sector accounts, dated authorities, tax categories/payroll records, project bills/durations, behavioral parameters and reconciled policy alternatives. Only the temporal contracts and limited calculation above have their input-independent arithmetic checked.
 
-**Exact next action:** finish the current publication/checks, then continue the already-authorized UK public-account and household initialization. Read the input ledger and selected sources; do not repeat broad profiles. A tax rate or aggregate fiscal forecast cannot substitute for joint household weights, dated Treasury balances or a debt maturity ladder. Use source/period/coverage reconciliation; never invent a missing historical value or claim an unrun model test.
+**Exact next action:** continue the already-authorized UK public-account and household initialization in a clearly bounded packet. The user asked “what is happening??” twice during this turn; the assistant acknowledged that the timing amendment expanded into too much specification/research without making that clear. Keep the next packet concrete, announce its size/scope plainly and give concise status; do not imply game code exists. Read the input ledger and selected sources; do not repeat broad profiles. A tax rate or aggregate fiscal forecast cannot substitute for joint household weights, dated Treasury balances or a debt maturity ladder. Use source/period/coverage reconciliation; never invent a missing historical value or claim an unrun model test.
 
 **User-facing next options:** preferred continuation is the remaining UK inputs/rules under existing authorization; alternative is reviewing the monthly interaction while independent evidence work continues. Do not make further progress contingent on a new adoption approval.
 
@@ -42,7 +42,7 @@ Campaign/requirements/interface/simulation/decisions/index/development/backlog/A
 - Repository: https://github.com/ghostsysoutnull/markets-and-mandates
 - Documentation: https://ghostsysoutnull.github.io/markets-and-mandates/
 - Branch: main; GitHub Pages main:/docs, Jekyll.
-- Latest verified published edition before this packet: 0.6. Draft 0.7 is being prepared for publication.
+- Draft 0.7 is published and live-verified; this follow-up records completion.
 - Worktree was clean at this packet's start. Current changes are this packet's documentation, data and arithmetic checker; no unrelated edits found.
 - Check tool/authentication availability as needed; never record credentials. Do not assume temporary helper scripts persist.
 

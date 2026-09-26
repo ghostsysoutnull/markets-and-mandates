@@ -83,8 +83,8 @@ The user may prefer to inspect the architecture before settling product scope. T
 **Objective:** apply the user's “12 turns per year, option 1” consistently and make monthly timing reviewable and testable.
 **Outputs:** accepted campaign/decision records; M01–M12 calendar, rates, flow/stock, fiscal, project, reporting and end rules; F01–F12 synthetic fixtures; 22 sourced tax/monetary/fiscal observations; ten concrete authority routes with remaining gaps.
 **Validation:** `python3 scripts/verify_specification.py` checks documentation arithmetic, not an implemented economy. Publication/link evidence follows after deployment.
-**Status:** content, arithmetic and local diff/structure/navigation checks complete (34 pages, 151 Liquid references); publication validation pending. P2b/P3 as a whole remain in progress: the input ledger explicitly lists uncaptured accounts, legal details and behavioral evidence.
-**Checkpoint:** finish publication, then continue public-account and household initialization under existing authorization; do not ask for another option-1 approval.
+**Status:** monthly acceptance/temporal packet done — published in `aaf69ae` through successful Pages run [36212045962](https://github.com/ghostsysoutnull/markets-and-mandates/actions/runs/36212045962). Arithmetic and local diff/structure/navigation checks passed (34 pages, 151 Liquid references). Live checks passed for 34 pages, 1,473 internal links/anchors, 34 source/feedback sets, stylesheet and exact contents of three data artifacts. These are documentation/arithmetic checks, not a completed economic model. P2b/P3 as a whole remain in progress: the input ledger explicitly lists uncaptured accounts, legal details and behavioral evidence.
+**Checkpoint:** continue public-account and household initialization under existing authorization; do not ask for another option-1 approval. Keep the next packet bounded and explain its concrete output before starting.
 
 ## P2b — Research the selected playable baseline
 
